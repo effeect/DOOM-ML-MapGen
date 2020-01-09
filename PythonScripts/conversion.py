@@ -1,7 +1,7 @@
 # Written by Oliver Dimes
 
 # Thanks to https://www.vipinajayakumar.com/parsing-text-with-python/ and https://stackoverflow.com/questions/51345024/read-text-file-and-parse-in-python/51345210#51345210
-
+import re
 #These are all of the types of parameters we could possbily have
 linedefParas = ["BLOCKING",
     "BLOCKMONSTERS",
@@ -133,24 +133,30 @@ sectorParas = ["xpanningfloor",
 
 
 
-def txtToJson(filename):  # This function is to convert a TEXTMAP doom file to useable JSON
+def txtToJson(filename):  # This function is to convert a TEXTMAP doom file to useable JSON file with Pandas
     fin = open(filename, "rt")
     data = fin.read()
+
+    #General things we can replace
     data = data.replace(';', ',')
     data = data.replace('=', ':')
     data = data.replace('}', '},')
 
     #Loops through lists to match words and change the paras to be JSON compliant
     for x in linedefParas :
-        data.replace(x, f'"{x}"')
+        string = "\"%s\"" % x.lower()
+        data = data.replace(x, string)
     for y in sidedefParas :
-        data.replace(y, f'"{y}"')
-    for z in vertexParas :
-        data.replace(z, f'"{z}"')
+        string = "\"%s\"" % y
+        data = data.replace(y, string)
+    for z in vertexParas : #A serious thanks to Kevin on Stackoverflow for asking my question : https://stackoverflow.com/questions/59666022/how-do-i-manipulate-string-x-by-itself-without-mixing-it-in-other-strings/59666177#59666177
+        data = re.sub(rf"\b{z}\b", lambda match: f'"{match.group()}"', data)
     for a in sectorParas :
-        data.replace(a, f'"{a}"')
+        string = "\"%s\"" % a
+        data = data.replace(a, string)
 
-    fin.close()
+
+    fin.close() #Closing the python reader to avoid a memory leak
 
     fin = open(filename, "wt")
     fin.write(data)
@@ -170,3 +176,5 @@ def jsonToTxt(filename):  # This function is to put JSON back into TEXTMAP which
     fin.close()
     print("Operation Complete")
 
+
+txtToJson("JSONData/TEXTMAPAgain.txt")

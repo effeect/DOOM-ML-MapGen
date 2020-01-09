@@ -18,8 +18,6 @@ import pathlib
 import numpy
 import matplotlib.pyplot as plt
 import tensorflow as tf
-import tensorflow_io as tfio
-import tensorflow_io.json as tf_json_io
 import seaborn as sns
 import pandas as pd
 from tensorflow import keras
@@ -30,9 +28,9 @@ import tensorflow_docs as tfdocs
 import tensorflow_docs.plots
 import tensorflow_docs.modeling
 
-# Just disables the warning, doesn't enable AVX/FMA
+# We aren't using this module but it does disable some annoying errors due to Ubuntu 19.10
 import os
 
-#This function serves as a constructor for the data in question
-def map(linedefData,sidedefData,vertexData,sectorData):
-    lineDefCols="placeholder"
+filename = "JSONData/DATASET.json"
+
+datasetpd = pd.read_json(filename,"records")
