@@ -1,0 +1,12 @@
+[
+  {
+    "floatfeature": 1.1,
+    "integerfeature": 2,
+    "floatlabel": 1.2
+  },
+  {
+    "floatfeature": 2.1,
+    "integerfeature": 3,
+    "floatlabel": 1.1
+  }
+]
