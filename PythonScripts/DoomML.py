@@ -1,8 +1,6 @@
-# Built with Ubuntu 19.10, please note that Tensorflow_io.json has issues running on Windows machines
+# Built with Ubuntu 19.10, compiling it on other system may lead to significant problems
 
 # source ./venv/bin/activate
-
-# Note : There needs to a dataset for each element of DOOM
 
 # Importing libraries, template from https://www.tensorflow.org/datasets/overview
 from __future__ import absolute_import, division, print_function, unicode_literals
@@ -14,13 +12,13 @@ from __future__ import absolute_import, division, print_function, unicode_litera
 from typing import Dict, Any
 
 import pathlib
-
+import itertools
 import json
 import numpy
 import matplotlib.pyplot as plt
 import tensorflow as tf
-import tensorflow_io as tfio
-import tensorflow_io.json as tf_json_io
+# import tensorflow_io as tfio
+# import tensorflow_io.json as tf_json_io
 import seaborn as sns
 import pandas as pd
 from tensorflow import keras
@@ -28,9 +26,9 @@ from tensorflow.keras import layers
 from pandas.io.json import json_normalize
 
 #Part of TF Docs, can be found @ https://stackoverflow.com/questions/55535518/modulenotfounderror-no-module-named-tensorflow-docs-when-creating-tensorflow
-import tensorflow_docs as tfdocs
-import tensorflow_docs.plots
-import tensorflow_docs.modeling
+# import tensorflow_docs as tfdocs
+# import tensorflow_docs.plots
+# import tensorflow_docs.modeling
 
 # We aren't using this module but it does disable some annoying errors due to Ubuntu 19.10
 import os
@@ -41,7 +39,7 @@ filename = "JSONData/DATASET.json"
 with open(filename) as f :
     d = json.load(f)
 
-#We are normalizing the data
+# This pandas function puts our JSON data in the right place
 things = json_normalize(d['things'])
 linedefs = json_normalize(d['linedefs'])
 sidedefs = json_normalize(d['sidedefs'])
@@ -50,13 +48,13 @@ sectors = json_normalize(d['sectors'])
 
 print(vertices)
 
+#I'm choosing Vertex Model first since it only contains two features
 def vertexModel(file):
-    vertexDataset = vertices.copy() #NEEDS TO BE CHANGED TO FILE
+    vertexDataset = vertices.copy()
 
     #These two lines seperate the data into two seperate components
     train = vertexDataset.sample(frac=0.8, random_state=0)
     test = vertexDataset.drop(train.index)
-
 
     train_labels = train.pop("x")
     test_labels = test.pop("x")
@@ -101,5 +99,47 @@ def vertexModel(file):
     hist['epoch'] = history.epoch
     hist.tail()
 
+#Another method
+def vertexModelTwo(): 
+    df = vertices.copy()
 
-vertexModel(filename)
+    # Thanks for https://stackoverflow.com/questions/42286972/converting-from-pandas-dataframe-to-tensorflow-tensor-object
+
+    # Splitting up the vertex coords
+    xTensor = tf.constant(df['x'])
+    yTensor = tf.constant(df['y'])
+
+    dataset = tf.data.Dataset.from_tensor_slices((xTensor, yTensor))
+
+    print(type(dataset))
+    train_dataset = dataset.shuffle(300).batch(64)
+    print(xTensor)
+
+    # https://www.tensorflow.org/datasets/add_dataset
+
+    # Model Function
+    def get_compiled_model():
+
+        #Model for the function
+        model = keras.Sequential([
+            layers.Dense(64, activation='relu'),
+            layers.Dense(64, activation='relu'),
+            layers.Dense(1)
+        ])
+
+        optimizer = tf.keras.optimizers.RMSprop(0.001)
+
+        model.compile(loss='mse',
+                      optimizer=optimizer,
+                      metrics=['mae', 'mse'])
+        return model
+
+    model = get_compiled_model()
+
+    model.fit(train_dataset, epochs=1000)
+    NewStuff = model.predict(train_dataset).flatten()
+
+    #Gives us the new data
+    print(NewStuff)
+
+vertexModelTwo()
