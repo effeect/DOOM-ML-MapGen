@@ -100,7 +100,7 @@ def vertexModel(file):
     hist.tail()
 
 #Another method
-def vertexModelTwo(): 
+def vertexModelTwo():
     df = vertices.copy()
 
     # Thanks for https://stackoverflow.com/questions/42286972/converting-from-pandas-dataframe-to-tensorflow-tensor-object
