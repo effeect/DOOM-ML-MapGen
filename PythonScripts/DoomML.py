@@ -2,6 +2,8 @@
 
 # source ./venv/bin/activate
 
+# https://stackoverflow.com/questions/42766458/tensorflow-predicting-sequences-what-is-x-and-y
+
 # Importing libraries, template from https://www.tensorflow.org/datasets/overview
 from __future__ import absolute_import, division, print_function, unicode_literals
 
@@ -127,7 +129,9 @@ def vertexModelTwo():
             layers.Dense(1)
         ])
 
-        optimizer = tf.keras.optimizers.RMSprop(0.001)
+        optimizer = tf.keras.optimizers.Adagrad(0.001)
+
+
 
         model.compile(loss='mse',
                       optimizer=optimizer,
@@ -136,10 +140,16 @@ def vertexModelTwo():
 
     model = get_compiled_model()
 
-    model.fit(train_dataset, epochs=1000)
+    model.fit(train_dataset, epochs=100)
     NewStuff = model.predict(train_dataset).flatten()
 
     #Gives us the new data
     print(NewStuff)
 
 vertexModelTwo()
+
+def predictPoints(model, data):
+    # https://stackoverflow.com/questions/42766458/tensorflow-predicting-sequences-what-is-x-and-y
+    predicted = model.predict(data)
+    predicted = np.reshape(predicted, (predicted.size,))
+    return predicted
