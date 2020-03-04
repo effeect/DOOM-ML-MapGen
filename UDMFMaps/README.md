@@ -1,10 +1,7 @@
-# The folder of Data!
-Just a quick explanation of what this folder represents.
-All of the folders in here are working directories for the DOOM UDMF format and this is how we will be able to manipulate the DOOM data with the TEXTMAP file!
- 
- Tools Required :
- - UDMF2JSON.py
- - wad2udmf.exe
- - WADex.exe
+# The folder of lots of Data
+Just a quick overview of what each folder of data contains :
 
-These files and tools can be found in the tools section within this folder
+- ExtractedUDMF Maps : This folder contains a raw UDMF representation of the DOOM maps with textures and other materials available. 
+- JSONFiles : This contains the raw JSON datasets of the maps
+- MapMarkerImages : Top-down view of the images of the map
+- ZOriginalMpasUDMF : A folder containing compressed WAD files, used as a backup

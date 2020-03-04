@@ -19,8 +19,7 @@ import json
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
-# import tensorflow_io as tfio
-# import tensorflow_io.json as tf_json_io
+import tensorflow_io as tfio
 import seaborn as sns
 import pandas as pd
 from tensorflow import keras
