@@ -17,7 +17,9 @@ const options = {
     outputs: 2,
     task: 'regression',
     debug: 'true',
-    epochs: 8
+    epochs: 10,
+    batchSize : 128,
+    learningRate : 0.0001
 }
 
 //Specifying the number of inputs and outputs for the VERTEX Object
@@ -41,7 +43,7 @@ function loadData(){
     /*
         This function allows us to load ALL of the vertex Datasets we have available
     */
-//    neuralNetwork.loadData('')
+    neuralNetwork.loadData('Datasets/CANYON2/CanyonDataset.json')
     
 }
 loadData()
@@ -79,13 +81,13 @@ function createVertexData(){
                                         else {
                                                 //Reformatting the ML5 Network result to make it play nice with JSON formatting
 //                                                console.log(results)
-                                                resultData.push({x : results[0], y : results[1]})
-                                        }
-            });
+
+                                                                resultData.push({x : results[0], y : results[1]})
+                                                    }
+                                        })
+            }
                 }
             
-    
-        }
 
 
 //KEEP EMPTY
@@ -98,7 +100,16 @@ function mousePressed() {
 ////   neuralNetwork.save()
 //    JSONversion = JSON.stringify(resultData)
 //    console.log(JSONversion)
-   DatasetCreation()
+//   DatasetCreation()
+    
+//    for(let i = 0; i < resultData.length; i++)
+//        {
+//            const stringVersionx = Number(resultData[i].x)
+//            const stringVersiony = Number(resultData[i].y)
+//            
+//            resultData[i].x = stringVersionx
+//            resultData[i].y = stringVersiony
+//        }
 }
 
  //NOT IN USE RIGHT NOW 
