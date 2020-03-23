@@ -17,9 +17,9 @@ const options = {
     outputs: 2,
     task: 'regression',
     debug: 'true',
-    epochs: 10,
-    batchSize : 128,
-    learningRate : 0.0001
+    epochs: 160,
+    batchSize : 32,
+    learningRate : 0.001
 }
 
 //Specifying the number of inputs and outputs for the VERTEX Object
@@ -43,7 +43,7 @@ function loadData(){
     /*
         This function allows us to load ALL of the vertex Datasets we have available
     */
-    neuralNetwork.loadData('Datasets/CANYON2/CanyonDataset.json')
+    neuralNetwork.loadData('Datasets/CANYON2/ArrayData.json')
     
 }
 loadData()
@@ -100,7 +100,7 @@ function mousePressed() {
 ////   neuralNetwork.save()
 //    JSONversion = JSON.stringify(resultData)
 //    console.log(JSONversion)
-//   DatasetCreation()
+//DatasetCreation()
     
 //    for(let i = 0; i < resultData.length; i++)
 //        {
@@ -112,7 +112,7 @@ function mousePressed() {
 //        }
 }
 
- //NOT IN USE RIGHT NOW 
+//NOT IN USE RIGHT NOW 
 function DatasetCreation()
 {
     for (let i = 0; i < xs.length; i++) {
@@ -120,21 +120,12 @@ function DatasetCreation()
     const pointX = xs[i].x
     const pointY = xs[i].y
 
-    //To stop duplicate values
-    for (let j = 0; j < ys.length; j++) {
-        const dataX = ys[j].x
-        const dataY = ys[j].y
-        if (incrementer < ys.length) {
-            incrementer++
-        } else {
-            incrementer = 0;
-            neuralNetwork.data.addData([pointX, pointY], [dataX, dataY])
-        }
-        if(i == xs.length-1)
-            {
-                console.log("DataAdded")
-            }
+    const dataX = ys[i].x
+    const dataY = ys[i].y
+
+    neuralNetwork.data.addData([pointX, pointY], [dataX, dataY])
+        
     }
 }
 
-}
+
