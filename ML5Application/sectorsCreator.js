@@ -1,4 +1,7 @@
 /*
+
+    WIP : BOOLEANS AND IDS NEED TO BE DISBALED
+    
     DOOM-ML SECTOR Training :
     
     This file contains all of the processes or SideDef training

@@ -19,7 +19,9 @@ imageData.src = 'VIRGIL2.WAD_MAP03.png'
 
 image = imageData
 
+//Line lengths
 let dataCoordinates=[];
+let lineLength;
 
 let marImage = new MarvinImage();
 marImage.load('VIRGIL2.WAD_MAP03.png')
@@ -48,16 +50,59 @@ function createImageData()
                     }
             }
        }
+    
+    for(let i = 0; i < dataCoordinates.length; i++)
+        {
+            let checker = i+1;
+            let tempX = dataCoordinates[i].x;
+            let tempY = dataCoordinates[i].y;
+
+            for(let j = 0; j < dataCoordinates.length; j++)
+                {
+                    if(tempX == dataCoordinates[j].x)
+                        {
+                            dataCoordinates.splice(j,1);
+                        }
+                    if(tempY == dataCoordinates[j].y)
+                        {
+                            dataCoordinates.splice(j,1);
+                        }
+                }
+            
+//            if(tempX + lineLength == dataCoordinates[checker].x)
+//                {
+//                    console.log("trigger")
+//                    lineLength++
+//                }
+//            if(tempX + lineLength!= dataCoordinates[checker].x)
+//                {
+//                    let length = i - lineLength 
+//                    console.log("splice")
+//                    dataCoordinates.splice(length,lineLength)
+//                    lineLength = 0;
+//                }
+//            
+//            if(tempY + lineLength == dataCoordinates[checker].y)
+//                {
+//
+//                    lineLength++
+//                }
+//            if(tempY + lineLength != dataCoordinates[checker].y)
+//                {
+//                    let length = i - lineLength 
+//                    dataCoordinates.splice(length,lineLength)
+//                    lineLength = 0;
+//                }
+        }
 }
 
 function preload(){
     createImageData()
 }
 
+//These functions are needed keep them
 function setup(){
-    
-    //This should be print when operation is complete
-    console.log("Help")
+
 }
 
 function draw(){
@@ -66,7 +111,6 @@ function draw(){
 
 function mousePressed(){
     console.log(dataCoordinates)
-    
     JSONversion = JSON.stringify(dataCoordinates)
     console.log(JSONversion)
 }
