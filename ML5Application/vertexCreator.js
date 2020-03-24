@@ -46,6 +46,7 @@ function loadData(){
     neuralNetwork.loadData('Datasets/CANYON2/ArrayData.json')
     
 }
+
 loadData()
 
 
@@ -60,7 +61,7 @@ function nnTrain(){
 function createVertexData(){
     //Using data from another dataset
 //    neuralNetwork.save();
-        for (let i = 0; i < 10000; i++) 
+        for (let i = 0; i < xs.length; i++) 
         {   
             const pointX = xs[i].x;
             const pointY = xs[i].y;
@@ -82,7 +83,7 @@ function createVertexData(){
                                                 //Reformatting the ML5 Network result to make it play nice with JSON formatting
 //                                                console.log(results)
 
-                                                                resultData.push({x : results[0], y : results[1]})
+                                                                resultData.push({x : Math.round(results[0].value), y : Math.round(results[1].value)})
                                                     }
                                         })
             }
@@ -97,19 +98,15 @@ function draw() {
 }
 
 function mousePressed() {
-////   neuralNetwork.save()
-//    JSONversion = JSON.stringify(resultData)
-//    console.log(JSONversion)
-//DatasetCreation()
     
-//    for(let i = 0; i < resultData.length; i++)
-//        {
-//            const stringVersionx = Number(resultData[i].x)
-//            const stringVersiony = Number(resultData[i].y)
-//            
-//            resultData[i].x = stringVersionx
-//            resultData[i].y = stringVersiony
-//        }
+    for(let i = 0; i < resultData.length; i++)
+        {
+            const stringVersionx = Number(resultData[i].x)
+            const stringVersiony = Number(resultData[i].y)
+            
+            resultData[i].x = stringVersionx
+            resultData[i].y = stringVersiony
+        }
 }
 
 //NOT IN USE RIGHT NOW 
