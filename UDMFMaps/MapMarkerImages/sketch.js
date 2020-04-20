@@ -10,13 +10,12 @@
     As of right now as of 4/3/2020, you can't download the JSON file, this is a feature I may add in future
  
  Special thanks to :
- - https://stackoverflow.com/questions/53231699/converting-png-to-tensor-tensorflow-js
-
+    - https://stackoverflow.com/questions/53231699/converting-png-to-tensor-tensorflow-js
 */
+
 //Declaring is as an HTML object
 imageData = new Image()
 imageData.src = 'VIRGIL2.WAD_MAP03.png'
-
 image = imageData
 
 //Line lengths
@@ -44,9 +43,13 @@ function createImageData()
                 //Using getAlpha to scan the image and creates a dataset
                 if(temp > 0)
                     {
+                        //Normalising the Number Values
+                        let rangeChangerX = map(i,0,710,-1,1);
+                        let rangeChangerY = map(j,0,569,-1,1);
+                        
                         let color = marImage.getIntColor(i,j)
                         marImage.getIntColor();
-                        dataCoordinates.push({x : i, y : j, color : color });
+                        dataCoordinates.push({x : rangeChangerX, y : rangeChangerY, color : color });
                     }
             }
        }
