@@ -1,6 +1,7 @@
 # My Functions
 from imageProcessing import imageProcess
 from VertexExtractor import GetVertexDataList
+from lindefExtractor import GetLinedefList
 
 #General use
 import pandas as pd
@@ -47,6 +48,27 @@ def datasetCreator(pngFilename, jsonFilename) :
     df = pd.DataFrame(data = MapDataset)
     df.to_csv('CATWALK.csv')
 
+def lineDefCreator(jsonFilename) :
+    DataListUpdated = []
 
-datasetCreator("CATWALK.png","CATWALK.json")
+    #Creating Linedef Dataset for TF
+    linedefList = GetLinedefList(jsonFilename)
+    vertexList = GetVertexDataList(jsonFilename)
+
+    print(vertexList)
+
+    for i, row in linedefList.iterrows():
+        index1 = row[1]
+        index2 = row[2]
+        DataListUpdated.append({"v1" : (vertexList.iloc[index1][0],vertexList.iloc[index1][1]) , "v2" : (vertexList.iloc[index2][0],vertexList.iloc[index2][1])})
+
+    print(DataListUpdated)
+    return DataListUpdated
+
+
+
+
+
+# datasetCreator("CATWALK.png","CATWALK.json")
+lineDefCreator("CATWALK.json")
 
