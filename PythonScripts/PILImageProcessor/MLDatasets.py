@@ -6,6 +6,8 @@ import numpy as np
 from tensorflow import keras
 from tensorflow.keras import layers
 
+from lindefExtractor import GetLinedefList
+
 # Helper libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -72,9 +74,10 @@ def trainVertexPoints() :
                       metrics=['mae', 'mse'])
         return model
 
-    EPOCHS = 1000
+    EPOCHS = 20
 
-    model = build_model()
+    modelX = build_model()
+    modelY = build_model()
 
     # Using TF.Keras to normalise data arrays
     tfiPointX = np.asarray(iPointX)
@@ -82,13 +85,24 @@ def trainVertexPoints() :
     tfiPointY = tf.keras.utils.normalize(iPointY)
     tfPointY = tf.keras.utils.normalize(pointY)
 
-    history = model.fit( tfiPointX , tfPointX, epochs=EPOCHS)
-    results = model.predict(tfiPointX,batch_size=32)
+    historyX = modelX.fit( tfiPointX , tfPointX, epochs=EPOCHS)
+    historyY = modelY.fit( tfiPointY , tfPointY, epochs=EPOCHS)
 
-    print(results)
+    resultsX = modelX.predict(tfiPointX,batch_size=32)
+    resultsY = modelY.predict(tfiPointY,batch_size=32)
+    print(resultsX)
+    print(resultsY)
+
+#Grabbing and creating new linedefs
+def makeLinedefs( filename ):
+    LinedefList = GetLinedefList( filename )
+    print(LinedefList)
 
 
 
 
 
+
+
+makeLinedefs("CATWALK.json")
 trainVertexPoints()

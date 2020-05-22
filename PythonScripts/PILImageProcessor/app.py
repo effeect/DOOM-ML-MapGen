@@ -2,7 +2,7 @@
 from imageProcessing import imageProcess
 from VertexExtractor import GetVertexDataList
 
-#General use functions
+#General use
 import pandas as pd
 import math
 

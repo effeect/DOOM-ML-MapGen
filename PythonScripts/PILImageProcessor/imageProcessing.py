@@ -8,6 +8,7 @@ import pandas as pd
 def imageProcess(filename) :
     #Declaring data object
     data = []
+    linedefData = []
     #Loading image for modification
     with Image.open(filename) as im:
         px = im.load()
@@ -21,10 +22,13 @@ def imageProcess(filename) :
                 #Removes white space from the image
                 if px[x,y] != (255,255,255,0) :
                     data.append({"x" : x*5, "y" : y*5,"color" :  px [ x , y ]})
+                    linedefData.append({"x" : x, "y" : y})
 
-        print(type(data))
+    #Returns Data
+    return data
 
-        return data
+    # Filtering through Linedef Data
+
 
 
 
