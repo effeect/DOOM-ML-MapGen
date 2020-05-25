@@ -48,6 +48,7 @@ def datasetCreator(pngFilename, jsonFilename) :
     df = pd.DataFrame(data = MapDataset)
     df.to_csv('CATWALK.csv')
 
+#Returns a Linedef list for ML
 def lineDefCreator(jsonFilename) :
     DataListUpdated = []
 
@@ -55,19 +56,15 @@ def lineDefCreator(jsonFilename) :
     linedefList = GetLinedefList(jsonFilename)
     vertexList = GetVertexDataList(jsonFilename)
 
-    print(vertexList)
-
     for i, row in linedefList.iterrows():
         index1 = row[1]
         index2 = row[2]
-        DataListUpdated.append({"v1" : (vertexList.iloc[index1][0],vertexList.iloc[index1][1]) , "v2" : (vertexList.iloc[index2][0],vertexList.iloc[index2][1])})
+        #Grabs Linedef line
+        DataListUpdated.append({"id" : row[0] ,"v1" : row[1] ,"v1point" : (vertexList.iloc[index1][0],vertexList.iloc[index1][1]) , "v2" : row[2]  , "v2point" : (vertexList.iloc[index2][0],vertexList.iloc[index2][1])})
 
-    print(DataListUpdated)
-    return DataListUpdated
-
-
-
-
+    #Makes the data list into a dataframe
+    df = pd.DataFrame(DataListUpdated)
+    return df
 
 # datasetCreator("CATWALK.png","CATWALK.json")
 lineDefCreator("CATWALK.json")

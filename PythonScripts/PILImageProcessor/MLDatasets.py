@@ -6,7 +6,7 @@ import numpy as np
 from tensorflow import keras
 from tensorflow.keras import layers
 
-from lindefExtractor import GetLinedefList
+from app import lineDefCreator
 
 # Helper libraries
 import numpy as np
@@ -24,6 +24,10 @@ pointX = []
 pointY = []
 iPointX = []
 iPointY = []
+
+#Results (TEMP)
+resultsY = []
+resultsX = []
 
 #This function processes the data from
 def prepareData( filename ) :
@@ -55,10 +59,7 @@ def prepareData( filename ) :
         iPointX.append(tempImagePointX)
         iPointY.append(tempImagePointY)
 
-
-
-prepareData("CATWALK.csv")
-
+#TRAINING VERTEX POINTS
 def trainVertexPoints() :
     def build_model():
         model = keras.Sequential([
@@ -93,12 +94,36 @@ def trainVertexPoints() :
     print(resultsX)
     print(resultsY)
 
-#Grabbing and creating new linedefs
-def makeLinedefs( filename ):
-    LinedefList = GetLinedefList( filename )
-    print(LinedefList)
+    return [resultsX , resultsY ]
 
-def trainLineDef():
+# Creates new Linedef with original Linedef Data
+def trainLineDef( filename, dataObject):
+
+
+    dataVertex = dataObject
+
+    xCoords = dataObject[0]
+    yCoords = dataObject[1]
+
+
+
+    print(type(xCoords))
+    print(yCoords)
+
+    #DataPoints
+    v1x = []
+    v1y = []
+    v2x = []
+    v2y = []
+
+    dfLinedef = lineDefCreator( filename )
+
+    #Note : Add ID functionality once the linedef creation is stable
+    for i, row in dfLinedef.iterrows() :
+        v1x.append(row[2][0])
+        v1y.append(row[2][1])
+        v2x.append(row[4][0])
+        v2y.append(row[4][1])
 
     def build_model():
         model = keras.Sequential([
@@ -114,13 +139,22 @@ def trainLineDef():
                       metrics=['mae', 'mse'])
         return model
 
-    #Linedef Originals
+    #Linedef Generation
+    modelPoint1 = build_model()
+    modelPoint2 = build_model()
+    modelPoint3 = build_model()
+    modelPoint4 = build_model()
+
+    v1xResults = modelPoint1.fit( xCoords, v1x)
+    v1yResults = modelPoint2.fit( yCoords, v1y)
+    v2xResults = modelPoint3.fit( xCoords, v2x)
+    v2yResults = modelPoint4.fit( yCoords, v2y)
 
 
 
 
-
-
-
-makeLinedefs("CATWALK.json")
-trainVertexPoints()
+prepareData("CATWALK.csv")
+data = trainVertexPoints()
+print("Data")
+print(data[0][0])
+trainLineDef( "CATWALK.json" , data )
