@@ -4,7 +4,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-# Note, rough estimation suggests 5x map marker modifier is needed can be changed
+#This number refers
+imageScalarFactor = 5
+
 def imageProcess(filename) :
     #Declaring data object
     data = []
@@ -21,16 +23,11 @@ def imageProcess(filename) :
             for y in range(height) :
                 #Removes white space from the image
                 if px[x,y] != (255,255,255,0) :
-                    data.append({"x" : x*5, "y" : y*5,"color" :  px [ x , y ]})
+                    data.append({"x" : x * imageScalarFactor, "y" : y * imageScalarFactor,"color" :  px [ x , y ]})
                     linedefData.append({"x" : x, "y" : y})
 
     #Returns Data
     return data
-
-    # Filtering through Linedef Data
-
-
-
 
 # Function to read through all of the data Points (Not Needed)
 def printPlotData( filename ):

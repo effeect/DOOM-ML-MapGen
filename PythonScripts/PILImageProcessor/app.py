@@ -48,7 +48,7 @@ def datasetCreator(pngFilename, jsonFilename) :
     df = pd.DataFrame(data = MapDataset)
     df.to_csv('CATWALK.csv')
 
-#Returns a Linedef list for ML
+#Returns a Linedef list for Tensorflow Dataset
 def lineDefCreator(jsonFilename) :
     DataListUpdated = []
 
@@ -64,6 +64,28 @@ def lineDefCreator(jsonFilename) :
 
     #Makes the data list into a dataframe
     df = pd.DataFrame(DataListUpdated)
+
+    #This takes a while to compile
+    newDataSet = []
+    for i, row in df.iterrows():
+
+        #Properties of Linedef
+        idRes = row[0]
+        indexV1 = row[1]
+        indexV2 = row[3]
+        #VertexPoint1 of Dataset
+        DataPoint = row[2]
+        trueDataPoint = row[4]
+        for j, row2 in df.iterrows():
+            DataPoint2 = row2[4]
+            if(DataPoint2 == trueDataPoint) :
+                newDataSet.append({"id" : idRes, "v1" : indexV1, "v1point" : DataPoint, "v2" : row2[3], "v2point" : DataPoint2, "isCorrect" : 1})
+            else :
+                newDataSet.append({"id" : idRes, "v1" : indexV1, "v1point" : DataPoint, "v2" : row2[3], "v2point" : DataPoint2, "isCorrect" : 0})
+
+    dfTest = pd.DataFrame(newDataSet)
+    print(dfTest)
+
     return df
 
 # datasetCreator("CATWALK.png","CATWALK.json")
