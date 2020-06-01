@@ -6,13 +6,12 @@ import numpy as np
 from tensorflow import keras
 from tensorflow.keras import layers
 
-from app import lineDefCreator
-
 # Helper libraries
 import numpy as np
 import matplotlib.pyplot as plt
 
 #Printing out essential details to help debugging
+print("1111111111111")
 print("TensorFlow version : {}".format(tf.__version__))
 print("Eager execution : {}".format(tf.executing_eagerly()))
 
@@ -46,12 +45,12 @@ def prepareData( filename ) :
 
     #NewDataPoints
 
-    #String issue with data, this isn't the best way to solve the problem but it's a minimal cost in the grand scheme of things
+    # String issue with data, this isn't the best way to solve the problem but it's a minimal cost in the grand scheme of things
     for i in npPoints:
         tempPointX = float(i.split(',',1)[0].replace('[',''))
         tempPointY = float(i.split(',',1)[1].replace(']',''))
         pointX.append(tempPointX)
-        pointY.append(tempPointX)
+        pointY.append(tempPointY)
 
     for i in npImagePoints:
         tempImagePointX = float(i.split(',',1)[0].replace('[',''))
@@ -98,63 +97,120 @@ def trainVertexPoints() :
 
 # Creates new Linedef with original Linedef Data
 def trainLineDef( filename, dataObject):
-
-
     dataVertex = dataObject
+    df = pd.read_csv("CATWALKLINEDEF.csv")
+    linedefdf = df.copy()
 
-    xCoords = dataObject[0]
-    yCoords = dataObject[1]
+    print(linedefdf)
 
 
 
-    print(type(xCoords))
-    print(yCoords)
-
-    #DataPoints
+    #Data
     v1x = []
     v1y = []
     v2x = []
     v2y = []
+    isCorrect = []
 
-    dfLinedef = lineDefCreator( filename )
+    # DATA MODIFICATION -------------------------------
+    tempVertex1 = []
+    tempVertex2 = []
+    tempIsCorrect = []
+    tempVertex1 = linedefdf.pop("v1point")
+    tempVertex2 = linedefdf.pop("v2point")
+    tempIsCorrect = linedefdf.pop("isCorrect")
 
-    #Note : Add ID functionality once the linedef creation is stable
-    for i, row in dfLinedef.iterrows() :
-        v1x.append(row[2][0])
-        v1y.append(row[2][1])
-        v2x.append(row[4][0])
-        v2y.append(row[4][1])
+    # For loops to fix the string to CSV issue, it may take a couple of minutes to process depending on the machine
+    for i in tempVertex1 :
+        tempPointX = float(i.split(',',1)[0].replace('(',''))
+        tempPointY = float(i.split(',',1)[1].replace(')',''))
+        v1x.append(tempPointX)
+        v1y.append(tempPointY)
+    for i in tempVertex2 :
+        tempPointX = float(i.split(',',1)[0].replace('(',''))
+        tempPointY = float(i.split(',',1)[1].replace(')',''))
+        v2x.append(tempPointX)
+        v2y.append(tempPointY)
+
+    # Conversion to NumPy arrays for Keras
+
+    isCorrect = np.asarray(tempIsCorrect)
+
+    v1x = np.asarray(v1x)
+    v1y = np.asarray(v1y)
+    v2x = np.asarray(v2x)
+    v2y = np.asarray(v2y)
+
+    # MACHINE LEARNING MODEL ------------------------------
 
     def build_model():
-        model = keras.Sequential([
-            layers.Dense(64, activation='relu'),
-            layers.Dense(64, activation='relu'),
-            layers.Dense(1)
-        ])
+        # Thanks to https://www.pyimagesearch.com/2019/02/04/keras-multiple-inputs-and-mixed-data/
 
-        optimizer = tf.keras.optimizers.RMSprop(0.001)
+        #Optimizer Settings
+        opt = keras.optimizers.Adam(lr=1e-3, decay=1e-3 / 200)
 
-        model.compile(loss='mse',
-                      optimizer=optimizer,
-                      metrics=['mae', 'mse'])
-        return model
+        # Each input represents a diffirent part of the
+        inputA = keras.Input(shape=(1,))
+        inputB = keras.Input(shape=(1,))
+        inputC = keras.Input(shape=(1,))
+        inputD = keras.Input(shape=(1,))
+
+        # FIRST COORDINATE ------------------------------
+        x1 = keras.layers.Dense(64, activation="relu")(inputA)
+        x1 = keras.layers.Dense(32, activation="relu")(x1)
+        x1 = keras.layers.Dense(4, activation="relu")(x1)
+        x1 = keras.Model(inputs=inputA, outputs=x1)
+
+        y1 = keras.layers.Dense(64, activation="relu")(inputB)
+        y1 = keras.layers.Dense(32, activation="relu")(y1)
+        y1 = keras.layers.Dense(4, activation="relu")(y1)
+        y1 = keras.Model(inputs=inputB, outputs=y1)
+
+        # SECOND COORDINATE ----------------------------
+        x2 = keras.layers.Dense(64, activation="relu")(inputC)
+        x2 = keras.layers.Dense(32, activation="relu")(x2)
+        x2 = keras.layers.Dense(4, activation="relu")(x2)
+        x2 = keras.Model(inputs=inputC, outputs=x2)
+
+        y2 = keras.layers.Dense(64, activation="relu")(inputD)
+        y2 = keras.layers.Dense(32, activation="relu")(y2)
+        y2 = keras.layers.Dense(4, activation="relu")(y2)
+        y2 = keras.Model(inputs=inputD, outputs=y2)
+
+
+        #Combining the two outputs into one.
+        combined = keras.layers.concatenate([x1.output, y1.output,x2.output,y2.output])
+
+        z = keras.layers.Dense(4, activation="relu")(combined)
+        z = keras.layers.Dense(1, activation="linear")(z)
+
+        linedefModel = keras.Model(inputs=[x1.input,y1.input,x2.input,y2.input], outputs = z)
+
+        linedefModel.compile(loss="mean_absolute_percentage_error", optimizer=opt)
+
+        #Note might be a good idea to have this as a seperate function
+        linedefModel.fit([v1x,v1y,v2x,v2y],isCorrect,epochs=30)
+
+        #Predicting...
+        preds = linedefModel.predict([v1x,v1y,v2x,v2y])
+
+    build_model()
+
 
     #Linedef Generation
-    modelPoint1 = build_model()
-    modelPoint2 = build_model()
-    modelPoint3 = build_model()
-    modelPoint4 = build_model()
-
-    v1xResults = modelPoint1.fit( xCoords, v1x)
-    v1yResults = modelPoint2.fit( yCoords, v1y)
-    v2xResults = modelPoint3.fit( xCoords, v2x)
-    v2yResults = modelPoint4.fit( yCoords, v2y)
-
-
+    # modelPoint1 = build_model()
+    # modelPoint2 = build_model()
+    # modelPoint3 = build_model()
+    # modelPoint4 = build_model()
+    #
+    # v1xResults = modelPoint1.fit( xCoords, v1x)
+    # v1yResults = modelPoint2.fit( yCoords, v1y)
+    # v2xResults = modelPoint3.fit( xCoords, v2x)
+    # v2yResults = modelPoint4.fit( yCoords, v2y)
 
 
-prepareData("CATWALK.csv")
-data = trainVertexPoints()
-print("Data")
-print(data[0][0])
-trainLineDef( "CATWALK.json" , data )
+# prepareData("CATWALK.csv")
+#
+# data = trainVertexPoints()
+
+trainLineDef( "CATWALK.json" , 1)

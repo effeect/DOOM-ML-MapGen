@@ -85,8 +85,7 @@ def lineDefCreator(jsonFilename) :
 
     dfTest = pd.DataFrame(newDataSet)
     print(dfTest)
-
-    return df
+    dfTest.to_csv("CATWALKLINEDEF.csv")
 
 # datasetCreator("CATWALK.png","CATWALK.json")
 lineDefCreator("CATWALK.json")
