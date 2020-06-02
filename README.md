@@ -1,8 +1,8 @@
-# DOOM-ML-MapGen
-This is an ML5 Neural Network designed to generate DOOM maps from PNG Automaps. This project is part of my Goldsmiths third year creative project.
+# **DOOM-ML-MapGen**
+*Note : This is a third year project part of my work at Goldsmiths, University of London.*
 
-## How to use :
-WIP
+This is a machine learning map generation program built with Python. This project utilises **Tensorflow **+** Keras** and **OpenCV**.
 
-## Thanks to :
-WIP
+You can take any DOOM map marker image and process it through a machine learning model and it will try and build a DOOM map from it. This is a work in progress so the model is not perfect and results can vary wildly.
+
+More info to come
