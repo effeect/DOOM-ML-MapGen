@@ -58,6 +58,9 @@ def prepareData( filename ) :
         iPointX.append(tempImagePointX)
         iPointY.append(tempImagePointY)
 
+    print(pointX)
+    print(pointY)
+
 #TRAINING VERTEX POINTS
 def trainVertexPoints() :
     def build_model():
@@ -93,18 +96,56 @@ def trainVertexPoints() :
     print(resultsX)
     print(resultsY)
 
-    return [resultsX , resultsY ]
+    return [np.round(resultsX) , np.round(resultsY)]
+
+#Uses the values from the image and gives an accurate data representation
+def trainVertex():
+
+    #The model function here creates a keras based model with two inputs and two outputs.
+    def build_model() :
+        # Thanks to https://www.pyimagesearch.com/2019/02/04/keras-multiple-inputs-and-mixed-data/
+        inputA = keras.Input(shape=(1,))
+        inputB = keras.Input(shape=(1,))
+
+        # IMAGE COORDINATE ----------------
+        x1 = keras.layers.Dense(64, activation="relu")(inputA)
+        x1 = keras.layers.Dense(32, activation="relu")(x1)
+        x1 = keras.layers.Dense(4, activation="relu")(x1)
+        x1 = keras.Model(inputs=inputA, outputs=x1)
+
+        y1 = keras.layers.Dense(64, activation="relu")(inputB)
+        y1 = keras.layers.Dense(32, activation="relu")(y1)
+        y1 = keras.layers.Dense(4, activation="relu")(y1)
+        y1 = keras.Model(inputs=inputB, outputs=y1)
+
+
+        #Combining the two outputs into one.
+        combined = keras.layers.concatenate([x1.output, y1.output])
+
+        z = keras.layers.Dense(2, activation="relu")(combined)
+        z = keras.layers.Dense(1, activation="linear")(z)
+
+        linedefModel = keras.Model(inputs=[x1.input,y1.input], outputs = z)
+
+
+        #Optimizer Settings
+        opt = keras.optimizers.Adam(lr=1e-3, decay=1e-3 / 200)
+        linedefModel.compile(loss="mean_absolute_percentage_error", optimizer=opt)
+
+
+
+    print("---------BELOW------------")
 
 # Creates new Linedef with original Linedef Data
 def trainLineDef( filename, dataObject):
+
     dataVertex = dataObject
+    print(dataVertex)
+
     df = pd.read_csv("CATWALKLINEDEF.csv")
     linedefdf = df.copy()
 
     print(linedefdf)
-
-
-
     #Data
     v1x = []
     v1y = []
@@ -145,10 +186,6 @@ def trainLineDef( filename, dataObject):
 
     def build_model():
         # Thanks to https://www.pyimagesearch.com/2019/02/04/keras-multiple-inputs-and-mixed-data/
-
-        #Optimizer Settings
-        opt = keras.optimizers.Adam(lr=1e-3, decay=1e-3 / 200)
-
         # Each input represents a diffirent part of the
         inputA = keras.Input(shape=(1,))
         inputB = keras.Input(shape=(1,))
@@ -186,10 +223,13 @@ def trainLineDef( filename, dataObject):
 
         linedefModel = keras.Model(inputs=[x1.input,y1.input,x2.input,y2.input], outputs = z)
 
+
+        #Optimizer Settings
+        opt = keras.optimizers.Adam(lr=1e-3, decay=1e-3 / 200)
         linedefModel.compile(loss="mean_absolute_percentage_error", optimizer=opt)
 
         #Note might be a good idea to have this as a seperate function
-        linedefModel.fit([v1x,v1y,v2x,v2y],isCorrect,epochs=30)
+        linedefModel.fit([v1x,v1y,v2x,v2y],isCorrect,epochs=5)
 
         #Predicting...
         preds = linedefModel.predict([v1x,v1y,v2x,v2y])
@@ -209,8 +249,8 @@ def trainLineDef( filename, dataObject):
     # v2yResults = modelPoint4.fit( yCoords, v2y)
 
 
-# prepareData("CATWALK.csv")
-#
-# data = trainVertexPoints()
+prepareData("CATWALK.csv")
 
-trainLineDef( "CATWALK.json" , 1)
+data = trainVertexPoints()
+
+# trainLineDef( "CATWALK.json" , data)

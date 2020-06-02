@@ -39,6 +39,5 @@ def printPlotData( filename ):
     plt.show()
 
 
-
 #Test Code (Call it from here if you only want image processing
 imageProcess('CATWALK.png')
