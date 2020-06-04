@@ -3,7 +3,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import cv2 as cv
+import cv2
 import numpy as np
 
 #This number refers
@@ -45,20 +45,32 @@ def printPlotData( filename ):
 imageProcess('CATWALK.png')
 
 # https://www.youtube.com/watch?v=KH8Mq9FPVPw
+# https://stackoverflow.com/questions/44101894/extraction-of-coordinates-of-corners-using-harris-corner-detection-and-also-ret/52173485
+# https://answers.opencv.org/question/186538/to-find-the-coordinates-of-corners-detected-by-harris-corner-detection/
 def Harris_Corner_Detection(image):
-    img = cv.imread(image)
-    cv.imshow('img', img)
+    img = cv2.imread(image)
 
-    greyscale = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
-    greyscale = np.float32(greyscale)
+    #Displays Original Image for Debug Purposes
+    cv2.imshow('Original Image', img)
 
-    dst = cv.cornerHarris(greyscale, 2, 3, 0.04)
-    dst = cv.dilate(dst, None)
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    gray = np.float32(gray)
 
-    img[dst > 0.01 * dst.max()] = [0, 0, 255]
+    dst = cv2.cornerHarris(gray, 5, 3, 0.04)
+    ret, dst = cv2.threshold(dst, 0.1 * dst.max(), 255, 0)
 
-    cv.imshow('dst', img)
-    cv.waitKey()
+    dst = np.uint8(dst)
+    ret, labels, stats, centroids = cv2.connectedComponentsWithStats(dst)
+
+    criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.001)
+    corners = cv2.cornerSubPix(gray, np.float32(centroids), (5, 5), (-1, -1), criteria)
+
+    for i in range(1, len(corners)):
+        print(corners[i])
+
+    img[dst > 0.1 * dst.max()] = [0, 0, 255]
+
+    return corners
 
 
 Harris_Corner_Detection("CATWALK.png")

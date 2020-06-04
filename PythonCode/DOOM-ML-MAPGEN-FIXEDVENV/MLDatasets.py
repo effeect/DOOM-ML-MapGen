@@ -9,6 +9,7 @@ from tensorflow.keras import layers
 # Helper libraries
 import numpy as np
 import matplotlib.pyplot as plt
+from imageProcessing import Harris_Corner_Detection
 
 #Printing out essential details to help debugging
 print("1111111111111")
@@ -140,7 +141,10 @@ def trainVertex():
 def trainLineDef( filename, dataObject):
 
     dataVertex = dataObject
-    print(dataVertex)
+    for i in dataVertex :
+        i[0] = np.round(i[0] * 5)
+        i[1] = np.round(i[1] * 5)
+        print(type(i[0]))
 
     df = pd.read_csv("CATWALKLINEDEF.csv")
     linedefdf = df.copy()
@@ -184,6 +188,7 @@ def trainLineDef( filename, dataObject):
 
     # MACHINE LEARNING MODEL ------------------------------
 
+    results = []
     def build_model():
         # Thanks to https://www.pyimagesearch.com/2019/02/04/keras-multiple-inputs-and-mixed-data/
         # Each input represents a diffirent part of the
@@ -224,15 +229,40 @@ def trainLineDef( filename, dataObject):
         linedefModel = keras.Model(inputs=[x1.input,y1.input,x2.input,y2.input], outputs = z)
 
 
-        #Optimizer Settings
+        #Optimizer Settings (To be modified)
         opt = keras.optimizers.Adam(lr=1e-3, decay=1e-3 / 200)
         linedefModel.compile(loss="mean_absolute_percentage_error", optimizer=opt)
 
         #Note might be a good idea to have this as a seperate function
-        linedefModel.fit([v1x,v1y,v2x,v2y],isCorrect,epochs=5)
+        linedefModel.fit([v1x,v1y,v2x,v2y] , isCorrect , batch_size=10,epochs=10)
+        print(type(v1x))
+        # DOESNT
+        dataVertexCopy1 = dataVertex.copy()
+        dataVertexCopy2 = dataVertex.copy()
 
-        #Predicting...
-        preds = linedefModel.predict([v1x,v1y,v2x,v2y])
+        # https://github.com/tensorflow/tensorflow/issues/21894
+        np.random.shuffle(dataVertexCopy2)
+
+        for x in dataVertexCopy1 :
+            for y in dataVertexCopy2 :
+
+                tempx1 = np.asarray(dataVertexCopy1[0])[:10]
+                tempy1 = np.asarray(dataVertexCopy1[1])[:10]
+                tempx2 = np.asarray(dataVertexCopy2[0])[:10]
+                tempy2 = np.asarray(dataVertexCopy2[1])[:10]
+
+                tempPreds = linedefModel.predict( [ tempx1 , tempy1, tempx2 , tempy2] )
+
+                # tempPreds = linedefModel.predict( [dataVertexCopy1[0]:10 , dataVertexCopy1[1] , dataVertexCopy2[0] , dataVertexCopy2[1] ] )
+
+                print(tempPreds)
+
+                # if tempPreds > 0.5 :
+                #     results.append({"X1" : dataVertexCopy1[0], "Y1" : dataVertexCopy1[1], "X2" : dataVertexCopy2[0], "Y2" : dataVertexCopy2[1] ,"Bool " : tempPreds})
+                #     print(results)
+
+        for k in results :
+            print(k)
 
     build_model()
 
@@ -249,8 +279,10 @@ def trainLineDef( filename, dataObject):
     # v2yResults = modelPoint4.fit( yCoords, v2y)
 
 
-prepareData("CATWALK.csv")
+# prepareData("CATWALK.csv")
+#
+# data = trainVertexPoints()
 
-data = trainVertexPoints()
+data = Harris_Corner_Detection("FISTULA.png")
 
-# trainLineDef( "CATWALK.json" , data)
+trainLineDef( "CATWALK.json" , data)
