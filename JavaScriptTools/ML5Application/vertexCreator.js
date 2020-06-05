@@ -13,21 +13,19 @@ function getRandomInt(max) {
 
 
 const options = {
-    inputs: 2,
-    outputs: 2,
-    task: 'regression',
+    dataUrl:'CATWALKLINEDEFTest.csv',
+    inputs: ["v1x","v1y","v2x","v2y"],
+    outputs: ["isCorrect"],
+    task: 'classification',
     debug: 'true',
-    epochs: 160,
+    epochs: 100,
     batchSize : 32,
-    learningRate : 0.001
+    learningRate : 0.1
 }
 
 //Specifying the number of inputs and outputs for the VERTEX Object
 const neuralNetwork = ml5.neuralNetwork(options)
 
-//data contains the vertex points, the points contain the data points of the image
-const xs = points["points"]
-const ys = data["vertices"]
 
 //Storing Data here
 let resultData = [];
@@ -40,56 +38,33 @@ let pointYArr = []
 let colorArr = []
 
 function loadData(){
-    /*
-        This function allows us to load ALL of the vertex Datasets we have available
-    */
-    neuralNetwork.loadData('Datasets/CANYON2/ArrayData.json')
     
 }
 
-loadData()
 
 
 function nnTrain(){
     //Normalises the data from a scale from 0 to 1
-    neuralNetwork.normalizeData();
     //CreateVertexData is a CALLBACK
+
     neuralNetwork.train(createVertexData);
 }
 
 //Callback when training is complete
 function createVertexData(){
-    //Using data from another dataset
-//    neuralNetwork.save();
-        for (let i = 0; i < xs.length; i++) 
-        {   
-            const pointX = xs[i].x;
-            const pointY = xs[i].y;
-            const color = xs[i].color;
-            
-            
-//            console.log(pointX)
-//            console.log(pointY)
-//            console.log(color)
-
-            //Predicting data
-                    neuralNetwork.predict([pointX,pointY], 
-                                  (err, results) => {
-                                        if(err)
-                                            {
-                                                console.log(err)
-                                            }
-                                        else {
-                                                //Reformatting the ML5 Network result to make it play nice with JSON formatting
-//                                                console.log(results)
-
-                                                                resultData.push({x : Math.round(results[0].value), y : Math.round(results[1].value)})
-                                                    }
-                                        })
+                    const input = {"v1x" : 1312,"v2x" : 3264, "v2x" : 1344,"v2y" : 3264}
+                    
+                    neuralNetwork.classify(input,handleResults)
             }
-                }
             
-
+function handleResults(error,result)
+{
+    if(error){
+      console.error(error);
+      return;
+    }
+    console.log(result); // {label: 'red', confidence: 0.8};
+}
 
 //KEEP EMPTY
 function setup() {
@@ -109,20 +84,5 @@ function mousePressed() {
         }
 }
 
-//NOT IN USE RIGHT NOW 
-function DatasetCreation()
-{
-    for (let i = 0; i < xs.length; i++) {
-    //Configuring the data for ML5 Neural Network loading
-    const pointX = xs[i].x
-    const pointY = xs[i].y
-
-    const dataX = ys[i].x
-    const dataY = ys[i].y
-
-    neuralNetwork.data.addData([pointX, pointY], [dataX, dataY])
-        
-    }
-}
 
 
