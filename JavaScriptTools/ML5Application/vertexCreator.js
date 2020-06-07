@@ -19,7 +19,7 @@ const options = {
     task: 'classification',
     debug: 'true',
     epochs: 100,
-    batchSize : 32,
+    batchSize : 64,
     learningRate : 0.1
 }
 
@@ -41,7 +41,27 @@ function loadData(){
     
 }
 
+const xsX = points[0]["X"]
+const xsY = points[0]["Y"]
 
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
 
 function nnTrain(){
     //Normalises the data from a scale from 0 to 1
@@ -50,38 +70,44 @@ function nnTrain(){
     neuralNetwork.train(createVertexData);
 }
 
+let iCon;
+let jCon;
+
 //Callback when training is complete
 function createVertexData(){
-                    const input = {"v1x" : 1312,"v2x" : 3264, "v2x" : 1344,"v2y" : 3264}
-                    
-                    neuralNetwork.classify(input,handleResults)
-            }
+    console.log(xsX[0])
+    console.log("Vertex is here 1")
+        for(let i = 0; i < Object.keys(xsX).length; i++)
+        { 
+            for(let j = 0; j < Object.keys(xsX).length; j++)
+                {
+            //Calls back handle results
+            neuralNetwork.classify([xsX[i] ,xsY[i] , xsX[j]  , xsY[j]] , handleResults)
+                }
+
+
+        }
+                        }
             
 function handleResults(error,result)
 {
-    if(error){
+        if(error){
       console.error(error);
       return;
     }
-    console.log(result); // {label: 'red', confidence: 0.8};
+    console.log(result[1].confidence)
 }
 
 //KEEP EMPTY
 function setup() {
+
 }
 function draw() {
 }
 
 function mousePressed() {
-    
-    for(let i = 0; i < resultData.length; i++)
-        {
-            const stringVersionx = Number(resultData[i].x)
-            const stringVersiony = Number(resultData[i].y)
-            
-            resultData[i].x = stringVersionx
-            resultData[i].y = stringVersiony
-        }
+    console.log(resultData)
+
 }
 
 

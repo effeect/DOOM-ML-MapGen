@@ -5,9 +5,8 @@ import random
 # Vertices Generation
 def vertexGen( filename ):
     contents = ""
-    with open('jsonStuff.json', 'r') as j:
+    with open(filename, 'r') as j:
         contents = json.loads(j.read())
-        print(contents)
 
     number = -1
     #Grabs each attribute and converts it to the correct textmap format
@@ -26,9 +25,8 @@ def linedefGen(stringOriginal):
     string = ""
     contents = ""
     numbers = []
-    with open('jsonStuff.json', 'r') as j:
+    with open('points.json', 'r') as j:
         contents = json.loads(j.read())
-        print(contents)
 
     firstVertex = -1
     secondVertex = 0
@@ -41,6 +39,8 @@ def linedefGen(stringOriginal):
 
         # Formatting data
         data = ( firstVertex , random.choice(numbers) , random.choice(numbers) )
+        data = ( firstVertex , firstVertex , secondVertex )
+
         structure = "linedef //linedef %d \n{ \n id = 0; \n twosided = true;\n v1 = %d; \n v2 = %d; \n}"
         string = (structure % data)
         print(string)
@@ -56,5 +56,5 @@ def sidedefGen(jsonFile):
 def thingsGen(jsonFile):
     e = "e"
 
-vertexGen('jsonStuff.json')
+vertexGen('points.json')
 linedefGen("ifijo")
