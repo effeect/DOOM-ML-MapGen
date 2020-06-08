@@ -26,9 +26,6 @@ const neuralNetwork = ml5.neuralNetwork(options)
 //Storing Data here
 let resultData = [];
 
-//Used for fixing duplicate data in arrays. Did not TOUCH
-let incrementer = 0;
-
 let pointXArr = []
 let pointYArr = []
 let colorArr = []
@@ -51,16 +48,34 @@ let iCon;
 let jCon;
 function handleData(){
     console.log("Training Complete")
+    createVertexData()
 }
 //Callback when training is complete
 function createVertexData(){
-        for(let i = 0; i < 460; i++)
+        for(let i = 0; i < 475; i++)
         { 
-            for(let j = 0; j < 100; j++)
+            for(let j = 0; j < 50; j++)
                 {
                                 //Calls back handle results
-                let results = neuralNetwork.classify([xsX[i].x ,xsX[i].y , xsX[j].x  , xsX[j].y])
-                resultData.push(results)
+                let results = neuralNetwork.classify([xsX[i].x ,xsX[i].y , xsX[j].x  , xsX[j].y],handleResults)
+
+                
+
+                function handleResults(error,result)
+                {
+                    if(error){
+                      console.error(error);
+                      return;
+                    }
+                        if(result[1].confidence > 0.45)
+                        {
+                            resultData.push({ v1: i, v2: j, confidence : result[1].confidence})
+                        }
+                
+                }
+
+
+
                 }
             
             //Checking progress of Classifying
@@ -68,31 +83,19 @@ function createVertexData(){
 
 
         }
+        console.log(resultData)
 }
             
-function handleResults(error,result)
-{
-    if(error){
-      console.error(error);
-      return;
-    }
-    
-    console.log(result)
 
-}
 
 function setup(){
-nnTrain()
 }
-
-function draw(){
-    
+function draw(){ 
 }
 
 
 function mousePressed() {
     
-    createVertexData()
 }
 
 
