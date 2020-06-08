@@ -6,6 +6,28 @@
     
 */
 
+
+function shuffle(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex;
+  
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+  
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+  
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+  
+    return array;
+  }
+
+
+
 //Taken from Mozilla Foundation : 
 function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
@@ -54,12 +76,11 @@ function handleData(){
 function createVertexData(){
         for(let i = 0; i < 475; i++)
         { 
-            for(let j = 0; j < 50; j++)
+            shuffle(xsX)
+            for(let j = 0; j < 100; j++)
                 {
                                 //Calls back handle results
                 let results = neuralNetwork.classify([xsX[i].x ,xsX[i].y , xsX[j].x  , xsX[j].y],handleResults)
-
-                
 
                 function handleResults(error,result)
                 {
@@ -69,7 +90,8 @@ function createVertexData(){
                     }
                         if(result[1].confidence > 0.45)
                         {
-                            resultData.push({ v1: i, v2: j, confidence : result[1].confidence})
+                            //Grabs the index
+                            resultData.push({id : "0", v1: i, v2: j, confidence : result[1].confidence})
                         }
                 
                 }

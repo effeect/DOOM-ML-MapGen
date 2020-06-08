@@ -1,3 +1,5 @@
+# VERTEX EXTRACTOR
+# This python script grabs
 from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
@@ -7,15 +9,16 @@ import json
 #Function from pandas to extract to json object
 from pandas.io.json import json_normalize
 
+
 # Thanks to https://www.geeksforgeeks.org/pandas-parsing-json-dataset/
-
-
 #Give filename to extracted UDMF map in order to process map data
 def GetVertexDataList( filename ) :
     with open(filename) as f :
         data = json.load(f)
 
+    #Converts JSON to PD.DataFrame
     vertices = json_normalize(data['vertices'])
+
     minNumberX = 9999
     minNumberY = 9999
 
@@ -36,4 +39,5 @@ def GetVertexDataList( filename ) :
 
     return vertices
 
-GetVertexDataList('CATWALK.json')
+# Function to call
+# GetVertexDataList('CATWALK.json')
