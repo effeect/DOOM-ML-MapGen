@@ -16,11 +16,7 @@ const options = {
     dataUrl:'CATWALKLINEDEFTest.csv',
     inputs: ["v1x","v1y","v2x","v2y"],
     outputs: ["isCorrect"],
-    task: 'classification',
-    debug: 'true',
-    epochs: 100,
-    batchSize : 64,
-    learningRate : 0.1
+    task: 'classification'
 }
 
 //Specifying the number of inputs and outputs for the VERTEX Object
@@ -41,73 +37,62 @@ function loadData(){
     
 }
 
-const xsX = points[0]["X"]
-const xsY = points[0]["Y"]
+const xsX = points["points"]
 
-function shuffle(array) {
-  var currentIndex = array.length, temporaryValue, randomIndex;
-
-  // While there remain elements to shuffle...
-  while (0 !== currentIndex) {
-
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
-
-    // And swap it with the current element.
-    temporaryValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temporaryValue;
-  }
-
-  return array;
-}
 
 function nnTrain(){
     //Normalises the data from a scale from 0 to 1
     //CreateVertexData is a CALLBACK
 
-    neuralNetwork.train(createVertexData);
+    neuralNetwork.train(handleData);
 }
 
 let iCon;
 let jCon;
-
+function handleData(){
+    console.log("Training Complete")
+}
 //Callback when training is complete
 function createVertexData(){
-    console.log(xsX[0])
-    console.log("Vertex is here 1")
-        for(let i = 0; i < Object.keys(xsX).length; i++)
+        for(let i = 0; i < 460; i++)
         { 
-            for(let j = 0; j < Object.keys(xsX).length; j++)
+            for(let j = 0; j < 100; j++)
                 {
-            //Calls back handle results
-            neuralNetwork.classify([xsX[i] ,xsY[i] , xsX[j]  , xsY[j]] , handleResults)
+                                //Calls back handle results
+                let results = neuralNetwork.classify([xsX[i].x ,xsX[i].y , xsX[j].x  , xsX[j].y])
+                resultData.push(results)
                 }
+            
+            //Checking progress of Classifying
+            console.log(i,475)
 
 
         }
-                        }
+}
             
 function handleResults(error,result)
 {
-        if(error){
+    if(error){
       console.error(error);
       return;
     }
-    console.log(result[1].confidence)
-}
-
-//KEEP EMPTY
-function setup() {
+    
+    console.log(result)
 
 }
-function draw() {
+
+function setup(){
+nnTrain()
 }
+
+function draw(){
+    
+}
+
 
 function mousePressed() {
-    console.log(resultData)
-
+    
+    createVertexData()
 }
 
 
