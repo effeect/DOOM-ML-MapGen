@@ -7,6 +7,7 @@
 */
 
 
+//Shuffle Array Function
 function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
   
@@ -26,19 +27,11 @@ function shuffle(array) {
     return array;
   }
 
-
-
-//Taken from Mozilla Foundation : 
-function getRandomInt(max) {
-  return Math.floor(Math.random() * Math.floor(max));
-}
-
-
 const options = {
-    dataUrl:'CATWALKLINEDEFTest.csv',
+    dataUrl:'COMBINEDDATAFINAL2.csv',
     inputs: ["v1x","v1y","v2x","v2y"],
     outputs: ["isCorrect"],
-    task: 'classification'
+    task: 'regression'
 }
 
 //Specifying the number of inputs and outputs for the VERTEX Object
@@ -62,8 +55,9 @@ const xsX = points["points"]
 function nnTrain(){
     //Normalises the data from a scale from 0 to 1
     //CreateVertexData is a CALLBACK
-
     neuralNetwork.train(handleData);
+   
+    
 }
 
 let iCon;
@@ -76,11 +70,14 @@ function handleData(){
 function createVertexData(){
         for(let i = 0; i < 475; i++)
         { 
+            let highestValue = 0;
+
             shuffle(xsX)
-            for(let j = 0; j < 100; j++)
+            for(let j = 0; j < 50; j++)
                 {
                                 //Calls back handle results
-                let results = neuralNetwork.classify([xsX[i].x ,xsX[i].y , xsX[j].x  , xsX[j].y],handleResults)
+                let results = neuralNetwork.predict([xsX[i].x ,xsX[i].y , xsX[j].x  , xsX[j].y],handleResults)
+
 
                 function handleResults(error,result)
                 {
@@ -88,12 +85,9 @@ function createVertexData(){
                       console.error(error);
                       return;
                     }
-                        if(result[1].confidence > 0.45)
-                        {
-                            //Grabs the index
-                            resultData.push({id : "0", v1: i, v2: j, confidence : result[1].confidence})
-                        }
-                
+                    if(result[0].value > 0.9) {
+                        resultData.push({"id": 10 ,"v1": i,"v2":j,"con" : result[0].value})
+                    }
                 }
 
 
@@ -103,7 +97,7 @@ function createVertexData(){
             //Checking progress of Classifying
             console.log(i,475)
 
-
+            console.log(highestValue)
         }
         console.log(resultData)
 }

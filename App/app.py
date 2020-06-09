@@ -6,6 +6,10 @@ from lindefExtractor import GetLinedefList
 import pandas as pd
 import math
 
+
+
+
+
 #Returns a Linedef list for Tensorflow Dataset
 def lineDefCreator(jsonFilename) :
     DataListUpdated = []
@@ -37,15 +41,27 @@ def lineDefCreator(jsonFilename) :
         for j, row2 in df.iterrows():
             DataPoint2 = row2[4]
             if(DataPoint2 == trueDataPoint) :
-                # newDataSet.append({"id" : idRes, "v1" : indexV1, "v1point" : DataPoint[0], "v2" : row2[3], "v2point" : DataPoint2, "isCorrect" : 1})
-                newDataSet.append({"id" : idRes, "v1x" : DataPoint[0], "v1y" : DataPoint[1], "v2x" : trueDataPoint[0], "v2y" : trueDataPoint[1], "isCorrect" : 1})
-
-            else :
-                # newDataSet.append({"id" : idRes, "v1" : indexV1, "v1point" : DataPoint[0], "v2" : row2[3], "v2point" : DataPoint2, "isCorrect" : 0})
-                newDataSet.append({"id" : idRes, "v1x" : DataPoint[0], "v1y" : DataPoint[1], "v2x" : trueDataPoint[0], "v2y" : trueDataPoint[1], "isCorrect" : 0})
+                newDataSet.append({"id" : idRes, "v1x" : DataPoint[0], "v1y" : DataPoint[1], "v2x" : DataPoint2[0], "v2y" : DataPoint2[1], "isCorrect" : 1})
 
     dfTest = pd.DataFrame(newDataSet)
-    print(dfTest)
-    dfTest.to_csv("CATWALKLINEDEFTest2.csv")
+    print("DatasetDone")
 
-lineDefCreator("CATWALK.json")
+    print(dfTest)
+
+    return dfTest
+
+def main() :
+    obj1 = lineDefCreator('Dataset/BLACKTWR2.json')
+    obj2 = lineDefCreator('Dataset/CANYON2.json')
+    obj3 = lineDefCreator('Dataset/CATWALK2.json')
+    obj4 = lineDefCreator('Dataset/MAP01.json')
+    obj5 = lineDefCreator('Dataset/MAP03.json')
+
+    frames = [obj1,obj2,obj3,obj4,obj4]
+    result = pd.concat(frames)
+    print(result)
+    result.to_csv("COMBINEDDATAFINAL2.csv")
+
+main()
+
+

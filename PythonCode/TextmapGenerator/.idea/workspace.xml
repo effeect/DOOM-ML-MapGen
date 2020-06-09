@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e8422f7-9725-4af9-b911-059264d3832f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/sample.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../App/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../App/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../App/imageProcessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../App/imageProcessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeneratedMaps/ThirdGeneration - Copy.WAD" beforeDir="false" afterPath="$PROJECT_DIR$/../../GeneratedMaps/ThirdGeneration - Copy.WAD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GeneratedMaps/ThirdGeneration - Copy.WAD.bak" beforeDir="false" afterPath="$PROJECT_DIR$/../../GeneratedMaps/ThirdGeneration - Copy.WAD.bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaScriptTools/ML5Application/vertexCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScriptTools/ML5Application/vertexCreator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/textmapGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/textmapGenerator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../App" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -93,6 +98,10 @@
       <workItem from="1591463289464" duration="14000" />
       <workItem from="1591463859527" duration="1642000" />
       <workItem from="1591617132819" duration="39000" />
+      <workItem from="1591644042371" duration="2290000" />
+      <workItem from="1591712239957" duration="1339000" />
+      <workItem from="1591722345312" duration="27000" />
+      <workItem from="1591728508559" duration="121000" />
     </task>
     <servers />
   </component>
@@ -105,46 +114,46 @@
     </state>
     <state x="144" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585232052978" />
     <state x="96" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.31.1280.689@0.31.1280.689" timestamp="1585148574083" />
-    <state x="632" y="151" key="FileChooserDialogImpl" timestamp="1591617170307">
+    <state x="632" y="151" key="FileChooserDialogImpl" timestamp="1591722371071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="632" y="151" key="FileChooserDialogImpl/0.0.1920.1040/-2560.0.2560.1400@0.0.1920.1040" timestamp="1591617170307" />
+    <state x="632" y="151" key="FileChooserDialogImpl/0.0.1920.1040/-2560.0.2560.1400@0.0.1920.1040" timestamp="1591722371071" />
     <state x="421" y="131" key="FileChooserDialogImpl/0.31.1280.689@0.31.1280.689" timestamp="1585148571920" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1591487416916">
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom" timestamp="1591722305422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-2560.0.2560.1400@0.0.1920.1040" timestamp="1591487416916" />
+    <state width="1877" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1040/-2560.0.2560.1400@0.0.1920.1040" timestamp="1591722305422" />
     <state width="915" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585304893876" />
     <state width="617" height="166" key="GridCell.Tab.0.bottom/0.31.1280.689@0.31.1280.689" timestamp="1585152881635" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1591487416916">
+    <state width="1877" height="287" key="GridCell.Tab.0.center" timestamp="1591722305421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-2560.0.2560.1400@0.0.1920.1040" timestamp="1591487416916" />
+    <state width="1877" height="287" key="GridCell.Tab.0.center/0.0.1920.1040/-2560.0.2560.1400@0.0.1920.1040" timestamp="1591722305421" />
     <state width="915" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585304893875" />
     <state width="617" height="166" key="GridCell.Tab.0.center/0.31.1280.689@0.31.1280.689" timestamp="1585152881635" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1591487416916">
+    <state width="1877" height="287" key="GridCell.Tab.0.left" timestamp="1591722305421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-2560.0.2560.1400@0.0.1920.1040" timestamp="1591487416916" />
+    <state width="1877" height="287" key="GridCell.Tab.0.left/0.0.1920.1040/-2560.0.2560.1400@0.0.1920.1040" timestamp="1591722305421" />
     <state width="915" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585304893875" />
     <state width="617" height="166" key="GridCell.Tab.0.left/0.31.1280.689@0.31.1280.689" timestamp="1585152881635" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1591487416916">
+    <state width="1877" height="287" key="GridCell.Tab.0.right" timestamp="1591722305422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-2560.0.2560.1400@0.0.1920.1040" timestamp="1591487416916" />
+    <state width="1877" height="287" key="GridCell.Tab.0.right/0.0.1920.1040/-2560.0.2560.1400@0.0.1920.1040" timestamp="1591722305422" />
     <state width="915" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585304893875" />
     <state width="617" height="166" key="GridCell.Tab.0.right/0.31.1280.689@0.31.1280.689" timestamp="1585152881635" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1585232023408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585232023408" />
-    <state x="184" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1591617133045">
+    <state x="184" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1591722345865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-2560.0.2560.1400@0.0.1920.1040" timestamp="1591617133045" />
+    <state x="184" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-2560.0.2560.1400@0.0.1920.1040" timestamp="1591722345865" />
     <state x="184" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1858.1080@0.0.1920.1040" timestamp="1587377603181" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TextmapGenerator$textmapGenerator.coverage" NAME="textmapGenerator Coverage Results" MODIFIED="1591464585724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TextmapGenerator$textmapGenerator.coverage" NAME="textmapGenerator Coverage Results" MODIFIED="1591728621050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

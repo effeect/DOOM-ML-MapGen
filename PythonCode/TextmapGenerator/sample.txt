@@ -1,0 +1,3196 @@
+namespace = "ZDoomTranslated";
+
+//Converted to UDMF with wad2udmf by Christopher M Freund
+thing {
+ x = 20;
+ y = 3921;
+angle = 90;
+type = 1;
+}
+
+vertex //vertex 0
+{ 
+ x = 1323.0; 
+ y = 1981.0; 
+}vertex //vertex 1 
+{ 
+ x = 1201.0; 
+ y = 126.0; 
+}vertex //vertex 2 
+{ 
+ x = 1448.0; 
+ y = 127.0; 
+}vertex //vertex 3 
+{ 
+ x = 1914.0; 
+ y = 127.0; 
+}vertex //vertex 4 
+{ 
+ x = 2405.0; 
+ y = 126.0; 
+}vertex //vertex 5 
+{ 
+ x = 1293.0; 
+ y = 105.0; 
+}vertex //vertex 6 
+{ 
+ x = 1357.0; 
+ y = 105.0; 
+}vertex //vertex 7 
+{ 
+ x = 93.0; 
+ y = 127.0; 
+}vertex //vertex 8 
+{ 
+ x = 201.0; 
+ y = 158.0; 
+}vertex //vertex 9 
+{ 
+ x = 290.0; 
+ y = 138.0; 
+}vertex //vertex 10 
+{ 
+ x = 290.0; 
+ y = 138.0; 
+}vertex //vertex 11 
+{ 
+ x = 575.0; 
+ y = 159.0; 
+}vertex //vertex 12 
+{ 
+ x = 717.0; 
+ y = 137.0; 
+}vertex //vertex 13 
+{ 
+ x = 717.0; 
+ y = 137.0; 
+}vertex //vertex 14 
+{ 
+ x = 823.0; 
+ y = 127.0; 
+}vertex //vertex 15 
+{ 
+ x = 1051.0; 
+ y = 158.0; 
+}vertex //vertex 16 
+{ 
+ x = 1599.0; 
+ y = 158.0; 
+}vertex //vertex 17 
+{ 
+ x = 1842.0; 
+ y = 137.0; 
+}vertex //vertex 18 
+{ 
+ x = 1842.0; 
+ y = 135.0; 
+}vertex //vertex 19 
+{ 
+ x = 2524.0; 
+ y = 127.0; 
+}vertex //vertex 20 
+{ 
+ x = 2586.0; 
+ y = 127.0; 
+}vertex //vertex 21 
+{ 
+ x = 2467.0; 
+ y = 128.0; 
+}vertex //vertex 22 
+{ 
+ x = 92.0; 
+ y = 186.0; 
+}vertex //vertex 23 
+{ 
+ x = 716.0; 
+ y = 193.0; 
+}vertex //vertex 24 
+{ 
+ x = 822.0; 
+ y = 186.0; 
+}vertex //vertex 25 
+{ 
+ x = 201.0; 
+ y = 218.0; 
+}vertex //vertex 26 
+{ 
+ x = 315.0; 
+ y = 220.0; 
+}vertex //vertex 27 
+{ 
+ x = 1048.0; 
+ y = 218.0; 
+}vertex //vertex 28 
+{ 
+ x = 1602.0; 
+ y = 218.0; 
+}vertex //vertex 29 
+{ 
+ x = 372.0; 
+ y = 221.0; 
+}vertex //vertex 30 
+{ 
+ x = 473.0; 
+ y = 218.0; 
+}vertex //vertex 31 
+{ 
+ x = 596.0; 
+ y = 252.0; 
+}vertex //vertex 32 
+{ 
+ x = 1295.0; 
+ y = 222.0; 
+}vertex //vertex 33 
+{ 
+ x = 1355.0; 
+ y = 225.0; 
+}vertex //vertex 34 
+{ 
+ x = 1253.0; 
+ y = 253.0; 
+}vertex //vertex 35 
+{ 
+ x = 1394.0; 
+ y = 254.0; 
+}vertex //vertex 36 
+{ 
+ x = 708.0; 
+ y = 278.0; 
+}vertex //vertex 37 
+{ 
+ x = 2466.0; 
+ y = 277.0; 
+}vertex //vertex 38 
+{ 
+ x = 928.0; 
+ y = 372.0; 
+}vertex //vertex 39 
+{ 
+ x = 1733.0; 
+ y = 376.0; 
+}vertex //vertex 40 
+{ 
+ x = 2527.0; 
+ y = 300.0; 
+}vertex //vertex 41 
+{ 
+ x = 454.0; 
+ y = 305.0; 
+}vertex //vertex 42 
+{ 
+ x = 367.0; 
+ y = 309.0; 
+}vertex //vertex 43 
+{ 
+ x = 1232.0; 
+ y = 320.0; 
+}vertex //vertex 44 
+{ 
+ x = 1295.0; 
+ y = 305.0; 
+}vertex //vertex 45 
+{ 
+ x = 1355.0; 
+ y = 305.0; 
+}vertex //vertex 46 
+{ 
+ x = 1417.0; 
+ y = 320.0; 
+}vertex //vertex 47 
+{ 
+ x = 489.0; 
+ y = 341.0; 
+}vertex //vertex 48 
+{ 
+ x = 1828.0; 
+ y = 373.0; 
+}vertex //vertex 49 
+{ 
+ x = 2479.0; 
+ y = 359.0; 
+}vertex //vertex 50 
+{ 
+ x = 444.0; 
+ y = 325.0; 
+}vertex //vertex 51 
+{ 
+ x = 2548.0; 
+ y = 386.0; 
+}vertex //vertex 52 
+{ 
+ x = 716.0; 
+ y = 366.0; 
+}vertex //vertex 53 
+{ 
+ x = 738.0; 
+ y = 425.0; 
+}vertex //vertex 54 
+{ 
+ x = 786.0; 
+ y = 425.0; 
+}vertex //vertex 55 
+{ 
+ x = 2459.0; 
+ y = 425.0; 
+}vertex //vertex 56 
+{ 
+ x = 1917.0; 
+ y = 431.0; 
+}vertex //vertex 57 
+{ 
+ x = 1978.0; 
+ y = 431.0; 
+}vertex //vertex 58 
+{ 
+ x = 2038.0; 
+ y = 431.0; 
+}vertex //vertex 59 
+{ 
+ x = 2104.0; 
+ y = 444.0; 
+}vertex //vertex 60 
+{ 
+ x = 2153.0; 
+ y = 444.0; 
+}vertex //vertex 61 
+{ 
+ x = 2227.0; 
+ y = 444.0; 
+}vertex //vertex 62 
+{ 
+ x = 2281.0; 
+ y = 431.0; 
+}vertex //vertex 63 
+{ 
+ x = 2342.0; 
+ y = 443.0; 
+}vertex //vertex 64 
+{ 
+ x = 2403.0; 
+ y = 444.0; 
+}vertex //vertex 65 
+{ 
+ x = 444.0; 
+ y = 477.0; 
+}vertex //vertex 66 
+{ 
+ x = 566.0; 
+ y = 462.0; 
+}vertex //vertex 67 
+{ 
+ x = 566.0; 
+ y = 462.0; 
+}vertex //vertex 68 
+{ 
+ x = 702.0; 
+ y = 462.0; 
+}vertex //vertex 69 
+{ 
+ x = 2529.0; 
+ y = 476.0; 
+}vertex //vertex 70 
+{ 
+ x = 473.0; 
+ y = 477.0; 
+}vertex //vertex 71 
+{ 
+ x = 787.0; 
+ y = 467.0; 
+}vertex //vertex 72 
+{ 
+ x = 2481.0; 
+ y = 457.0; 
+}vertex //vertex 73 
+{ 
+ x = 2310.0; 
+ y = 524.0; 
+}vertex //vertex 74 
+{ 
+ x = 2216.0; 
+ y = 507.0; 
+}vertex //vertex 75 
+{ 
+ x = 586.0; 
+ y = 516.0; 
+}vertex //vertex 76 
+{ 
+ x = 787.0; 
+ y = 517.0; 
+}vertex //vertex 77 
+{ 
+ x = 2075.0; 
+ y = 517.0; 
+}vertex //vertex 78 
+{ 
+ x = 658.0; 
+ y = 538.0; 
+}vertex //vertex 79 
+{ 
+ x = 685.0; 
+ y = 538.0; 
+}vertex //vertex 80 
+{ 
+ x = 717.0; 
+ y = 538.0; 
+}vertex //vertex 81 
+{ 
+ x = 2160.0; 
+ y = 522.0; 
+}vertex //vertex 82 
+{ 
+ x = 816.0; 
+ y = 531.0; 
+}vertex //vertex 83 
+{ 
+ x = 1822.0; 
+ y = 523.0; 
+}vertex //vertex 84 
+{ 
+ x = 288.0; 
+ y = 553.0; 
+}vertex //vertex 85 
+{ 
+ x = 2548.0; 
+ y = 569.0; 
+}vertex //vertex 86 
+{ 
+ x = 561.0; 
+ y = 568.0; 
+}vertex //vertex 87 
+{ 
+ x = 2124.0; 
+ y = 559.0; 
+}vertex //vertex 88 
+{ 
+ x = 787.0; 
+ y = 560.0; 
+}vertex //vertex 89 
+{ 
+ x = 2075.0; 
+ y = 560.0; 
+}vertex //vertex 90 
+{ 
+ x = 292.0; 
+ y = 629.0; 
+}vertex //vertex 91 
+{ 
+ x = 220.0; 
+ y = 609.0; 
+}vertex //vertex 92 
+{ 
+ x = 353.0; 
+ y = 633.0; 
+}vertex //vertex 93 
+{ 
+ x = 185.0; 
+ y = 644.0; 
+}vertex //vertex 94 
+{ 
+ x = 428.0; 
+ y = 644.0; 
+}vertex //vertex 95 
+{ 
+ x = 2529.0; 
+ y = 658.0; 
+}vertex //vertex 96 
+{ 
+ x = 91.0; 
+ y = 732.0; 
+}vertex //vertex 97 
+{ 
+ x = 586.0; 
+ y = 669.0; 
+}vertex //vertex 98 
+{ 
+ x = 786.0; 
+ y = 669.0; 
+}vertex //vertex 99 
+{ 
+ x = 2166.0; 
+ y = 669.0; 
+}vertex //vertex 100 
+{ 
+ x = 658.0; 
+ y = 690.0; 
+}vertex //vertex 101 
+{ 
+ x = 685.0; 
+ y = 690.0; 
+}vertex //vertex 102 
+{ 
+ x = 717.0; 
+ y = 689.0; 
+}vertex //vertex 103 
+{ 
+ x = 2251.0; 
+ y = 674.0; 
+}vertex //vertex 104 
+{ 
+ x = 562.0; 
+ y = 718.0; 
+}vertex //vertex 105 
+{ 
+ x = 2129.0; 
+ y = 705.0; 
+}vertex //vertex 106 
+{ 
+ x = 562.0; 
+ y = 718.0; 
+}vertex //vertex 107 
+{ 
+ x = 786.0; 
+ y = 711.0; 
+}vertex //vertex 108 
+{ 
+ x = 2214.0; 
+ y = 711.0; 
+}vertex //vertex 109 
+{ 
+ x = 2256.0; 
+ y = 730.0; 
+}vertex //vertex 110 
+{ 
+ x = 2312.0; 
+ y = 752.0; 
+}vertex //vertex 111 
+{ 
+ x = 2459.0; 
+ y = 730.0; 
+}vertex //vertex 112 
+{ 
+ x = 2548.0; 
+ y = 751.0; 
+}vertex //vertex 113 
+{ 
+ x = 1917.0; 
+ y = 766.0; 
+}vertex //vertex 114 
+{ 
+ x = 1978.0; 
+ y = 766.0; 
+}vertex //vertex 115 
+{ 
+ x = 2056.0; 
+ y = 772.0; 
+}vertex //vertex 116 
+{ 
+ x = 2221.0; 
+ y = 766.0; 
+}vertex //vertex 117 
+{ 
+ x = 2494.0; 
+ y = 766.0; 
+}vertex //vertex 118 
+{ 
+ x = 1323.0; 
+ y = 764.0; 
+}vertex //vertex 119 
+{ 
+ x = 2143.0; 
+ y = 761.0; 
+}vertex //vertex 120 
+{ 
+ x = 1067.0; 
+ y = 765.0; 
+}vertex //vertex 121 
+{ 
+ x = 1582.0; 
+ y = 765.0; 
+}vertex //vertex 122 
+{ 
+ x = 586.0; 
+ y = 820.0; 
+}vertex //vertex 123 
+{ 
+ x = 787.0; 
+ y = 820.0; 
+}vertex //vertex 124 
+{ 
+ x = 657.0; 
+ y = 840.0; 
+}vertex //vertex 125 
+{ 
+ x = 686.0; 
+ y = 841.0; 
+}vertex //vertex 126 
+{ 
+ x = 717.0; 
+ y = 841.0; 
+}vertex //vertex 127 
+{ 
+ x = 585.0; 
+ y = 862.0; 
+}vertex //vertex 128 
+{ 
+ x = 786.0; 
+ y = 862.0; 
+}vertex //vertex 129 
+{ 
+ x = 2221.0; 
+ y = 887.0; 
+}vertex //vertex 130 
+{ 
+ x = 2587.0; 
+ y = 902.0; 
+}vertex //vertex 131 
+{ 
+ x = 2522.0; 
+ y = 888.0; 
+}vertex //vertex 132 
+{ 
+ x = 656.0; 
+ y = 948.0; 
+}vertex //vertex 133 
+{ 
+ x = 717.0; 
+ y = 948.0; 
+}vertex //vertex 134 
+{ 
+ x = 2232.0; 
+ y = 963.0; 
+}vertex //vertex 135 
+{ 
+ x = 2327.0; 
+ y = 958.0; 
+}vertex //vertex 136 
+{ 
+ x = 2327.0; 
+ y = 958.0; 
+}vertex //vertex 137 
+{ 
+ x = 2418.0; 
+ y = 958.0; 
+}vertex //vertex 138 
+{ 
+ x = 2418.0; 
+ y = 958.0; 
+}vertex //vertex 139 
+{ 
+ x = 2513.0; 
+ y = 963.0; 
+}vertex //vertex 140 
+{ 
+ x = 1863.0; 
+ y = 979.0; 
+}vertex //vertex 141 
+{ 
+ x = 2144.0; 
+ y = 979.0; 
+}vertex //vertex 142 
+{ 
+ x = 831.0; 
+ y = 993.0; 
+}vertex //vertex 143 
+{ 
+ x = 1818.0; 
+ y = 994.0; 
+}vertex //vertex 144 
+{ 
+ x = 656.0; 
+ y = 1009.0; 
+}vertex //vertex 145 
+{ 
+ x = 717.0; 
+ y = 1009.0; 
+}vertex //vertex 146 
+{ 
+ x = 1324.0; 
+ y = 1008.0; 
+}vertex //vertex 147 
+{ 
+ x = 2236.0; 
+ y = 1044.0; 
+}vertex //vertex 148 
+{ 
+ x = 2326.0; 
+ y = 1044.0; 
+}vertex //vertex 149 
+{ 
+ x = 2419.0; 
+ y = 1044.0; 
+}vertex //vertex 150 
+{ 
+ x = 2509.0; 
+ y = 1044.0; 
+}vertex //vertex 151 
+{ 
+ x = 188.0; 
+ y = 1053.0; 
+}vertex //vertex 152 
+{ 
+ x = 279.0; 
+ y = 1053.0; 
+}vertex //vertex 153 
+{ 
+ x = 368.0; 
+ y = 1055.0; 
+}vertex //vertex 154 
+{ 
+ x = 457.0; 
+ y = 1053.0; 
+}vertex //vertex 155 
+{ 
+ x = 73.0; 
+ y = 1117.0; 
+}vertex //vertex 156 
+{ 
+ x = 532.0; 
+ y = 1119.0; 
+}vertex //vertex 157 
+{ 
+ x = 586.0; 
+ y = 1094.0; 
+}vertex //vertex 158 
+{ 
+ x = 786.0; 
+ y = 1094.0; 
+}vertex //vertex 159 
+{ 
+ x = 1861.0; 
+ y = 1095.0; 
+}vertex //vertex 160 
+{ 
+ x = 2124.0; 
+ y = 1094.0; 
+}vertex //vertex 161 
+{ 
+ x = 2178.0; 
+ y = 1119.0; 
+}vertex //vertex 162 
+{ 
+ x = 2576.0; 
+ y = 1115.0; 
+}vertex //vertex 163 
+{ 
+ x = 823.0; 
+ y = 1130.0; 
+}vertex //vertex 164 
+{ 
+ x = 1826.0; 
+ y = 1130.0; 
+}vertex //vertex 165 
+{ 
+ x = 73.0; 
+ y = 1117.0; 
+}vertex //vertex 166 
+{ 
+ x = 693.0; 
+ y = 1135.0; 
+}vertex //vertex 167 
+{ 
+ x = 1955.0; 
+ y = 1135.0; 
+}vertex //vertex 168 
+{ 
+ x = 2576.0; 
+ y = 1115.0; 
+}vertex //vertex 169 
+{ 
+ x = 1324.0; 
+ y = 1252.0; 
+}vertex //vertex 170 
+{ 
+ x = 303.0; 
+ y = 1431.0; 
+}vertex //vertex 171 
+{ 
+ x = 432.0; 
+ y = 1431.0; 
+}vertex //vertex 172 
+{ 
+ x = 2217.0; 
+ y = 1431.0; 
+}vertex //vertex 173 
+{ 
+ x = 2345.0; 
+ y = 1431.0; 
+}vertex //vertex 174 
+{ 
+ x = 688.0; 
+ y = 1383.0; 
+}vertex //vertex 175 
+{ 
+ x = 823.0; 
+ y = 1378.0; 
+}vertex //vertex 176 
+{ 
+ x = 1826.0; 
+ y = 1378.0; 
+}vertex //vertex 177 
+{ 
+ x = 1960.0; 
+ y = 1382.0; 
+}vertex //vertex 178 
+{ 
+ x = 252.0; 
+ y = 1377.0; 
+}vertex //vertex 179 
+{ 
+ x = 483.0; 
+ y = 1377.0; 
+}vertex //vertex 180 
+{ 
+ x = 2166.0; 
+ y = 1376.0; 
+}vertex //vertex 181 
+{ 
+ x = 821.0; 
+ y = 1433.0; 
+}vertex //vertex 182 
+{ 
+ x = 1837.0; 
+ y = 1448.0; 
+}vertex //vertex 183 
+{ 
+ x = 762.0; 
+ y = 1433.0; 
+}vertex //vertex 184 
+{ 
+ x = 1917.0; 
+ y = 1433.0; 
+}vertex //vertex 185 
+{ 
+ x = 343.0; 
+ y = 1470.0; 
+}vertex //vertex 186 
+{ 
+ x = 391.0; 
+ y = 1470.0; 
+}vertex //vertex 187 
+{ 
+ x = 2256.0; 
+ y = 1470.0; 
+}vertex //vertex 188 
+{ 
+ x = 2304.0; 
+ y = 1471.0; 
+}vertex //vertex 189 
+{ 
+ x = 819.0; 
+ y = 1494.0; 
+}vertex //vertex 190 
+{ 
+ x = 1323.0; 
+ y = 1494.0; 
+}vertex //vertex 191 
+{ 
+ x = 1842.0; 
+ y = 1494.0; 
+}vertex //vertex 192 
+{ 
+ x = 342.0; 
+ y = 1520.0; 
+}vertex //vertex 193 
+{ 
+ x = 392.0; 
+ y = 1519.0; 
+}vertex //vertex 194 
+{ 
+ x = 2256.0; 
+ y = 1519.0; 
+}vertex //vertex 195 
+{ 
+ x = 2305.0; 
+ y = 1519.0; 
+}vertex //vertex 196 
+{ 
+ x = 303.0; 
+ y = 1558.0; 
+}vertex //vertex 197 
+{ 
+ x = 432.0; 
+ y = 1558.0; 
+}vertex //vertex 198 
+{ 
+ x = 762.0; 
+ y = 1556.0; 
+}vertex //vertex 199 
+{ 
+ x = 821.0; 
+ y = 1556.0; 
+}vertex //vertex 200 
+{ 
+ x = 1837.0; 
+ y = 1541.0; 
+}vertex //vertex 201 
+{ 
+ x = 1917.0; 
+ y = 1556.0; 
+}vertex //vertex 202 
+{ 
+ x = 2217.0; 
+ y = 1559.0; 
+}vertex //vertex 203 
+{ 
+ x = 2345.0; 
+ y = 1559.0; 
+}vertex //vertex 204 
+{ 
+ x = 251.0; 
+ y = 1610.0; 
+}vertex //vertex 205 
+{ 
+ x = 484.0; 
+ y = 1610.0; 
+}vertex //vertex 206 
+{ 
+ x = 688.0; 
+ y = 1607.0; 
+}vertex //vertex 207 
+{ 
+ x = 823.0; 
+ y = 1609.0; 
+}vertex //vertex 208 
+{ 
+ x = 1827.0; 
+ y = 1609.0; 
+}vertex //vertex 209 
+{ 
+ x = 1959.0; 
+ y = 1608.0; 
+}vertex //vertex 210 
+{ 
+ x = 2161.0; 
+ y = 1609.0; 
+}vertex //vertex 211 
+{ 
+ x = 1324.0; 
+ y = 1738.0; 
+}vertex //vertex 212 
+{ 
+ x = 67.0; 
+ y = 1867.0; 
+}vertex //vertex 213 
+{ 
+ x = 693.0; 
+ y = 1868.0; 
+}vertex //vertex 214 
+{ 
+ x = 823.0; 
+ y = 1866.0; 
+}vertex //vertex 215 
+{ 
+ x = 1828.0; 
+ y = 1864.0; 
+}vertex //vertex 216 
+{ 
+ x = 1969.0; 
+ y = 1912.0; 
+}vertex //vertex 217 
+{ 
+ x = 2582.0; 
+ y = 1867.0; 
+}vertex //vertex 218 
+{ 
+ x = 139.0; 
+ y = 1867.0; 
+}vertex //vertex 219 
+{ 
+ x = 201.0; 
+ y = 1867.0; 
+}vertex //vertex 220 
+{ 
+ x = 262.0; 
+ y = 1867.0; 
+}vertex //vertex 221 
+{ 
+ x = 322.0; 
+ y = 1867.0; 
+}vertex //vertex 222 
+{ 
+ x = 383.0; 
+ y = 1867.0; 
+}vertex //vertex 223 
+{ 
+ x = 443.0; 
+ y = 1867.0; 
+}vertex //vertex 224 
+{ 
+ x = 504.0; 
+ y = 1867.0; 
+}vertex //vertex 225 
+{ 
+ x = 564.0; 
+ y = 1867.0; 
+}vertex //vertex 226 
+{ 
+ x = 626.0; 
+ y = 1867.0; 
+}vertex //vertex 227 
+{ 
+ x = 2084.0; 
+ y = 1951.0; 
+}vertex //vertex 228 
+{ 
+ x = 2585.0; 
+ y = 1919.0; 
+}vertex //vertex 229 
+{ 
+ x = 2524.0; 
+ y = 1919.0; 
+}vertex //vertex 230 
+{ 
+ x = 139.0; 
+ y = 1966.0; 
+}vertex //vertex 231 
+{ 
+ x = 201.0; 
+ y = 1966.0; 
+}vertex //vertex 232 
+{ 
+ x = 262.0; 
+ y = 1966.0; 
+}vertex //vertex 233 
+{ 
+ x = 322.0; 
+ y = 1966.0; 
+}vertex //vertex 234 
+{ 
+ x = 383.0; 
+ y = 1966.0; 
+}vertex //vertex 235 
+{ 
+ x = 443.0; 
+ y = 1966.0; 
+}vertex //vertex 236 
+{ 
+ x = 504.0; 
+ y = 1966.0; 
+}vertex //vertex 237 
+{ 
+ x = 564.0; 
+ y = 1966.0; 
+}vertex //vertex 238 
+{ 
+ x = 626.0; 
+ y = 1966.0; 
+}vertex //vertex 239 
+{ 
+ x = 819.0; 
+ y = 1981.0; 
+}vertex //vertex 240 
+{ 
+ x = 1323.0; 
+ y = 1981.0; 
+}vertex //vertex 241 
+{ 
+ x = 1833.0; 
+ y = 1981.0; 
+}vertex //vertex 242 
+{ 
+ x = 2524.0; 
+ y = 1981.0; 
+}vertex //vertex 243 
+{ 
+ x = 2586.0; 
+ y = 1981.0; 
+}vertex //vertex 244 
+{ 
+ x = 2524.0; 
+ y = 2042.0; 
+}vertex //vertex 245 
+{ 
+ x = 2586.0; 
+ y = 2042.0; 
+}vertex //vertex 246 
+{ 
+ x = 139.0; 
+ y = 2057.0; 
+}vertex //vertex 247 
+{ 
+ x = 201.0; 
+ y = 2057.0; 
+}vertex //vertex 248 
+{ 
+ x = 626.0; 
+ y = 2087.0; 
+}vertex //vertex 249 
+{ 
+ x = 823.0; 
+ y = 2097.0; 
+}vertex //vertex 250 
+{ 
+ x = 1828.0; 
+ y = 2097.0; 
+}vertex //vertex 251 
+{ 
+ x = 1966.0; 
+ y = 2091.0; 
+}vertex //vertex 252 
+{ 
+ x = 692.0; 
+ y = 2088.0; 
+}vertex //vertex 253 
+{ 
+ x = 2524.0; 
+ y = 2102.0; 
+}vertex //vertex 254 
+{ 
+ x = 2586.0; 
+ y = 2102.0; 
+}vertex //vertex 255 
+{ 
+ x = 139.0; 
+ y = 2148.0; 
+}vertex //vertex 256 
+{ 
+ x = 201.0; 
+ y = 2148.0; 
+}vertex //vertex 257 
+{ 
+ x = 2524.0; 
+ y = 2163.0; 
+}vertex //vertex 258 
+{ 
+ x = 2586.0; 
+ y = 2163.0; 
+}vertex //vertex 259 
+{ 
+ x = 626.0; 
+ y = 2178.0; 
+}vertex //vertex 260 
+{ 
+ x = 693.0; 
+ y = 2178.0; 
+}vertex //vertex 261 
+{ 
+ x = 592.0; 
+ y = 2217.0; 
+}vertex //vertex 262 
+{ 
+ x = 1324.0; 
+ y = 2223.0; 
+}vertex //vertex 263 
+{ 
+ x = 2524.0; 
+ y = 2223.0; 
+}vertex //vertex 264 
+{ 
+ x = 2586.0; 
+ y = 2223.0; 
+}vertex //vertex 265 
+{ 
+ x = 139.0; 
+ y = 2238.0; 
+}vertex //vertex 266 
+{ 
+ x = 201.0; 
+ y = 2238.0; 
+}vertex //vertex 267 
+{ 
+ x = 388.0; 
+ y = 2221.0; 
+}vertex //vertex 268 
+{ 
+ x = 460.0; 
+ y = 2249.0; 
+}vertex //vertex 269 
+{ 
+ x = 588.0; 
+ y = 2254.0; 
+}vertex //vertex 270 
+{ 
+ x = 2352.0; 
+ y = 2267.0; 
+}vertex //vertex 271 
+{ 
+ x = 388.0; 
+ y = 2287.0; 
+}vertex //vertex 272 
+{ 
+ x = 2524.0; 
+ y = 2284.0; 
+}vertex //vertex 273 
+{ 
+ x = 2586.0; 
+ y = 2284.0; 
+}vertex //vertex 274 
+{ 
+ x = 592.0; 
+ y = 2290.0; 
+}vertex //vertex 275 
+{ 
+ x = 139.0; 
+ y = 2329.0; 
+}vertex //vertex 276 
+{ 
+ x = 201.0; 
+ y = 2329.0; 
+}vertex //vertex 277 
+{ 
+ x = 687.0; 
+ y = 2347.0; 
+}vertex //vertex 278 
+{ 
+ x = 627.0; 
+ y = 2331.0; 
+}vertex //vertex 279 
+{ 
+ x = 823.0; 
+ y = 2352.0; 
+}vertex //vertex 280 
+{ 
+ x = 1828.0; 
+ y = 2351.0; 
+}vertex //vertex 281 
+{ 
+ x = 1967.0; 
+ y = 2357.0; 
+}vertex //vertex 282 
+{ 
+ x = 2524.0; 
+ y = 2345.0; 
+}vertex //vertex 283 
+{ 
+ x = 2585.0; 
+ y = 2346.0; 
+}vertex //vertex 284 
+{ 
+ x = 2402.0; 
+ y = 2344.0; 
+}vertex //vertex 285 
+{ 
+ x = 2347.0; 
+ y = 2398.0; 
+}vertex //vertex 286 
+{ 
+ x = 2403.0; 
+ y = 2398.0; 
+}vertex //vertex 287 
+{ 
+ x = 2520.0; 
+ y = 2397.0; 
+}vertex //vertex 288 
+{ 
+ x = 2582.0; 
+ y = 2398.0; 
+}vertex //vertex 289 
+{ 
+ x = 2057.0; 
+ y = 2393.0; 
+}vertex //vertex 290 
+{ 
+ x = 2196.0; 
+ y = 2397.0; 
+}vertex //vertex 291 
+{ 
+ x = 139.0; 
+ y = 2422.0; 
+}vertex //vertex 292 
+{ 
+ x = 201.0; 
+ y = 2422.0; 
+}vertex //vertex 293 
+{ 
+ x = 2216.0; 
+ y = 2397.0; 
+}vertex //vertex 294 
+{ 
+ x = 2498.0; 
+ y = 2398.0; 
+}vertex //vertex 295 
+{ 
+ x = 819.0; 
+ y = 2467.0; 
+}vertex //vertex 296 
+{ 
+ x = 1323.0; 
+ y = 2467.0; 
+}vertex //vertex 297 
+{ 
+ x = 1833.0; 
+ y = 2467.0; 
+}vertex //vertex 298 
+{ 
+ x = 702.0; 
+ y = 2467.0; 
+}vertex //vertex 299 
+{ 
+ x = 763.0; 
+ y = 2467.0; 
+}vertex //vertex 300 
+{ 
+ x = 139.0; 
+ y = 2512.0; 
+}vertex //vertex 301 
+{ 
+ x = 201.0; 
+ y = 2512.0; 
+}vertex //vertex 302 
+{ 
+ x = 702.0; 
+ y = 2528.0; 
+}vertex //vertex 303 
+{ 
+ x = 763.0; 
+ y = 2528.0; 
+}vertex //vertex 304 
+{ 
+ x = 2218.0; 
+ y = 2529.0; 
+}vertex //vertex 305 
+{ 
+ x = 2344.0; 
+ y = 2529.0; 
+}vertex //vertex 306 
+{ 
+ x = 2507.0; 
+ y = 2546.0; 
+}vertex //vertex 307 
+{ 
+ x = 2062.0; 
+ y = 2553.0; 
+}vertex //vertex 308 
+{ 
+ x = 2586.0; 
+ y = 2558.0; 
+}vertex //vertex 309 
+{ 
+ x = 1828.0; 
+ y = 2583.0; 
+}vertex //vertex 310 
+{ 
+ x = 1966.0; 
+ y = 2577.0; 
+}vertex //vertex 311 
+{ 
+ x = 68.0; 
+ y = 2593.0; 
+}vertex //vertex 312 
+{ 
+ x = 141.0; 
+ y = 2598.0; 
+}vertex //vertex 313 
+{ 
+ x = 199.0; 
+ y = 2598.0; 
+}vertex //vertex 314 
+{ 
+ x = 823.0; 
+ y = 2587.0; 
+}vertex //vertex 315 
+{ 
+ x = 697.0; 
+ y = 2587.0; 
+}vertex //vertex 316 
+{ 
+ x = 261.0; 
+ y = 2593.0; 
+}vertex //vertex 317 
+{ 
+ x = 322.0; 
+ y = 2592.0; 
+}vertex //vertex 318 
+{ 
+ x = 383.0; 
+ y = 2592.0; 
+}vertex //vertex 319 
+{ 
+ x = 443.0; 
+ y = 2592.0; 
+}vertex //vertex 320 
+{ 
+ x = 504.0; 
+ y = 2593.0; 
+}vertex //vertex 321 
+{ 
+ x = 564.0; 
+ y = 2593.0; 
+}vertex //vertex 322 
+{ 
+ x = 626.0; 
+ y = 2592.0; 
+}vertex //vertex 323 
+{ 
+ x = 2060.0; 
+ y = 2683.0; 
+}vertex //vertex 324 
+{ 
+ x = 2218.0; 
+ y = 2682.0; 
+}vertex //vertex 325 
+{ 
+ x = 2370.0; 
+ y = 2682.0; 
+}vertex //vertex 326 
+{ 
+ x = 2493.0; 
+ y = 2679.0; 
+}vertex //vertex 327 
+{ 
+ x = 2577.0; 
+ y = 2693.0; 
+}vertex //vertex 328 
+{ 
+ x = 2131.0; 
+ y = 2681.0; 
+}vertex //vertex 329 
+{ 
+ x = 1323.0; 
+ y = 2709.0; 
+}vertex //vertex 330 
+{ 
+ x = 2531.0; 
+ y = 2716.0; 
+}vertex //vertex 331 
+{ 
+ x = 2577.0; 
+ y = 2693.0; 
+}vertex //vertex 332 
+{ 
+ x = 139.0; 
+ y = 2725.0; 
+}vertex //vertex 333 
+{ 
+ x = 201.0; 
+ y = 2725.0; 
+}vertex //vertex 334 
+{ 
+ x = 262.0; 
+ y = 2725.0; 
+}vertex //vertex 335 
+{ 
+ x = 322.0; 
+ y = 2725.0; 
+}vertex //vertex 336 
+{ 
+ x = 383.0; 
+ y = 2725.0; 
+}vertex //vertex 337 
+{ 
+ x = 443.0; 
+ y = 2725.0; 
+}vertex //vertex 338 
+{ 
+ x = 504.0; 
+ y = 2725.0; 
+}vertex //vertex 339 
+{ 
+ x = 565.0; 
+ y = 2724.0; 
+}vertex //vertex 340 
+{ 
+ x = 626.0; 
+ y = 2725.0; 
+}vertex //vertex 341 
+{ 
+ x = 693.0; 
+ y = 2724.0; 
+}vertex //vertex 342 
+{ 
+ x = 1969.0; 
+ y = 2798.0; 
+}vertex //vertex 343 
+{ 
+ x = 2033.0; 
+ y = 2791.0; 
+}vertex //vertex 344 
+{ 
+ x = 2128.0; 
+ y = 2753.0; 
+}vertex //vertex 345 
+{ 
+ x = 2161.0; 
+ y = 2787.0; 
+}vertex //vertex 346 
+{ 
+ x = 693.0; 
+ y = 2842.0; 
+}vertex //vertex 347 
+{ 
+ x = 821.0; 
+ y = 2833.0; 
+}vertex //vertex 348 
+{ 
+ x = 1826.0; 
+ y = 2832.0; 
+}vertex //vertex 349 
+{ 
+ x = 2225.0; 
+ y = 2843.0; 
+}vertex //vertex 350 
+{ 
+ x = 2369.0; 
+ y = 2834.0; 
+}vertex //vertex 351 
+{ 
+ x = 403.0; 
+ y = 2832.0; 
+}vertex //vertex 352 
+{ 
+ x = 2159.0; 
+ y = 2847.0; 
+}vertex //vertex 353 
+{ 
+ x = 2522.0; 
+ y = 2859.0; 
+}vertex //vertex 354 
+{ 
+ x = 2583.0; 
+ y = 2850.0; 
+}vertex //vertex 355 
+{ 
+ x = 1911.0; 
+ y = 2845.0; 
+}vertex //vertex 356 
+{ 
+ x = 2082.0; 
+ y = 2854.0; 
+}vertex //vertex 357 
+{ 
+ x = 2270.0; 
+ y = 2837.0; 
+}vertex //vertex 358 
+{ 
+ x = 410.0; 
+ y = 2897.0; 
+}vertex //vertex 359 
+{ 
+ x = 124.0; 
+ y = 2907.0; 
+}vertex //vertex 360 
+{ 
+ x = 227.0; 
+ y = 2922.0; 
+}vertex //vertex 361 
+{ 
+ x = 335.0; 
+ y = 2922.0; 
+}vertex //vertex 362 
+{ 
+ x = 410.0; 
+ y = 2897.0; 
+}vertex //vertex 363 
+{ 
+ x = 1837.0; 
+ y = 2934.0; 
+}vertex //vertex 364 
+{ 
+ x = 2345.0; 
+ y = 2915.0; 
+}vertex //vertex 365 
+{ 
+ x = 2006.0; 
+ y = 2937.0; 
+}vertex //vertex 366 
+{ 
+ x = 170.0; 
+ y = 2953.0; 
+}vertex //vertex 367 
+{ 
+ x = 1324.0; 
+ y = 2953.0; 
+}vertex //vertex 368 
+{ 
+ x = 405.0; 
+ y = 2942.0; 
+}vertex //vertex 369 
+{ 
+ x = 831.0; 
+ y = 2968.0; 
+}vertex //vertex 370 
+{ 
+ x = 1817.0; 
+ y = 2970.0; 
+}vertex //vertex 371 
+{ 
+ x = 2159.0; 
+ y = 2952.0; 
+}vertex //vertex 372 
+{ 
+ x = 2221.0; 
+ y = 2952.0; 
+}vertex //vertex 373 
+{ 
+ x = 2522.0; 
+ y = 3012.0; 
+}vertex //vertex 374 
+{ 
+ x = 498.0; 
+ y = 2985.0; 
+}vertex //vertex 375 
+{ 
+ x = 139.0; 
+ y = 3008.0; 
+}vertex //vertex 376 
+{ 
+ x = 2362.0; 
+ y = 3013.0; 
+}vertex //vertex 377 
+{ 
+ x = 2021.0; 
+ y = 3018.0; 
+}vertex //vertex 378 
+{ 
+ x = 2159.0; 
+ y = 3014.0; 
+}vertex //vertex 379 
+{ 
+ x = 2221.0; 
+ y = 3014.0; 
+}vertex //vertex 380 
+{ 
+ x = 1836.0; 
+ y = 3071.0; 
+}vertex //vertex 381 
+{ 
+ x = 2354.0; 
+ y = 3088.0; 
+}vertex //vertex 382 
+{ 
+ x = 2576.0; 
+ y = 3088.0; 
+}vertex //vertex 383 
+{ 
+ x = 1917.0; 
+ y = 3073.0; 
+}vertex //vertex 384 
+{ 
+ x = 2087.0; 
+ y = 3096.0; 
+}vertex //vertex 385 
+{ 
+ x = 2421.0; 
+ y = 3086.0; 
+}vertex //vertex 386 
+{ 
+ x = 2131.0; 
+ y = 3103.0; 
+}vertex //vertex 387 
+{ 
+ x = 2520.0; 
+ y = 3112.0; 
+}vertex //vertex 388 
+{ 
+ x = 2576.0; 
+ y = 3088.0; 
+}vertex //vertex 389 
+{ 
+ x = 129.0; 
+ y = 3145.0; 
+}vertex //vertex 390 
+{ 
+ x = 2443.0; 
+ y = 3117.0; 
+}vertex //vertex 391 
+{ 
+ x = 1836.0; 
+ y = 3140.0; 
+}vertex //vertex 392 
+{ 
+ x = 1917.0; 
+ y = 3136.0; 
+}vertex //vertex 393 
+{ 
+ x = 2286.0; 
+ y = 3137.0; 
+}vertex //vertex 394 
+{ 
+ x = 68.0; 
+ y = 3193.0; 
+}vertex //vertex 395 
+{ 
+ x = 2104.0; 
+ y = 3169.0; 
+}vertex //vertex 396 
+{ 
+ x = 2212.0; 
+ y = 3171.0; 
+}vertex //vertex 397 
+{ 
+ x = 2443.0; 
+ y = 3184.0; 
+}vertex //vertex 398 
+{ 
+ x = 2527.0; 
+ y = 3189.0; 
+}vertex //vertex 399 
+{ 
+ x = 160.0; 
+ y = 3188.0; 
+}vertex //vertex 400 
+{ 
+ x = 1323.0; 
+ y = 3197.0; 
+}vertex //vertex 401 
+{ 
+ x = 1067.0; 
+ y = 3197.0; 
+}vertex //vertex 402 
+{ 
+ x = 1582.0; 
+ y = 3197.0; 
+}vertex //vertex 403 
+{ 
+ x = 2352.0; 
+ y = 3208.0; 
+}vertex //vertex 404 
+{ 
+ x = 116.0; 
+ y = 3194.0; 
+}vertex //vertex 405 
+{ 
+ x = 2408.0; 
+ y = 3218.0; 
+}vertex //vertex 406 
+{ 
+ x = 2132.0; 
+ y = 3229.0; 
+}vertex //vertex 407 
+{ 
+ x = 202.0; 
+ y = 3280.0; 
+}vertex //vertex 408 
+{ 
+ x = 2002.0; 
+ y = 3248.0; 
+}vertex //vertex 409 
+{ 
+ x = 2220.0; 
+ y = 3317.0; 
+}vertex //vertex 410 
+{ 
+ x = 2282.0; 
+ y = 3317.0; 
+}vertex //vertex 411 
+{ 
+ x = 1982.0; 
+ y = 3351.0; 
+}vertex //vertex 412 
+{ 
+ x = 2096.0; 
+ y = 3362.0; 
+}vertex //vertex 413 
+{ 
+ x = 2220.0; 
+ y = 3378.0; 
+}vertex //vertex 414 
+{ 
+ x = 2282.0; 
+ y = 3378.0; 
+}vertex //vertex 415 
+{ 
+ x = 2358.0; 
+ y = 3388.0; 
+}vertex //vertex 416 
+{ 
+ x = 2583.0; 
+ y = 3411.0; 
+}vertex //vertex 417 
+{ 
+ x = 1841.0; 
+ y = 3431.0; 
+}vertex //vertex 418 
+{ 
+ x = 804.0; 
+ y = 3456.0; 
+}vertex //vertex 419 
+{ 
+ x = 812.0; 
+ y = 3432.0; 
+}vertex //vertex 420 
+{ 
+ x = 1922.0; 
+ y = 3438.0; 
+}vertex //vertex 421 
+{ 
+ x = 2084.0; 
+ y = 3448.0; 
+}vertex //vertex 422 
+{ 
+ x = 662.0; 
+ y = 3443.0; 
+}vertex //vertex 423 
+{ 
+ x = 1972.0; 
+ y = 3448.0; 
+}vertex //vertex 424 
+{ 
+ x = 2159.0; 
+ y = 3447.0; 
+}vertex //vertex 425 
+{ 
+ x = 2280.0; 
+ y = 3475.0; 
+}vertex //vertex 426 
+{ 
+ x = 2045.0; 
+ y = 3525.0; 
+}vertex //vertex 427 
+{ 
+ x = 2172.0; 
+ y = 3515.0; 
+}vertex //vertex 428 
+{ 
+ x = 667.0; 
+ y = 3529.0; 
+}vertex //vertex 429 
+{ 
+ x = 1999.0; 
+ y = 3534.0; 
+}vertex //vertex 430 
+{ 
+ x = 863.0; 
+ y = 3528.0; 
+}vertex //vertex 431 
+{ 
+ x = 1787.0; 
+ y = 3528.0; 
+}vertex //vertex 432 
+{ 
+ x = 2063.0; 
+ y = 3543.0; 
+}vertex //vertex 433 
+{ 
+ x = 2137.0; 
+ y = 3543.0; 
+}vertex //vertex 434 
+{ 
+ x = 923.0; 
+ y = 3589.0; 
+}vertex //vertex 435 
+{ 
+ x = 1726.0; 
+ y = 3589.0; 
+}vertex //vertex 436 
+{ 
+ x = 2057.0; 
+ y = 3623.0; 
+}vertex //vertex 437 
+{ 
+ x = 2143.0; 
+ y = 3623.0; 
+}vertex //vertex 438 
+{ 
+ x = 666.0; 
+ y = 3664.0; 
+}vertex //vertex 439 
+{ 
+ x = 1977.0; 
+ y = 3659.0; 
+}vertex //vertex 440 
+{ 
+ x = 985.0; 
+ y = 3651.0; 
+}vertex //vertex 441 
+{ 
+ x = 1664.0; 
+ y = 3651.0; 
+}vertex //vertex 442 
+{ 
+ x = 1295.0; 
+ y = 3655.0; 
+}vertex //vertex 443 
+{ 
+ x = 1355.0; 
+ y = 3655.0; 
+}vertex //vertex 444 
+{ 
+ x = 1252.0; 
+ y = 3692.0; 
+}vertex //vertex 445 
+{ 
+ x = 1398.0; 
+ y = 3697.0; 
+}vertex //vertex 446 
+{ 
+ x = 1082.0; 
+ y = 3708.0; 
+}vertex //vertex 447 
+{ 
+ x = 1567.0; 
+ y = 3709.0; 
+}vertex //vertex 448 
+{ 
+ x = 216.0; 
+ y = 3709.0; 
+}vertex //vertex 449 
+{ 
+ x = 495.0; 
+ y = 3709.0; 
+}vertex //vertex 450 
+{ 
+ x = 1606.0; 
+ y = 3712.0; 
+}vertex //vertex 451 
+{ 
+ x = 2493.0; 
+ y = 3742.0; 
+}vertex //vertex 452 
+{ 
+ x = 2549.0; 
+ y = 3749.0; 
+}vertex //vertex 453 
+{ 
+ x = 667.0; 
+ y = 3774.0; 
+}vertex //vertex 454 
+{ 
+ x = 2014.0; 
+ y = 3777.0; 
+}vertex //vertex 455 
+{ 
+ x = 2500.0; 
+ y = 3798.0; 
+}vertex //vertex 456 
+{ 
+ x = 2550.0; 
+ y = 3798.0; 
+}vertex //vertex 457 
+{ 
+ x = 2280.0; 
+ y = 3831.0; 
+}vertex //vertex 458 
+{ 
+ x = 667.0; 
+ y = 3831.0; 
+}vertex //vertex 459 
+{ 
+ x = 1971.0; 
+ y = 3835.0; 
+}vertex //vertex 460 
+{ 
+ x = 63.0; 
+ y = 3834.0; 
+}vertex //vertex 461 
+{ 
+ x = 219.0; 
+ y = 3830.0; 
+}vertex //vertex 462 
+{ 
+ x = 492.0; 
+ y = 3829.0; 
+}vertex //vertex 463 
+{ 
+ x = 851.0; 
+ y = 3842.0; 
+}vertex //vertex 464 
+{ 
+ x = 1043.0; 
+ y = 3833.0; 
+}vertex //vertex 465 
+{ 
+ x = 1606.0; 
+ y = 3833.0; 
+}vertex //vertex 466 
+{ 
+ x = 1798.0; 
+ y = 3842.0; 
+}vertex //vertex 467 
+{ 
+ x = 2015.0; 
+ y = 3834.0; 
+}vertex //vertex 468 
+{ 
+ x = 2586.0; 
+ y = 3833.0; 
+}vertex //vertex 469 
+{ 
+ x = 737.0; 
+ y = 3842.0; 
+}vertex //vertex 470 
+{ 
+ x = 990.0; 
+ y = 3836.0; 
+}vertex //vertex 471 
+{ 
+ x = 1201.0; 
+ y = 3836.0; 
+}vertex //vertex 472 
+{ 
+ x = 1448.0; 
+ y = 3836.0; 
+}vertex //vertex 473 
+{ 
+ x = 1658.0; 
+ y = 3836.0; 
+}vertex //vertex 474 
+{ 
+ x = 1912.0; 
+ y = 3842.0; 
+}linedef //linedef 0 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 31; 
+}linedef //linedef 1 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 36; 
+}linedef //linedef 2 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 24; 
+}linedef //linedef 3 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 11; 
+}linedef //linedef 4 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 0; 
+}linedef //linedef 5 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 38; 
+}linedef //linedef 6 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 38; 
+}linedef //linedef 7 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 29; 
+}linedef //linedef 8 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 8; 
+}linedef //linedef 9 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 42; 
+}linedef //linedef 10 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 11; 
+}linedef //linedef 11 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 47; 
+}linedef //linedef 12 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 50; 
+ v2 = 8; 
+}linedef //linedef 13 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 54; 
+ v2 = 9; 
+}linedef //linedef 14 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 54; 
+ v2 = 10; 
+}linedef //linedef 15 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 56; 
+ v2 = 12; 
+}linedef //linedef 16 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 56; 
+ v2 = 13; 
+}linedef //linedef 17 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 58; 
+ v2 = 38; 
+}linedef //linedef 18 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 61; 
+ v2 = 14; 
+}linedef //linedef 19 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 65; 
+ v2 = 25; 
+}linedef //linedef 20 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 75; 
+ v2 = 8; 
+}linedef //linedef 21 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 81; 
+ v2 = 24; 
+}linedef //linedef 22 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 84; 
+ v2 = 22; 
+}linedef //linedef 23 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 87; 
+ v2 = 38; 
+}linedef //linedef 24 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 92; 
+ v2 = 22; 
+}linedef //linedef 25 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 100; 
+ v2 = 22; 
+}linedef //linedef 26 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 101; 
+ v2 = 7; 
+}linedef //linedef 27 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 101; 
+ v2 = 22; 
+}linedef //linedef 28 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 102; 
+ v2 = 7; 
+}linedef //linedef 29 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 102; 
+ v2 = 22; 
+}linedef //linedef 30 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 109; 
+ v2 = 38; 
+}linedef //linedef 31 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 110; 
+ v2 = 26; 
+}linedef //linedef 32 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 122; 
+ v2 = 7; 
+}linedef //linedef 33 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 123; 
+ v2 = 22; 
+}linedef //linedef 34 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 125; 
+ v2 = 25; 
+}linedef //linedef 35 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 129; 
+ v2 = 30; 
+}linedef //linedef 36 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 130; 
+ v2 = 11; 
+}linedef //linedef 37 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 132; 
+ v2 = 7; 
+}linedef //linedef 38 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 137; 
+ v2 = 12; 
+}linedef //linedef 39 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 137; 
+ v2 = 13; 
+}linedef //linedef 40 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 138; 
+ v2 = 12; 
+}linedef //linedef 41 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 138; 
+ v2 = 13; 
+}linedef //linedef 42 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 140; 
+ v2 = 11; 
+}linedef //linedef 43 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 141; 
+ v2 = 7; 
+}linedef //linedef 44 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 145; 
+ v2 = 7; 
+}linedef //linedef 45 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 146; 
+ v2 = 47; 
+}linedef //linedef 46 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 148; 
+ v2 = 23; 
+}linedef //linedef 47 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 148; 
+ v2 = 42; 
+}linedef //linedef 48 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 149; 
+ v2 = 38; 
+}linedef //linedef 49 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 149; 
+ v2 = 47; 
+}linedef //linedef 50 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 158; 
+ v2 = 7; 
+}linedef //linedef 51 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 160; 
+ v2 = 36; 
+}linedef //linedef 52 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 162; 
+ v2 = 47; 
+}linedef //linedef 53 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 166; 
+ v2 = 22; 
+}linedef //linedef 54 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 168; 
+ v2 = 47; 
+}linedef //linedef 55 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 169; 
+ v2 = 7; 
+}linedef //linedef 56 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 169; 
+ v2 = 22; 
+}linedef //linedef 57 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 182; 
+ v2 = 7; 
+}linedef //linedef 58 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 182; 
+ v2 = 22; 
+}linedef //linedef 59 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 191; 
+ v2 = 7; 
+}linedef //linedef 60 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 191; 
+ v2 = 22; 
+}linedef //linedef 61 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 191; 
+ v2 = 30; 
+}linedef //linedef 62 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 199; 
+ v2 = 0; 
+}linedef //linedef 63 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 200; 
+ v2 = 7; 
+}linedef //linedef 64 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 200; 
+ v2 = 22; 
+}linedef //linedef 65 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 201; 
+ v2 = 7; 
+}linedef //linedef 66 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 201; 
+ v2 = 22; 
+}linedef //linedef 67 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 208; 
+ v2 = 7; 
+}linedef //linedef 68 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 208; 
+ v2 = 22; 
+}linedef //linedef 69 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 209; 
+ v2 = 7; 
+}linedef //linedef 70 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 209; 
+ v2 = 22; 
+}linedef //linedef 71 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 210; 
+ v2 = 7; 
+}linedef //linedef 72 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 210; 
+ v2 = 22; 
+}linedef //linedef 73 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 211; 
+ v2 = 25; 
+}linedef //linedef 74 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 215; 
+ v2 = 7; 
+}linedef //linedef 75 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 215; 
+ v2 = 22; 
+}linedef //linedef 76 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 216; 
+ v2 = 7; 
+}linedef //linedef 77 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 216; 
+ v2 = 8; 
+}linedef //linedef 78 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 216; 
+ v2 = 22; 
+}linedef //linedef 79 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 216; 
+ v2 = 25; 
+}linedef //linedef 80 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 217; 
+ v2 = 7; 
+}linedef //linedef 81 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 217; 
+ v2 = 22; 
+}linedef //linedef 82 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 217; 
+ v2 = 36; 
+}linedef //linedef 83 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 227; 
+ v2 = 7; 
+}linedef //linedef 84 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 227; 
+ v2 = 8; 
+}linedef //linedef 85 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 227; 
+ v2 = 22; 
+}linedef //linedef 86 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 227; 
+ v2 = 25; 
+}linedef //linedef 87 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 228; 
+ v2 = 7; 
+}linedef //linedef 88 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 228; 
+ v2 = 22; 
+}linedef //linedef 89 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 229; 
+ v2 = 7; 
+}linedef //linedef 90 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 229; 
+ v2 = 22; 
+}linedef //linedef 91 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 242; 
+ v2 = 7; 
+}linedef //linedef 92 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 242; 
+ v2 = 22; 
+}linedef //linedef 93 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 243; 
+ v2 = 7; 
+}linedef //linedef 94 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 243; 
+ v2 = 22; 
+}linedef //linedef 95 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 244; 
+ v2 = 7; 
+}linedef //linedef 96 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 244; 
+ v2 = 22; 
+}linedef //linedef 97 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 245; 
+ v2 = 7; 
+}linedef //linedef 98 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 245; 
+ v2 = 22; 
+}linedef //linedef 99 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 250; 
+ v2 = 26; 
+}linedef //linedef 100 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 250; 
+ v2 = 42; 
+}linedef //linedef 101 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 253; 
+ v2 = 7; 
+}linedef //linedef 102 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 253; 
+ v2 = 8; 
+}linedef //linedef 103 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 253; 
+ v2 = 22; 
+}linedef //linedef 104 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 253; 
+ v2 = 25; 
+}linedef //linedef 105 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 254; 
+ v2 = 7; 
+}linedef //linedef 106 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 254; 
+ v2 = 8; 
+}linedef //linedef 107 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 254; 
+ v2 = 22; 
+}linedef //linedef 108 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 257; 
+ v2 = 7; 
+}linedef //linedef 109 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 257; 
+ v2 = 8; 
+}linedef //linedef 110 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 257; 
+ v2 = 22; 
+}linedef //linedef 111 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 257; 
+ v2 = 25; 
+}linedef //linedef 112 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 258; 
+ v2 = 7; 
+}linedef //linedef 113 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 258; 
+ v2 = 8; 
+}linedef //linedef 114 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 258; 
+ v2 = 22; 
+}linedef //linedef 115 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 258; 
+ v2 = 25; 
+}linedef //linedef 116 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 263; 
+ v2 = 7; 
+}linedef //linedef 117 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 263; 
+ v2 = 8; 
+}linedef //linedef 118 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 263; 
+ v2 = 22; 
+}linedef //linedef 119 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 263; 
+ v2 = 25; 
+}linedef //linedef 120 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 264; 
+ v2 = 7; 
+}linedef //linedef 121 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 264; 
+ v2 = 8; 
+}linedef //linedef 122 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 264; 
+ v2 = 22; 
+}linedef //linedef 123 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 264; 
+ v2 = 25; 
+}linedef //linedef 124 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 264; 
+ v2 = 31; 
+}linedef //linedef 125 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 270; 
+ v2 = 7; 
+}linedef //linedef 126 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 270; 
+ v2 = 8; 
+}linedef //linedef 127 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 270; 
+ v2 = 22; 
+}linedef //linedef 128 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 270; 
+ v2 = 25; 
+}linedef //linedef 129 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 272; 
+ v2 = 7; 
+}linedef //linedef 130 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 272; 
+ v2 = 8; 
+}linedef //linedef 131 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 272; 
+ v2 = 9; 
+}linedef //linedef 132 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 272; 
+ v2 = 10; 
+}linedef //linedef 133 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 272; 
+ v2 = 22; 
+}linedef //linedef 134 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 272; 
+ v2 = 25; 
+}linedef //linedef 135 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 273; 
+ v2 = 7; 
+}linedef //linedef 136 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 273; 
+ v2 = 8; 
+}linedef //linedef 137 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 273; 
+ v2 = 22; 
+}linedef //linedef 138 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 273; 
+ v2 = 25; 
+}linedef //linedef 139 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 280; 
+ v2 = 8; 
+}linedef //linedef 140 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 282; 
+ v2 = 7; 
+}linedef //linedef 141 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 282; 
+ v2 = 8; 
+}linedef //linedef 142 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 282; 
+ v2 = 9; 
+}linedef //linedef 143 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 282; 
+ v2 = 10; 
+}linedef //linedef 144 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 282; 
+ v2 = 22; 
+}linedef //linedef 145 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 282; 
+ v2 = 25; 
+}linedef //linedef 146 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 282; 
+ v2 = 26; 
+}linedef //linedef 147 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 283; 
+ v2 = 7; 
+}linedef //linedef 148 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 283; 
+ v2 = 8; 
+}linedef //linedef 149 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 283; 
+ v2 = 9; 
+}linedef //linedef 150 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 283; 
+ v2 = 10; 
+}linedef //linedef 151 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 283; 
+ v2 = 22; 
+}linedef //linedef 152 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 283; 
+ v2 = 25; 
+}linedef //linedef 153 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 284; 
+ v2 = 7; 
+}linedef //linedef 154 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 284; 
+ v2 = 8; 
+}linedef //linedef 155 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 284; 
+ v2 = 22; 
+}linedef //linedef 156 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 284; 
+ v2 = 25; 
+}linedef //linedef 157 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 285; 
+ v2 = 7; 
+}linedef //linedef 158 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 285; 
+ v2 = 22; 
+}linedef //linedef 159 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 286; 
+ v2 = 7; 
+}linedef //linedef 160 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 286; 
+ v2 = 22; 
+}linedef //linedef 161 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 286; 
+ v2 = 25; 
+}linedef //linedef 162 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 287; 
+ v2 = 7; 
+}linedef //linedef 163 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 287; 
+ v2 = 8; 
+}linedef //linedef 164 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 287; 
+ v2 = 9; 
+}linedef //linedef 165 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 287; 
+ v2 = 10; 
+}linedef //linedef 166 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 287; 
+ v2 = 22; 
+}linedef //linedef 167 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 287; 
+ v2 = 25; 
+}linedef //linedef 168 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 287; 
+ v2 = 26; 
+}linedef //linedef 169 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 288; 
+ v2 = 7; 
+}linedef //linedef 170 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 288; 
+ v2 = 8; 
+}linedef //linedef 171 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 288; 
+ v2 = 9; 
+}linedef //linedef 172 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 288; 
+ v2 = 10; 
+}linedef //linedef 173 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 288; 
+ v2 = 22; 
+}linedef //linedef 174 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 288; 
+ v2 = 25; 
+}linedef //linedef 175 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 288; 
+ v2 = 26; 
+}linedef //linedef 176 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 289; 
+ v2 = 26; 
+}linedef //linedef 177 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 290; 
+ v2 = 29; 
+}linedef //linedef 178 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 293; 
+ v2 = 41; 
+}linedef //linedef 179 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 294; 
+ v2 = 7; 
+}linedef //linedef 180 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 294; 
+ v2 = 8; 
+}linedef //linedef 181 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 294; 
+ v2 = 22; 
+}linedef //linedef 182 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 294; 
+ v2 = 25; 
+}linedef //linedef 183 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 294; 
+ v2 = 26; 
+}linedef //linedef 184 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 304; 
+ v2 = 9; 
+}linedef //linedef 185 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 304; 
+ v2 = 10; 
+}linedef //linedef 186 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 305; 
+ v2 = 41; 
+}linedef //linedef 187 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 306; 
+ v2 = 7; 
+}linedef //linedef 188 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 306; 
+ v2 = 22; 
+}linedef //linedef 189 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 308; 
+ v2 = 7; 
+}linedef //linedef 190 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 308; 
+ v2 = 8; 
+}linedef //linedef 191 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 308; 
+ v2 = 22; 
+}linedef //linedef 192 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 308; 
+ v2 = 25; 
+}linedef //linedef 193 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 310; 
+ v2 = 8; 
+}linedef //linedef 194 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 323; 
+ v2 = 8; 
+}linedef //linedef 195 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 324; 
+ v2 = 42; 
+}linedef //linedef 196 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 325; 
+ v2 = 29; 
+}linedef //linedef 197 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 343; 
+ v2 = 25; 
+}linedef //linedef 198 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 348; 
+ v2 = 22; 
+}linedef //linedef 199 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 352; 
+ v2 = 8; 
+}linedef //linedef 200 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 354; 
+ v2 = 47; 
+}linedef //linedef 201 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 364; 
+ v2 = 42; 
+}linedef //linedef 202 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 365; 
+ v2 = 7; 
+}linedef //linedef 203 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 372; 
+ v2 = 8; 
+}linedef //linedef 204 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 378; 
+ v2 = 25; 
+}linedef //linedef 205 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 382; 
+ v2 = 9; 
+}linedef //linedef 206 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 382; 
+ v2 = 10; 
+}linedef //linedef 207 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 387; 
+ v2 = 26; 
+}linedef //linedef 208 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 388; 
+ v2 = 9; 
+}linedef //linedef 209 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 388; 
+ v2 = 10; 
+}linedef //linedef 210 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 405; 
+ v2 = 8; 
+}linedef //linedef 211 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 414; 
+ v2 = 7; 
+}linedef //linedef 212 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 452; 
+ v2 = 7; 
+}linedef //linedef 213 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 468; 
+ v2 = 7; 
+}
+

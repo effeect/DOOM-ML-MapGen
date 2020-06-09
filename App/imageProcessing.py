@@ -9,6 +9,7 @@ import numpy as np
 #This number refers
 imageScalarFactor = 5
 
+#Grabs all of the pixels values, not recommended
 def imageProcess(filename) :
     #Declaring data object
     data = []
@@ -31,18 +32,8 @@ def imageProcess(filename) :
     #Returns Data
     return data
 
-# Function to read through all of the data Points (Not Needed)
-def printPlotData( filename ):
-    data = filename
-
-    for i in data:
-        plt.plot(i[0], i[1], 'ro')
-
-    plt.show()
-
-
-#Test Code (Call it from here if you only want image processing
-imageProcess('CATWALK.png')
+# Test Code (Call it from here if you only want image processing
+# imageProcess('CATWALK.png')
 
 # https://www.youtube.com/watch?v=KH8Mq9FPVPw
 def Harris_Corner_Detection(image):
@@ -69,8 +60,8 @@ def Harris_Corner_Detection(image):
     img[dst > 0.1 * dst.max()] = [0, 0, 255]
 
     for i in corners :
-        i[0] = np.round(i[0] * 5)
-        i[1] = np.round(i[1] * 5)
+        i[0] = np.round(i[0] * imageScalarFactor)
+        i[1] = np.round(i[1] * imageScalarFactor)
 
     df = pd.DataFrame( data = corners, columns=["x","y"])
     print(df)
@@ -78,4 +69,14 @@ def Harris_Corner_Detection(image):
     df.to_json("points.json", orient="records" )
     return corners
 
-Harris_Corner_Detection("CATWALK.png")
+# Test code for Harris Corner Detection
+# Harris_Corner_Detection("CATWALK.png")
+
+# Function to read through all of the data Points (Not Needed)
+# def printPlotData( filename ):
+#     data = filename
+#
+#     for i in data:
+#         plt.plot(i[0], i[1], 'ro')
+#
+#     plt.show()
