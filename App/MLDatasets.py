@@ -11,7 +11,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #Printing out essential details to help debugging
-print("1111111111111")
 print("TensorFlow version : {}".format(tf.__version__))
 print("Eager execution : {}".format(tf.executing_eagerly()))
 

@@ -2,7 +2,7 @@
 import json
 import random
 
-text_file = open("sample3.txt", "wt")
+text_file = open("TEST3.txt", "wt")
 
 start = """namespace = "ZDoomTranslated";
 //Converted to UDMF with wad2udmf by Christopher M Freund
@@ -11,7 +11,7 @@ thing {
  y = 3921;
 angle = 90;
 type = 1;
-}"" """
+} """
 
 text_file.write(start)
 
@@ -72,6 +72,6 @@ def sidedefGen(jsonFile):
 def thingsGen(jsonFile):
     e = "e"
 
-vertexGen('points.json')
+vertexGen('jsonStuff.json')
 linedefGen("ifijo")
 

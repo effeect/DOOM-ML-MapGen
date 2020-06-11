@@ -27,6 +27,7 @@ function shuffle(array) {
     return array;
   }
 
+//Options for Neural Network : https://learn.ml5js.org/docs/#/reference/neural-network
 const options = {
     dataUrl:'COMBINEDDATAFINAL2.csv',
     inputs: ["v1x","v1y","v2x","v2y"],
@@ -34,7 +35,7 @@ const options = {
     task: 'regression'
 }
 
-//Specifying the number of inputs and outputs for the VERTEX Object
+//Declare Neural Network
 const neuralNetwork = ml5.neuralNetwork(options)
 
 
@@ -49,7 +50,7 @@ function loadData(){
     
 }
 
-const xsX = points["points"]
+const xs = points["points"]
 
 
 function nnTrain(){
@@ -60,42 +61,41 @@ function nnTrain(){
     
 }
 
-let iCon;
-let jCon;
 function handleData(){
     console.log("Training Complete")
     createVertexData()
 }
+
 //Callback when training is complete
 function createVertexData(){
-        for(let i = 0; i < 475; i++)
+        for(let i = 0; i < xs.length; i++)
         { 
             let highestValue = 0;
 
-            shuffle(xsX)
-            for(let j = 0; j < 50; j++)
-                {
-                                //Calls back handle results
-                let results = neuralNetwork.predict([xsX[i].x ,xsX[i].y , xsX[j].x  , xsX[j].y],handleResults)
-
-
-                function handleResults(error,result)
-                {
-                    if(error){
-                      console.error(error);
-                      return;
-                    }
-                    if(result[0].value > 0.9) {
-                        resultData.push({"id": 10 ,"v1": i,"v2":j,"con" : result[0].value})
-                    }
-                }
-
-
+            shuffle(xs)
+for(let j = 0; j < 30; j++)
+{
+//Calls back handle results
+let results = neuralNetwork.predict([xs[i].x ,
+                                    xs[i].y ,
+                                    xs[j].x  , 
+                                    xs[j].y],
+                                    handleResults)
+function handleResults(error,result)
+{
+    if(error){ console.error(error); return; }
+    if(result[0].value > 0.3) {
+        resultData.push({"id": 10 ,
+                        "v1": i,
+                        "v2":j,
+                        "con" : result[0].value})
+    }
+}
 
                 }
             
             //Checking progress of Classifying
-            console.log(i,475)
+            console.log(i,xs.length)
 
             console.log(highestValue)
         }
@@ -103,7 +103,8 @@ function createVertexData(){
 }
             
 
-
+// KEEP EMPTY DO NOT TOUCH
+// They need to be declared but nothing needs to be in them for now
 function setup(){
 }
 function draw(){ 

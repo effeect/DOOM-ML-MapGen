@@ -65,12 +65,13 @@ def Harris_Corner_Detection(image):
 
     df = pd.DataFrame( data = corners, columns=["x","y"])
     print(df)
-
-    df.to_json("points.json", orient="records" )
+    cv2.imshow("Modified Image", dst)
+    cv2.waitKey()
+    df.to_json("XPoints.json", orient="records" )
     return corners
 
 # Test code for Harris Corner Detection
-# Harris_Corner_Detection("CATWALK.png")
+Harris_Corner_Detection("circles.png")
 
 # Function to read through all of the data Points (Not Needed)
 # def printPlotData( filename ):

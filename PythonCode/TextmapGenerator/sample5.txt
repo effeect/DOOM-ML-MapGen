@@ -1,0 +1,184 @@
+namespace = "ZDoomTranslated";
+//Converted to UDMF with wad2udmf by Christopher M Freund
+thing {
+ x = 20;
+ y = 3921;
+angle = 90;
+type = 1;
+}"" vertex //vertex 0 
+{ 
+ x = 2878.0; 
+ y = 1617.0; 
+}vertex //vertex 1 
+{ 
+ x = 3517.0; 
+ y = 643.0; 
+}vertex //vertex 2 
+{ 
+ x = 1067.0; 
+ y = 646.0; 
+}vertex //vertex 3 
+{ 
+ x = 1102.0; 
+ y = 672.0; 
+}vertex //vertex 4 
+{ 
+ x = 3207.0; 
+ y = 648.0; 
+}vertex //vertex 5 
+{ 
+ x = 3213.0; 
+ y = 648.0; 
+}vertex //vertex 6 
+{ 
+ x = 3488.0; 
+ y = 672.0; 
+}vertex //vertex 7 
+{ 
+ x = 1078.0; 
+ y = 1222.0; 
+}vertex //vertex 8 
+{ 
+ x = 3215.0; 
+ y = 1211.0; 
+}vertex //vertex 9 
+{ 
+ x = 1078.0; 
+ y = 1228.0; 
+}vertex //vertex 10 
+{ 
+ x = 1696.0; 
+ y = 1220.0; 
+}vertex //vertex 11 
+{ 
+ x = 1739.0; 
+ y = 1220.0; 
+}vertex //vertex 12 
+{ 
+ x = 2373.0; 
+ y = 1242.0; 
+}vertex //vertex 13 
+{ 
+ x = 2414.0; 
+ y = 1227.0; 
+}vertex //vertex 14 
+{ 
+ x = 3188.0; 
+ y = 1247.0; 
+}vertex //vertex 15 
+{ 
+ x = 2414.0; 
+ y = 1903.0; 
+}vertex //vertex 16 
+{ 
+ x = 3188.0; 
+ y = 1883.0; 
+}vertex //vertex 17 
+{ 
+ x = 1078.0; 
+ y = 1907.0; 
+}vertex //vertex 18 
+{ 
+ x = 1696.0; 
+ y = 1915.0; 
+}vertex //vertex 19 
+{ 
+ x = 1743.0; 
+ y = 1908.0; 
+}vertex //vertex 20 
+{ 
+ x = 2373.0; 
+ y = 1888.0; 
+}vertex //vertex 21 
+{ 
+ x = 3215.0; 
+ y = 1919.0; 
+}vertex //vertex 22 
+{ 
+ x = 1078.0; 
+ y = 1913.0; 
+}vertex //vertex 23 
+{ 
+ x = 1102.0; 
+ y = 2678.0; 
+}vertex //vertex 24 
+{ 
+ x = 3207.0; 
+ y = 2702.0; 
+}vertex //vertex 25 
+{ 
+ x = 3213.0; 
+ y = 2702.0; 
+}vertex //vertex 26 
+{ 
+ x = 3488.0; 
+ y = 2678.0; 
+}vertex //vertex 27 
+{ 
+ x = 1073.0; 
+ y = 2695.0; 
+}vertex //vertex 28 
+{ 
+ x = 3517.0; 
+ y = 2707.0; 
+}vertex //vertex 29 
+{ 
+ x = 1102.0; 
+ y = 2712.0; 
+}vertex //vertex 30 
+{ 
+ x = 1085.0; 
+ y = 2761.0; 
+}linedef //linedef 0 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 2; 
+}linedef //linedef 1 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 3; 
+}linedef //linedef 2 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 2; 
+}linedef //linedef 3 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 3; 
+}linedef //linedef 4 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 2; 
+}linedef //linedef 5 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 3; 
+}
+
+sidedef
+{
+	sector = 0;
+}
+
+sector
+{
+heightfloor = 52;
+heightceiling = 179;
+texturefloor = "RROCK10";
+textureceiling = "FLOOR7_1";
+type = 0;
+id = 0;
+lightlevel = 170;
+}

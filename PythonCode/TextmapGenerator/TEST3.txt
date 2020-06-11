@@ -1,0 +1,8288 @@
+namespace = "ZDoomTranslated";
+//Converted to UDMF with wad2udmf by Christopher M Freund
+thing {
+ x = 20;
+ y = 3921;
+angle = 90;
+type = 1;
+} vertex //vertex 0 
+{ 
+ x = 2879.0; 
+ y = 1618.0; 
+}vertex //vertex 1 
+{ 
+ x = 1322.0; 
+ y = 767.0; 
+}vertex //vertex 2 
+{ 
+ x = 1322.0; 
+ y = 767.0; 
+}vertex //vertex 3 
+{ 
+ x = 1323.0; 
+ y = 768.0; 
+}vertex //vertex 4 
+{ 
+ x = 1323.0; 
+ y = 768.0; 
+}vertex //vertex 5 
+{ 
+ x = 2637.0; 
+ y = 986.0; 
+}vertex //vertex 6 
+{ 
+ x = 2663.0; 
+ y = 973.0; 
+}vertex //vertex 7 
+{ 
+ x = 2637.0; 
+ y = 986.0; 
+}vertex //vertex 8 
+{ 
+ x = 2638.0; 
+ y = 986.0; 
+}vertex //vertex 9 
+{ 
+ x = 1833.0; 
+ y = 1057.0; 
+}vertex //vertex 10 
+{ 
+ x = 1818.0; 
+ y = 1051.0; 
+}vertex //vertex 11 
+{ 
+ x = 1833.0; 
+ y = 1057.0; 
+}vertex //vertex 12 
+{ 
+ x = 1815.0; 
+ y = 1089.0; 
+}vertex //vertex 13 
+{ 
+ x = 1875.0; 
+ y = 1247.0; 
+}vertex //vertex 14 
+{ 
+ x = 1905.0; 
+ y = 1264.0; 
+}vertex //vertex 15 
+{ 
+ x = 1905.0; 
+ y = 1264.0; 
+}vertex //vertex 16 
+{ 
+ x = 1905.0; 
+ y = 1264.0; 
+}vertex //vertex 17 
+{ 
+ x = 1573.0; 
+ y = 1332.0; 
+}vertex //vertex 18 
+{ 
+ x = 1535.0; 
+ y = 1364.0; 
+}vertex //vertex 19 
+{ 
+ x = 1535.0; 
+ y = 1364.0; 
+}vertex //vertex 20 
+{ 
+ x = 1476.0; 
+ y = 1405.0; 
+}vertex //vertex 21 
+{ 
+ x = 1515.0; 
+ y = 1420.0; 
+}vertex //vertex 22 
+{ 
+ x = 1475.0; 
+ y = 1428.0; 
+}vertex //vertex 23 
+{ 
+ x = 1475.0; 
+ y = 1428.0; 
+}vertex //vertex 24 
+{ 
+ x = 1531.0; 
+ y = 1474.0; 
+}vertex //vertex 25 
+{ 
+ x = 2348.0; 
+ y = 1494.0; 
+}vertex //vertex 26 
+{ 
+ x = 1562.0; 
+ y = 1508.0; 
+}vertex //vertex 27 
+{ 
+ x = 2318.0; 
+ y = 1512.0; 
+}vertex //vertex 28 
+{ 
+ x = 2353.0; 
+ y = 1532.0; 
+}vertex //vertex 29 
+{ 
+ x = 2328.0; 
+ y = 1524.0; 
+}vertex //vertex 30 
+{ 
+ x = 1901.0; 
+ y = 1627.0; 
+}vertex //vertex 31 
+{ 
+ x = 1901.0; 
+ y = 1627.0; 
+}vertex //vertex 32 
+{ 
+ x = 1901.0; 
+ y = 1627.0; 
+}vertex //vertex 33 
+{ 
+ x = 1818.0; 
+ y = 1814.0; 
+}vertex //vertex 34 
+{ 
+ x = 1839.0; 
+ y = 1808.0; 
+}vertex //vertex 35 
+{ 
+ x = 1828.0; 
+ y = 1837.0; 
+}vertex //vertex 36 
+{ 
+ x = 1849.0; 
+ y = 1825.0; 
+}vertex //vertex 37 
+{ 
+ x = 2499.0; 
+ y = 1923.0; 
+}vertex //vertex 38 
+{ 
+ x = 2483.0; 
+ y = 1917.0; 
+}vertex //vertex 39 
+{ 
+ x = 2462.0; 
+ y = 1942.0; 
+}vertex //vertex 40 
+{ 
+ x = 2483.0; 
+ y = 1917.0; 
+}vertex //vertex 41 
+{ 
+ x = 1282.0; 
+ y = 2117.0; 
+}vertex //vertex 42 
+{ 
+ x = 1291.0; 
+ y = 2135.0; 
+}vertex //vertex 43 
+{ 
+ x = 1270.0; 
+ y = 2158.0; 
+}vertex //vertex 44 
+{ 
+ x = 1308.0; 
+ y = 2163.0; 
+}linedef //linedef 0 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 0; 
+}linedef //linedef 1 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 1; 
+}linedef //linedef 2 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 2; 
+}linedef //linedef 3 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 3; 
+}linedef //linedef 4 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 4; 
+}linedef //linedef 5 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 5; 
+}linedef //linedef 6 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 6; 
+}linedef //linedef 7 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 7; 
+}linedef //linedef 8 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 8; 
+}linedef //linedef 9 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 9; 
+}linedef //linedef 10 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 10; 
+}linedef //linedef 11 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 11; 
+}linedef //linedef 12 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 12; 
+}linedef //linedef 13 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 13; 
+}linedef //linedef 14 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 14; 
+}linedef //linedef 15 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 15; 
+}linedef //linedef 16 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 16; 
+}linedef //linedef 17 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 17; 
+}linedef //linedef 18 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 18; 
+}linedef //linedef 19 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 19; 
+}linedef //linedef 20 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 20; 
+}linedef //linedef 21 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 21; 
+}linedef //linedef 22 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 22; 
+}linedef //linedef 23 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 23; 
+}linedef //linedef 24 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 24; 
+}linedef //linedef 25 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 25; 
+}linedef //linedef 26 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 26; 
+}linedef //linedef 27 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 27; 
+}linedef //linedef 28 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 28; 
+}linedef //linedef 29 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 0; 
+ v2 = 29; 
+}linedef //linedef 30 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 0; 
+}linedef //linedef 31 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 1; 
+}linedef //linedef 32 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 2; 
+}linedef //linedef 33 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 3; 
+}linedef //linedef 34 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 4; 
+}linedef //linedef 35 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 5; 
+}linedef //linedef 36 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 6; 
+}linedef //linedef 37 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 7; 
+}linedef //linedef 38 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 8; 
+}linedef //linedef 39 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 9; 
+}linedef //linedef 40 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 10; 
+}linedef //linedef 41 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 11; 
+}linedef //linedef 42 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 12; 
+}linedef //linedef 43 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 13; 
+}linedef //linedef 44 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 14; 
+}linedef //linedef 45 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 15; 
+}linedef //linedef 46 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 16; 
+}linedef //linedef 47 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 17; 
+}linedef //linedef 48 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 18; 
+}linedef //linedef 49 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 19; 
+}linedef //linedef 50 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 20; 
+}linedef //linedef 51 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 21; 
+}linedef //linedef 52 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 22; 
+}linedef //linedef 53 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 23; 
+}linedef //linedef 54 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 24; 
+}linedef //linedef 55 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 25; 
+}linedef //linedef 56 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 26; 
+}linedef //linedef 57 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 27; 
+}linedef //linedef 58 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 28; 
+}linedef //linedef 59 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 29; 
+}linedef //linedef 60 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 0; 
+}linedef //linedef 61 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 1; 
+}linedef //linedef 62 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 2; 
+}linedef //linedef 63 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 3; 
+}linedef //linedef 64 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 4; 
+}linedef //linedef 65 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 5; 
+}linedef //linedef 66 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 6; 
+}linedef //linedef 67 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 7; 
+}linedef //linedef 68 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 8; 
+}linedef //linedef 69 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 9; 
+}linedef //linedef 70 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 10; 
+}linedef //linedef 71 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 11; 
+}linedef //linedef 72 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 12; 
+}linedef //linedef 73 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 13; 
+}linedef //linedef 74 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 14; 
+}linedef //linedef 75 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 15; 
+}linedef //linedef 76 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 16; 
+}linedef //linedef 77 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 17; 
+}linedef //linedef 78 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 18; 
+}linedef //linedef 79 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 19; 
+}linedef //linedef 80 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 20; 
+}linedef //linedef 81 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 21; 
+}linedef //linedef 82 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 22; 
+}linedef //linedef 83 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 23; 
+}linedef //linedef 84 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 24; 
+}linedef //linedef 85 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 25; 
+}linedef //linedef 86 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 26; 
+}linedef //linedef 87 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 27; 
+}linedef //linedef 88 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 28; 
+}linedef //linedef 89 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 29; 
+}linedef //linedef 90 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 0; 
+}linedef //linedef 91 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 1; 
+}linedef //linedef 92 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 2; 
+}linedef //linedef 93 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 3; 
+}linedef //linedef 94 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 4; 
+}linedef //linedef 95 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 5; 
+}linedef //linedef 96 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 6; 
+}linedef //linedef 97 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 7; 
+}linedef //linedef 98 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 8; 
+}linedef //linedef 99 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 9; 
+}linedef //linedef 100 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 10; 
+}linedef //linedef 101 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 11; 
+}linedef //linedef 102 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 12; 
+}linedef //linedef 103 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 13; 
+}linedef //linedef 104 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 14; 
+}linedef //linedef 105 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 15; 
+}linedef //linedef 106 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 16; 
+}linedef //linedef 107 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 17; 
+}linedef //linedef 108 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 18; 
+}linedef //linedef 109 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 19; 
+}linedef //linedef 110 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 20; 
+}linedef //linedef 111 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 21; 
+}linedef //linedef 112 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 22; 
+}linedef //linedef 113 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 23; 
+}linedef //linedef 114 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 24; 
+}linedef //linedef 115 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 25; 
+}linedef //linedef 116 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 26; 
+}linedef //linedef 117 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 27; 
+}linedef //linedef 118 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 28; 
+}linedef //linedef 119 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 29; 
+}linedef //linedef 120 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 0; 
+}linedef //linedef 121 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 1; 
+}linedef //linedef 122 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 2; 
+}linedef //linedef 123 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 3; 
+}linedef //linedef 124 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 4; 
+}linedef //linedef 125 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 5; 
+}linedef //linedef 126 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 6; 
+}linedef //linedef 127 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 7; 
+}linedef //linedef 128 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 8; 
+}linedef //linedef 129 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 9; 
+}linedef //linedef 130 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 10; 
+}linedef //linedef 131 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 11; 
+}linedef //linedef 132 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 12; 
+}linedef //linedef 133 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 13; 
+}linedef //linedef 134 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 14; 
+}linedef //linedef 135 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 15; 
+}linedef //linedef 136 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 16; 
+}linedef //linedef 137 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 17; 
+}linedef //linedef 138 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 18; 
+}linedef //linedef 139 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 19; 
+}linedef //linedef 140 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 20; 
+}linedef //linedef 141 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 21; 
+}linedef //linedef 142 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 22; 
+}linedef //linedef 143 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 23; 
+}linedef //linedef 144 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 24; 
+}linedef //linedef 145 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 25; 
+}linedef //linedef 146 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 26; 
+}linedef //linedef 147 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 27; 
+}linedef //linedef 148 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 28; 
+}linedef //linedef 149 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 29; 
+}linedef //linedef 150 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 0; 
+}linedef //linedef 151 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 1; 
+}linedef //linedef 152 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 2; 
+}linedef //linedef 153 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 3; 
+}linedef //linedef 154 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 4; 
+}linedef //linedef 155 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 5; 
+}linedef //linedef 156 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 6; 
+}linedef //linedef 157 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 7; 
+}linedef //linedef 158 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 8; 
+}linedef //linedef 159 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 9; 
+}linedef //linedef 160 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 10; 
+}linedef //linedef 161 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 11; 
+}linedef //linedef 162 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 12; 
+}linedef //linedef 163 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 13; 
+}linedef //linedef 164 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 14; 
+}linedef //linedef 165 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 15; 
+}linedef //linedef 166 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 16; 
+}linedef //linedef 167 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 17; 
+}linedef //linedef 168 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 18; 
+}linedef //linedef 169 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 19; 
+}linedef //linedef 170 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 20; 
+}linedef //linedef 171 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 21; 
+}linedef //linedef 172 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 22; 
+}linedef //linedef 173 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 23; 
+}linedef //linedef 174 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 24; 
+}linedef //linedef 175 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 25; 
+}linedef //linedef 176 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 26; 
+}linedef //linedef 177 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 27; 
+}linedef //linedef 178 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 28; 
+}linedef //linedef 179 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 29; 
+}linedef //linedef 180 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 0; 
+}linedef //linedef 181 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 1; 
+}linedef //linedef 182 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 2; 
+}linedef //linedef 183 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 3; 
+}linedef //linedef 184 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 4; 
+}linedef //linedef 185 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 5; 
+}linedef //linedef 186 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 6; 
+}linedef //linedef 187 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 7; 
+}linedef //linedef 188 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 8; 
+}linedef //linedef 189 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 9; 
+}linedef //linedef 190 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 10; 
+}linedef //linedef 191 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 11; 
+}linedef //linedef 192 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 12; 
+}linedef //linedef 193 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 13; 
+}linedef //linedef 194 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 14; 
+}linedef //linedef 195 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 15; 
+}linedef //linedef 196 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 16; 
+}linedef //linedef 197 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 17; 
+}linedef //linedef 198 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 18; 
+}linedef //linedef 199 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 19; 
+}linedef //linedef 200 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 20; 
+}linedef //linedef 201 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 21; 
+}linedef //linedef 202 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 22; 
+}linedef //linedef 203 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 23; 
+}linedef //linedef 204 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 24; 
+}linedef //linedef 205 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 25; 
+}linedef //linedef 206 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 26; 
+}linedef //linedef 207 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 27; 
+}linedef //linedef 208 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 28; 
+}linedef //linedef 209 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 29; 
+}linedef //linedef 210 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 0; 
+}linedef //linedef 211 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 1; 
+}linedef //linedef 212 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 2; 
+}linedef //linedef 213 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 3; 
+}linedef //linedef 214 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 4; 
+}linedef //linedef 215 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 5; 
+}linedef //linedef 216 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 6; 
+}linedef //linedef 217 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 7; 
+}linedef //linedef 218 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 8; 
+}linedef //linedef 219 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 9; 
+}linedef //linedef 220 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 10; 
+}linedef //linedef 221 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 11; 
+}linedef //linedef 222 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 12; 
+}linedef //linedef 223 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 13; 
+}linedef //linedef 224 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 14; 
+}linedef //linedef 225 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 15; 
+}linedef //linedef 226 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 16; 
+}linedef //linedef 227 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 17; 
+}linedef //linedef 228 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 18; 
+}linedef //linedef 229 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 19; 
+}linedef //linedef 230 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 20; 
+}linedef //linedef 231 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 21; 
+}linedef //linedef 232 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 22; 
+}linedef //linedef 233 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 23; 
+}linedef //linedef 234 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 24; 
+}linedef //linedef 235 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 25; 
+}linedef //linedef 236 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 26; 
+}linedef //linedef 237 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 27; 
+}linedef //linedef 238 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 28; 
+}linedef //linedef 239 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 29; 
+}linedef //linedef 240 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 0; 
+}linedef //linedef 241 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 1; 
+}linedef //linedef 242 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 2; 
+}linedef //linedef 243 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 3; 
+}linedef //linedef 244 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 4; 
+}linedef //linedef 245 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 5; 
+}linedef //linedef 246 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 6; 
+}linedef //linedef 247 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 7; 
+}linedef //linedef 248 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 8; 
+}linedef //linedef 249 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 9; 
+}linedef //linedef 250 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 10; 
+}linedef //linedef 251 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 11; 
+}linedef //linedef 252 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 12; 
+}linedef //linedef 253 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 13; 
+}linedef //linedef 254 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 14; 
+}linedef //linedef 255 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 15; 
+}linedef //linedef 256 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 16; 
+}linedef //linedef 257 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 17; 
+}linedef //linedef 258 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 18; 
+}linedef //linedef 259 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 19; 
+}linedef //linedef 260 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 20; 
+}linedef //linedef 261 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 21; 
+}linedef //linedef 262 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 22; 
+}linedef //linedef 263 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 23; 
+}linedef //linedef 264 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 24; 
+}linedef //linedef 265 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 25; 
+}linedef //linedef 266 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 26; 
+}linedef //linedef 267 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 27; 
+}linedef //linedef 268 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 28; 
+}linedef //linedef 269 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 29; 
+}linedef //linedef 270 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 0; 
+}linedef //linedef 271 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 1; 
+}linedef //linedef 272 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 2; 
+}linedef //linedef 273 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 3; 
+}linedef //linedef 274 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 4; 
+}linedef //linedef 275 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 5; 
+}linedef //linedef 276 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 6; 
+}linedef //linedef 277 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 7; 
+}linedef //linedef 278 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 8; 
+}linedef //linedef 279 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 9; 
+}linedef //linedef 280 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 10; 
+}linedef //linedef 281 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 11; 
+}linedef //linedef 282 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 12; 
+}linedef //linedef 283 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 13; 
+}linedef //linedef 284 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 14; 
+}linedef //linedef 285 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 15; 
+}linedef //linedef 286 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 16; 
+}linedef //linedef 287 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 17; 
+}linedef //linedef 288 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 18; 
+}linedef //linedef 289 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 19; 
+}linedef //linedef 290 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 20; 
+}linedef //linedef 291 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 21; 
+}linedef //linedef 292 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 22; 
+}linedef //linedef 293 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 23; 
+}linedef //linedef 294 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 24; 
+}linedef //linedef 295 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 25; 
+}linedef //linedef 296 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 26; 
+}linedef //linedef 297 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 27; 
+}linedef //linedef 298 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 28; 
+}linedef //linedef 299 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 29; 
+}linedef //linedef 300 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 0; 
+}linedef //linedef 301 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 1; 
+}linedef //linedef 302 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 2; 
+}linedef //linedef 303 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 3; 
+}linedef //linedef 304 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 4; 
+}linedef //linedef 305 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 5; 
+}linedef //linedef 306 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 6; 
+}linedef //linedef 307 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 7; 
+}linedef //linedef 308 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 8; 
+}linedef //linedef 309 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 9; 
+}linedef //linedef 310 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 10; 
+}linedef //linedef 311 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 11; 
+}linedef //linedef 312 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 12; 
+}linedef //linedef 313 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 13; 
+}linedef //linedef 314 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 14; 
+}linedef //linedef 315 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 15; 
+}linedef //linedef 316 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 16; 
+}linedef //linedef 317 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 17; 
+}linedef //linedef 318 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 18; 
+}linedef //linedef 319 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 19; 
+}linedef //linedef 320 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 20; 
+}linedef //linedef 321 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 21; 
+}linedef //linedef 322 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 22; 
+}linedef //linedef 323 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 23; 
+}linedef //linedef 324 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 24; 
+}linedef //linedef 325 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 25; 
+}linedef //linedef 326 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 26; 
+}linedef //linedef 327 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 27; 
+}linedef //linedef 328 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 28; 
+}linedef //linedef 329 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 29; 
+}linedef //linedef 330 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 0; 
+}linedef //linedef 331 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 1; 
+}linedef //linedef 332 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 2; 
+}linedef //linedef 333 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 3; 
+}linedef //linedef 334 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 4; 
+}linedef //linedef 335 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 5; 
+}linedef //linedef 336 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 6; 
+}linedef //linedef 337 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 7; 
+}linedef //linedef 338 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 8; 
+}linedef //linedef 339 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 9; 
+}linedef //linedef 340 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 10; 
+}linedef //linedef 341 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 11; 
+}linedef //linedef 342 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 12; 
+}linedef //linedef 343 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 13; 
+}linedef //linedef 344 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 14; 
+}linedef //linedef 345 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 15; 
+}linedef //linedef 346 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 16; 
+}linedef //linedef 347 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 17; 
+}linedef //linedef 348 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 18; 
+}linedef //linedef 349 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 19; 
+}linedef //linedef 350 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 20; 
+}linedef //linedef 351 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 21; 
+}linedef //linedef 352 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 22; 
+}linedef //linedef 353 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 23; 
+}linedef //linedef 354 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 24; 
+}linedef //linedef 355 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 25; 
+}linedef //linedef 356 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 26; 
+}linedef //linedef 357 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 27; 
+}linedef //linedef 358 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 28; 
+}linedef //linedef 359 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 29; 
+}linedef //linedef 360 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 0; 
+}linedef //linedef 361 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 1; 
+}linedef //linedef 362 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 2; 
+}linedef //linedef 363 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 3; 
+}linedef //linedef 364 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 4; 
+}linedef //linedef 365 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 5; 
+}linedef //linedef 366 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 6; 
+}linedef //linedef 367 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 7; 
+}linedef //linedef 368 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 8; 
+}linedef //linedef 369 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 9; 
+}linedef //linedef 370 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 10; 
+}linedef //linedef 371 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 11; 
+}linedef //linedef 372 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 12; 
+}linedef //linedef 373 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 13; 
+}linedef //linedef 374 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 14; 
+}linedef //linedef 375 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 15; 
+}linedef //linedef 376 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 16; 
+}linedef //linedef 377 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 17; 
+}linedef //linedef 378 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 18; 
+}linedef //linedef 379 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 19; 
+}linedef //linedef 380 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 20; 
+}linedef //linedef 381 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 21; 
+}linedef //linedef 382 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 22; 
+}linedef //linedef 383 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 23; 
+}linedef //linedef 384 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 24; 
+}linedef //linedef 385 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 25; 
+}linedef //linedef 386 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 26; 
+}linedef //linedef 387 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 27; 
+}linedef //linedef 388 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 28; 
+}linedef //linedef 389 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 29; 
+}linedef //linedef 390 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 0; 
+}linedef //linedef 391 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 1; 
+}linedef //linedef 392 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 2; 
+}linedef //linedef 393 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 3; 
+}linedef //linedef 394 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 4; 
+}linedef //linedef 395 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 5; 
+}linedef //linedef 396 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 6; 
+}linedef //linedef 397 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 7; 
+}linedef //linedef 398 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 8; 
+}linedef //linedef 399 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 9; 
+}linedef //linedef 400 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 10; 
+}linedef //linedef 401 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 11; 
+}linedef //linedef 402 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 12; 
+}linedef //linedef 403 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 13; 
+}linedef //linedef 404 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 14; 
+}linedef //linedef 405 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 15; 
+}linedef //linedef 406 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 16; 
+}linedef //linedef 407 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 17; 
+}linedef //linedef 408 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 18; 
+}linedef //linedef 409 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 19; 
+}linedef //linedef 410 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 20; 
+}linedef //linedef 411 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 21; 
+}linedef //linedef 412 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 22; 
+}linedef //linedef 413 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 23; 
+}linedef //linedef 414 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 24; 
+}linedef //linedef 415 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 25; 
+}linedef //linedef 416 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 26; 
+}linedef //linedef 417 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 27; 
+}linedef //linedef 418 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 28; 
+}linedef //linedef 419 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 29; 
+}linedef //linedef 420 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 0; 
+}linedef //linedef 421 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 1; 
+}linedef //linedef 422 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 2; 
+}linedef //linedef 423 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 3; 
+}linedef //linedef 424 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 4; 
+}linedef //linedef 425 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 5; 
+}linedef //linedef 426 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 6; 
+}linedef //linedef 427 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 7; 
+}linedef //linedef 428 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 8; 
+}linedef //linedef 429 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 9; 
+}linedef //linedef 430 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 10; 
+}linedef //linedef 431 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 11; 
+}linedef //linedef 432 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 12; 
+}linedef //linedef 433 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 13; 
+}linedef //linedef 434 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 14; 
+}linedef //linedef 435 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 15; 
+}linedef //linedef 436 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 16; 
+}linedef //linedef 437 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 17; 
+}linedef //linedef 438 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 18; 
+}linedef //linedef 439 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 19; 
+}linedef //linedef 440 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 20; 
+}linedef //linedef 441 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 21; 
+}linedef //linedef 442 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 22; 
+}linedef //linedef 443 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 23; 
+}linedef //linedef 444 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 24; 
+}linedef //linedef 445 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 25; 
+}linedef //linedef 446 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 26; 
+}linedef //linedef 447 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 27; 
+}linedef //linedef 448 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 28; 
+}linedef //linedef 449 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 29; 
+}linedef //linedef 450 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 0; 
+}linedef //linedef 451 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 1; 
+}linedef //linedef 452 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 2; 
+}linedef //linedef 453 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 3; 
+}linedef //linedef 454 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 4; 
+}linedef //linedef 455 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 5; 
+}linedef //linedef 456 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 6; 
+}linedef //linedef 457 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 7; 
+}linedef //linedef 458 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 8; 
+}linedef //linedef 459 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 9; 
+}linedef //linedef 460 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 10; 
+}linedef //linedef 461 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 11; 
+}linedef //linedef 462 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 12; 
+}linedef //linedef 463 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 13; 
+}linedef //linedef 464 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 14; 
+}linedef //linedef 465 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 15; 
+}linedef //linedef 466 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 16; 
+}linedef //linedef 467 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 17; 
+}linedef //linedef 468 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 18; 
+}linedef //linedef 469 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 19; 
+}linedef //linedef 470 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 20; 
+}linedef //linedef 471 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 21; 
+}linedef //linedef 472 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 22; 
+}linedef //linedef 473 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 23; 
+}linedef //linedef 474 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 24; 
+}linedef //linedef 475 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 25; 
+}linedef //linedef 476 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 26; 
+}linedef //linedef 477 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 27; 
+}linedef //linedef 478 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 28; 
+}linedef //linedef 479 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 15; 
+ v2 = 29; 
+}linedef //linedef 480 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 0; 
+}linedef //linedef 481 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 1; 
+}linedef //linedef 482 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 2; 
+}linedef //linedef 483 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 3; 
+}linedef //linedef 484 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 4; 
+}linedef //linedef 485 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 5; 
+}linedef //linedef 486 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 6; 
+}linedef //linedef 487 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 7; 
+}linedef //linedef 488 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 8; 
+}linedef //linedef 489 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 9; 
+}linedef //linedef 490 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 10; 
+}linedef //linedef 491 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 11; 
+}linedef //linedef 492 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 12; 
+}linedef //linedef 493 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 13; 
+}linedef //linedef 494 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 14; 
+}linedef //linedef 495 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 15; 
+}linedef //linedef 496 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 16; 
+}linedef //linedef 497 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 17; 
+}linedef //linedef 498 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 18; 
+}linedef //linedef 499 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 19; 
+}linedef //linedef 500 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 20; 
+}linedef //linedef 501 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 21; 
+}linedef //linedef 502 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 22; 
+}linedef //linedef 503 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 23; 
+}linedef //linedef 504 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 24; 
+}linedef //linedef 505 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 25; 
+}linedef //linedef 506 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 26; 
+}linedef //linedef 507 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 27; 
+}linedef //linedef 508 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 28; 
+}linedef //linedef 509 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 16; 
+ v2 = 29; 
+}linedef //linedef 510 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 0; 
+}linedef //linedef 511 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 1; 
+}linedef //linedef 512 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 2; 
+}linedef //linedef 513 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 3; 
+}linedef //linedef 514 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 4; 
+}linedef //linedef 515 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 5; 
+}linedef //linedef 516 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 6; 
+}linedef //linedef 517 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 7; 
+}linedef //linedef 518 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 8; 
+}linedef //linedef 519 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 9; 
+}linedef //linedef 520 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 10; 
+}linedef //linedef 521 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 11; 
+}linedef //linedef 522 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 12; 
+}linedef //linedef 523 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 13; 
+}linedef //linedef 524 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 14; 
+}linedef //linedef 525 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 15; 
+}linedef //linedef 526 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 16; 
+}linedef //linedef 527 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 17; 
+}linedef //linedef 528 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 18; 
+}linedef //linedef 529 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 19; 
+}linedef //linedef 530 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 20; 
+}linedef //linedef 531 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 21; 
+}linedef //linedef 532 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 22; 
+}linedef //linedef 533 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 23; 
+}linedef //linedef 534 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 24; 
+}linedef //linedef 535 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 25; 
+}linedef //linedef 536 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 26; 
+}linedef //linedef 537 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 27; 
+}linedef //linedef 538 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 28; 
+}linedef //linedef 539 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 17; 
+ v2 = 29; 
+}linedef //linedef 540 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 0; 
+}linedef //linedef 541 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 1; 
+}linedef //linedef 542 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 2; 
+}linedef //linedef 543 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 3; 
+}linedef //linedef 544 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 4; 
+}linedef //linedef 545 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 5; 
+}linedef //linedef 546 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 6; 
+}linedef //linedef 547 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 7; 
+}linedef //linedef 548 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 8; 
+}linedef //linedef 549 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 9; 
+}linedef //linedef 550 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 10; 
+}linedef //linedef 551 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 11; 
+}linedef //linedef 552 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 12; 
+}linedef //linedef 553 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 13; 
+}linedef //linedef 554 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 14; 
+}linedef //linedef 555 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 15; 
+}linedef //linedef 556 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 16; 
+}linedef //linedef 557 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 17; 
+}linedef //linedef 558 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 18; 
+}linedef //linedef 559 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 19; 
+}linedef //linedef 560 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 20; 
+}linedef //linedef 561 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 21; 
+}linedef //linedef 562 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 22; 
+}linedef //linedef 563 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 23; 
+}linedef //linedef 564 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 24; 
+}linedef //linedef 565 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 25; 
+}linedef //linedef 566 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 26; 
+}linedef //linedef 567 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 27; 
+}linedef //linedef 568 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 28; 
+}linedef //linedef 569 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 18; 
+ v2 = 29; 
+}linedef //linedef 570 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 0; 
+}linedef //linedef 571 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 1; 
+}linedef //linedef 572 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 2; 
+}linedef //linedef 573 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 3; 
+}linedef //linedef 574 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 4; 
+}linedef //linedef 575 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 5; 
+}linedef //linedef 576 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 6; 
+}linedef //linedef 577 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 7; 
+}linedef //linedef 578 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 8; 
+}linedef //linedef 579 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 9; 
+}linedef //linedef 580 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 10; 
+}linedef //linedef 581 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 11; 
+}linedef //linedef 582 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 12; 
+}linedef //linedef 583 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 13; 
+}linedef //linedef 584 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 14; 
+}linedef //linedef 585 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 15; 
+}linedef //linedef 586 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 16; 
+}linedef //linedef 587 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 17; 
+}linedef //linedef 588 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 18; 
+}linedef //linedef 589 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 19; 
+}linedef //linedef 590 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 20; 
+}linedef //linedef 591 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 21; 
+}linedef //linedef 592 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 22; 
+}linedef //linedef 593 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 23; 
+}linedef //linedef 594 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 24; 
+}linedef //linedef 595 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 25; 
+}linedef //linedef 596 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 26; 
+}linedef //linedef 597 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 27; 
+}linedef //linedef 598 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 28; 
+}linedef //linedef 599 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 19; 
+ v2 = 29; 
+}linedef //linedef 600 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 0; 
+}linedef //linedef 601 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 1; 
+}linedef //linedef 602 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 2; 
+}linedef //linedef 603 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 3; 
+}linedef //linedef 604 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 4; 
+}linedef //linedef 605 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 5; 
+}linedef //linedef 606 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 6; 
+}linedef //linedef 607 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 7; 
+}linedef //linedef 608 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 8; 
+}linedef //linedef 609 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 9; 
+}linedef //linedef 610 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 10; 
+}linedef //linedef 611 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 11; 
+}linedef //linedef 612 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 12; 
+}linedef //linedef 613 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 13; 
+}linedef //linedef 614 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 14; 
+}linedef //linedef 615 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 15; 
+}linedef //linedef 616 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 16; 
+}linedef //linedef 617 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 17; 
+}linedef //linedef 618 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 18; 
+}linedef //linedef 619 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 19; 
+}linedef //linedef 620 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 20; 
+}linedef //linedef 621 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 21; 
+}linedef //linedef 622 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 22; 
+}linedef //linedef 623 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 23; 
+}linedef //linedef 624 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 24; 
+}linedef //linedef 625 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 25; 
+}linedef //linedef 626 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 26; 
+}linedef //linedef 627 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 27; 
+}linedef //linedef 628 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 28; 
+}linedef //linedef 629 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 20; 
+ v2 = 29; 
+}linedef //linedef 630 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 0; 
+}linedef //linedef 631 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 1; 
+}linedef //linedef 632 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 2; 
+}linedef //linedef 633 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 3; 
+}linedef //linedef 634 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 4; 
+}linedef //linedef 635 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 5; 
+}linedef //linedef 636 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 6; 
+}linedef //linedef 637 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 7; 
+}linedef //linedef 638 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 8; 
+}linedef //linedef 639 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 9; 
+}linedef //linedef 640 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 10; 
+}linedef //linedef 641 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 11; 
+}linedef //linedef 642 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 12; 
+}linedef //linedef 643 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 13; 
+}linedef //linedef 644 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 14; 
+}linedef //linedef 645 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 15; 
+}linedef //linedef 646 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 16; 
+}linedef //linedef 647 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 17; 
+}linedef //linedef 648 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 18; 
+}linedef //linedef 649 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 19; 
+}linedef //linedef 650 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 20; 
+}linedef //linedef 651 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 21; 
+}linedef //linedef 652 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 22; 
+}linedef //linedef 653 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 23; 
+}linedef //linedef 654 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 24; 
+}linedef //linedef 655 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 25; 
+}linedef //linedef 656 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 26; 
+}linedef //linedef 657 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 27; 
+}linedef //linedef 658 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 28; 
+}linedef //linedef 659 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 21; 
+ v2 = 29; 
+}linedef //linedef 660 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 0; 
+}linedef //linedef 661 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 1; 
+}linedef //linedef 662 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 2; 
+}linedef //linedef 663 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 3; 
+}linedef //linedef 664 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 4; 
+}linedef //linedef 665 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 5; 
+}linedef //linedef 666 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 6; 
+}linedef //linedef 667 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 7; 
+}linedef //linedef 668 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 8; 
+}linedef //linedef 669 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 9; 
+}linedef //linedef 670 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 10; 
+}linedef //linedef 671 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 11; 
+}linedef //linedef 672 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 12; 
+}linedef //linedef 673 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 13; 
+}linedef //linedef 674 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 14; 
+}linedef //linedef 675 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 15; 
+}linedef //linedef 676 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 16; 
+}linedef //linedef 677 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 17; 
+}linedef //linedef 678 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 18; 
+}linedef //linedef 679 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 19; 
+}linedef //linedef 680 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 20; 
+}linedef //linedef 681 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 21; 
+}linedef //linedef 682 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 22; 
+}linedef //linedef 683 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 23; 
+}linedef //linedef 684 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 24; 
+}linedef //linedef 685 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 25; 
+}linedef //linedef 686 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 26; 
+}linedef //linedef 687 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 27; 
+}linedef //linedef 688 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 28; 
+}linedef //linedef 689 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 22; 
+ v2 = 29; 
+}linedef //linedef 690 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 0; 
+}linedef //linedef 691 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 1; 
+}linedef //linedef 692 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 2; 
+}linedef //linedef 693 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 3; 
+}linedef //linedef 694 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 4; 
+}linedef //linedef 695 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 5; 
+}linedef //linedef 696 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 6; 
+}linedef //linedef 697 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 7; 
+}linedef //linedef 698 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 8; 
+}linedef //linedef 699 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 9; 
+}linedef //linedef 700 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 10; 
+}linedef //linedef 701 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 11; 
+}linedef //linedef 702 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 12; 
+}linedef //linedef 703 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 13; 
+}linedef //linedef 704 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 14; 
+}linedef //linedef 705 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 15; 
+}linedef //linedef 706 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 16; 
+}linedef //linedef 707 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 17; 
+}linedef //linedef 708 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 18; 
+}linedef //linedef 709 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 19; 
+}linedef //linedef 710 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 20; 
+}linedef //linedef 711 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 21; 
+}linedef //linedef 712 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 22; 
+}linedef //linedef 713 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 23; 
+}linedef //linedef 714 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 24; 
+}linedef //linedef 715 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 25; 
+}linedef //linedef 716 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 26; 
+}linedef //linedef 717 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 27; 
+}linedef //linedef 718 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 28; 
+}linedef //linedef 719 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 23; 
+ v2 = 29; 
+}linedef //linedef 720 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 0; 
+}linedef //linedef 721 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 1; 
+}linedef //linedef 722 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 2; 
+}linedef //linedef 723 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 3; 
+}linedef //linedef 724 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 4; 
+}linedef //linedef 725 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 5; 
+}linedef //linedef 726 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 6; 
+}linedef //linedef 727 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 7; 
+}linedef //linedef 728 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 8; 
+}linedef //linedef 729 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 9; 
+}linedef //linedef 730 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 10; 
+}linedef //linedef 731 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 11; 
+}linedef //linedef 732 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 12; 
+}linedef //linedef 733 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 13; 
+}linedef //linedef 734 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 14; 
+}linedef //linedef 735 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 15; 
+}linedef //linedef 736 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 16; 
+}linedef //linedef 737 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 17; 
+}linedef //linedef 738 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 18; 
+}linedef //linedef 739 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 19; 
+}linedef //linedef 740 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 20; 
+}linedef //linedef 741 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 21; 
+}linedef //linedef 742 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 22; 
+}linedef //linedef 743 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 23; 
+}linedef //linedef 744 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 24; 
+}linedef //linedef 745 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 25; 
+}linedef //linedef 746 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 26; 
+}linedef //linedef 747 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 27; 
+}linedef //linedef 748 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 28; 
+}linedef //linedef 749 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 24; 
+ v2 = 29; 
+}linedef //linedef 750 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 0; 
+}linedef //linedef 751 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 1; 
+}linedef //linedef 752 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 2; 
+}linedef //linedef 753 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 3; 
+}linedef //linedef 754 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 4; 
+}linedef //linedef 755 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 5; 
+}linedef //linedef 756 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 6; 
+}linedef //linedef 757 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 7; 
+}linedef //linedef 758 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 8; 
+}linedef //linedef 759 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 9; 
+}linedef //linedef 760 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 10; 
+}linedef //linedef 761 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 11; 
+}linedef //linedef 762 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 12; 
+}linedef //linedef 763 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 13; 
+}linedef //linedef 764 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 14; 
+}linedef //linedef 765 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 15; 
+}linedef //linedef 766 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 16; 
+}linedef //linedef 767 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 17; 
+}linedef //linedef 768 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 18; 
+}linedef //linedef 769 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 19; 
+}linedef //linedef 770 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 20; 
+}linedef //linedef 771 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 21; 
+}linedef //linedef 772 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 22; 
+}linedef //linedef 773 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 23; 
+}linedef //linedef 774 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 24; 
+}linedef //linedef 775 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 25; 
+}linedef //linedef 776 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 26; 
+}linedef //linedef 777 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 27; 
+}linedef //linedef 778 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 28; 
+}linedef //linedef 779 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 25; 
+ v2 = 29; 
+}linedef //linedef 780 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 0; 
+}linedef //linedef 781 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 1; 
+}linedef //linedef 782 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 2; 
+}linedef //linedef 783 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 3; 
+}linedef //linedef 784 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 4; 
+}linedef //linedef 785 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 5; 
+}linedef //linedef 786 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 6; 
+}linedef //linedef 787 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 7; 
+}linedef //linedef 788 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 8; 
+}linedef //linedef 789 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 9; 
+}linedef //linedef 790 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 10; 
+}linedef //linedef 791 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 11; 
+}linedef //linedef 792 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 12; 
+}linedef //linedef 793 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 13; 
+}linedef //linedef 794 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 14; 
+}linedef //linedef 795 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 15; 
+}linedef //linedef 796 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 16; 
+}linedef //linedef 797 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 17; 
+}linedef //linedef 798 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 18; 
+}linedef //linedef 799 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 19; 
+}linedef //linedef 800 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 20; 
+}linedef //linedef 801 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 21; 
+}linedef //linedef 802 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 22; 
+}linedef //linedef 803 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 23; 
+}linedef //linedef 804 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 24; 
+}linedef //linedef 805 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 25; 
+}linedef //linedef 806 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 26; 
+}linedef //linedef 807 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 27; 
+}linedef //linedef 808 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 28; 
+}linedef //linedef 809 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 26; 
+ v2 = 29; 
+}linedef //linedef 810 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 0; 
+}linedef //linedef 811 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 1; 
+}linedef //linedef 812 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 2; 
+}linedef //linedef 813 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 3; 
+}linedef //linedef 814 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 4; 
+}linedef //linedef 815 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 5; 
+}linedef //linedef 816 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 6; 
+}linedef //linedef 817 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 7; 
+}linedef //linedef 818 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 8; 
+}linedef //linedef 819 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 9; 
+}linedef //linedef 820 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 10; 
+}linedef //linedef 821 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 11; 
+}linedef //linedef 822 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 12; 
+}linedef //linedef 823 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 13; 
+}linedef //linedef 824 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 14; 
+}linedef //linedef 825 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 15; 
+}linedef //linedef 826 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 16; 
+}linedef //linedef 827 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 17; 
+}linedef //linedef 828 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 18; 
+}linedef //linedef 829 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 19; 
+}linedef //linedef 830 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 20; 
+}linedef //linedef 831 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 21; 
+}linedef //linedef 832 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 22; 
+}linedef //linedef 833 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 23; 
+}linedef //linedef 834 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 24; 
+}linedef //linedef 835 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 25; 
+}linedef //linedef 836 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 26; 
+}linedef //linedef 837 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 27; 
+}linedef //linedef 838 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 28; 
+}linedef //linedef 839 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 27; 
+ v2 = 29; 
+}linedef //linedef 840 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 0; 
+}linedef //linedef 841 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 1; 
+}linedef //linedef 842 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 2; 
+}linedef //linedef 843 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 3; 
+}linedef //linedef 844 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 4; 
+}linedef //linedef 845 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 5; 
+}linedef //linedef 846 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 6; 
+}linedef //linedef 847 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 7; 
+}linedef //linedef 848 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 8; 
+}linedef //linedef 849 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 9; 
+}linedef //linedef 850 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 10; 
+}linedef //linedef 851 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 11; 
+}linedef //linedef 852 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 12; 
+}linedef //linedef 853 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 13; 
+}linedef //linedef 854 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 14; 
+}linedef //linedef 855 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 15; 
+}linedef //linedef 856 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 16; 
+}linedef //linedef 857 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 17; 
+}linedef //linedef 858 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 18; 
+}linedef //linedef 859 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 19; 
+}linedef //linedef 860 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 20; 
+}linedef //linedef 861 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 21; 
+}linedef //linedef 862 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 22; 
+}linedef //linedef 863 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 23; 
+}linedef //linedef 864 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 24; 
+}linedef //linedef 865 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 25; 
+}linedef //linedef 866 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 26; 
+}linedef //linedef 867 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 27; 
+}linedef //linedef 868 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 28; 
+}linedef //linedef 869 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 28; 
+ v2 = 29; 
+}linedef //linedef 870 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 0; 
+}linedef //linedef 871 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 1; 
+}linedef //linedef 872 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 2; 
+}linedef //linedef 873 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 3; 
+}linedef //linedef 874 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 4; 
+}linedef //linedef 875 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 5; 
+}linedef //linedef 876 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 6; 
+}linedef //linedef 877 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 7; 
+}linedef //linedef 878 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 8; 
+}linedef //linedef 879 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 9; 
+}linedef //linedef 880 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 10; 
+}linedef //linedef 881 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 11; 
+}linedef //linedef 882 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 12; 
+}linedef //linedef 883 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 13; 
+}linedef //linedef 884 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 14; 
+}linedef //linedef 885 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 15; 
+}linedef //linedef 886 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 16; 
+}linedef //linedef 887 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 17; 
+}linedef //linedef 888 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 18; 
+}linedef //linedef 889 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 19; 
+}linedef //linedef 890 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 20; 
+}linedef //linedef 891 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 21; 
+}linedef //linedef 892 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 22; 
+}linedef //linedef 893 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 23; 
+}linedef //linedef 894 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 24; 
+}linedef //linedef 895 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 25; 
+}linedef //linedef 896 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 26; 
+}linedef //linedef 897 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 27; 
+}linedef //linedef 898 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 28; 
+}linedef //linedef 899 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 29; 
+ v2 = 29; 
+}linedef //linedef 900 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 0; 
+}linedef //linedef 901 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 1; 
+}linedef //linedef 902 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 2; 
+}linedef //linedef 903 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 3; 
+}linedef //linedef 904 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 4; 
+}linedef //linedef 905 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 5; 
+}linedef //linedef 906 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 6; 
+}linedef //linedef 907 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 7; 
+}linedef //linedef 908 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 8; 
+}linedef //linedef 909 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 9; 
+}linedef //linedef 910 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 10; 
+}linedef //linedef 911 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 11; 
+}linedef //linedef 912 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 12; 
+}linedef //linedef 913 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 13; 
+}linedef //linedef 914 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 14; 
+}linedef //linedef 915 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 15; 
+}linedef //linedef 916 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 16; 
+}linedef //linedef 917 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 17; 
+}linedef //linedef 918 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 18; 
+}linedef //linedef 919 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 19; 
+}linedef //linedef 920 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 20; 
+}linedef //linedef 921 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 21; 
+}linedef //linedef 922 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 22; 
+}linedef //linedef 923 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 23; 
+}linedef //linedef 924 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 24; 
+}linedef //linedef 925 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 25; 
+}linedef //linedef 926 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 26; 
+}linedef //linedef 927 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 27; 
+}linedef //linedef 928 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 28; 
+}linedef //linedef 929 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 30; 
+ v2 = 29; 
+}linedef //linedef 930 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 0; 
+}linedef //linedef 931 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 1; 
+}linedef //linedef 932 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 2; 
+}linedef //linedef 933 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 3; 
+}linedef //linedef 934 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 4; 
+}linedef //linedef 935 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 5; 
+}linedef //linedef 936 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 6; 
+}linedef //linedef 937 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 7; 
+}linedef //linedef 938 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 8; 
+}linedef //linedef 939 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 9; 
+}linedef //linedef 940 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 10; 
+}linedef //linedef 941 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 11; 
+}linedef //linedef 942 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 12; 
+}linedef //linedef 943 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 13; 
+}linedef //linedef 944 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 14; 
+}linedef //linedef 945 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 15; 
+}linedef //linedef 946 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 16; 
+}linedef //linedef 947 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 17; 
+}linedef //linedef 948 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 18; 
+}linedef //linedef 949 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 19; 
+}linedef //linedef 950 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 20; 
+}linedef //linedef 951 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 21; 
+}linedef //linedef 952 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 22; 
+}linedef //linedef 953 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 23; 
+}linedef //linedef 954 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 24; 
+}linedef //linedef 955 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 25; 
+}linedef //linedef 956 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 26; 
+}linedef //linedef 957 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 27; 
+}linedef //linedef 958 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 28; 
+}linedef //linedef 959 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 31; 
+ v2 = 29; 
+}linedef //linedef 960 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 0; 
+}linedef //linedef 961 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 1; 
+}linedef //linedef 962 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 2; 
+}linedef //linedef 963 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 3; 
+}linedef //linedef 964 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 4; 
+}linedef //linedef 965 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 5; 
+}linedef //linedef 966 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 6; 
+}linedef //linedef 967 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 7; 
+}linedef //linedef 968 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 8; 
+}linedef //linedef 969 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 9; 
+}linedef //linedef 970 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 10; 
+}linedef //linedef 971 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 11; 
+}linedef //linedef 972 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 12; 
+}linedef //linedef 973 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 13; 
+}linedef //linedef 974 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 14; 
+}linedef //linedef 975 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 15; 
+}linedef //linedef 976 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 16; 
+}linedef //linedef 977 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 17; 
+}linedef //linedef 978 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 18; 
+}linedef //linedef 979 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 19; 
+}linedef //linedef 980 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 20; 
+}linedef //linedef 981 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 21; 
+}linedef //linedef 982 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 22; 
+}linedef //linedef 983 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 23; 
+}linedef //linedef 984 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 24; 
+}linedef //linedef 985 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 25; 
+}linedef //linedef 986 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 26; 
+}linedef //linedef 987 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 27; 
+}linedef //linedef 988 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 28; 
+}linedef //linedef 989 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 32; 
+ v2 = 29; 
+}linedef //linedef 990 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 0; 
+}linedef //linedef 991 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 1; 
+}linedef //linedef 992 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 2; 
+}linedef //linedef 993 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 3; 
+}linedef //linedef 994 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 4; 
+}linedef //linedef 995 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 5; 
+}linedef //linedef 996 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 6; 
+}linedef //linedef 997 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 7; 
+}linedef //linedef 998 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 8; 
+}linedef //linedef 999 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 9; 
+}linedef //linedef 1000 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 10; 
+}linedef //linedef 1001 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 11; 
+}linedef //linedef 1002 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 12; 
+}linedef //linedef 1003 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 13; 
+}linedef //linedef 1004 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 14; 
+}linedef //linedef 1005 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 15; 
+}linedef //linedef 1006 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 16; 
+}linedef //linedef 1007 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 17; 
+}linedef //linedef 1008 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 18; 
+}linedef //linedef 1009 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 19; 
+}linedef //linedef 1010 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 20; 
+}linedef //linedef 1011 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 21; 
+}linedef //linedef 1012 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 22; 
+}linedef //linedef 1013 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 23; 
+}linedef //linedef 1014 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 24; 
+}linedef //linedef 1015 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 25; 
+}linedef //linedef 1016 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 26; 
+}linedef //linedef 1017 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 27; 
+}linedef //linedef 1018 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 28; 
+}linedef //linedef 1019 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 33; 
+ v2 = 29; 
+}linedef //linedef 1020 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 0; 
+}linedef //linedef 1021 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 1; 
+}linedef //linedef 1022 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 2; 
+}linedef //linedef 1023 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 3; 
+}linedef //linedef 1024 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 4; 
+}linedef //linedef 1025 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 5; 
+}linedef //linedef 1026 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 6; 
+}linedef //linedef 1027 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 7; 
+}linedef //linedef 1028 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 8; 
+}linedef //linedef 1029 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 9; 
+}linedef //linedef 1030 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 10; 
+}linedef //linedef 1031 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 11; 
+}linedef //linedef 1032 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 12; 
+}linedef //linedef 1033 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 13; 
+}linedef //linedef 1034 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 14; 
+}linedef //linedef 1035 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 15; 
+}linedef //linedef 1036 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 16; 
+}linedef //linedef 1037 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 17; 
+}linedef //linedef 1038 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 18; 
+}linedef //linedef 1039 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 19; 
+}linedef //linedef 1040 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 20; 
+}linedef //linedef 1041 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 21; 
+}linedef //linedef 1042 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 22; 
+}linedef //linedef 1043 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 23; 
+}linedef //linedef 1044 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 24; 
+}linedef //linedef 1045 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 25; 
+}linedef //linedef 1046 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 26; 
+}linedef //linedef 1047 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 27; 
+}linedef //linedef 1048 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 28; 
+}linedef //linedef 1049 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 34; 
+ v2 = 29; 
+}linedef //linedef 1050 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 0; 
+}linedef //linedef 1051 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 1; 
+}linedef //linedef 1052 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 2; 
+}linedef //linedef 1053 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 3; 
+}linedef //linedef 1054 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 4; 
+}linedef //linedef 1055 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 5; 
+}linedef //linedef 1056 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 6; 
+}linedef //linedef 1057 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 7; 
+}linedef //linedef 1058 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 8; 
+}linedef //linedef 1059 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 9; 
+}linedef //linedef 1060 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 10; 
+}linedef //linedef 1061 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 11; 
+}linedef //linedef 1062 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 12; 
+}linedef //linedef 1063 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 13; 
+}linedef //linedef 1064 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 14; 
+}linedef //linedef 1065 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 15; 
+}linedef //linedef 1066 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 16; 
+}linedef //linedef 1067 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 17; 
+}linedef //linedef 1068 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 18; 
+}linedef //linedef 1069 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 19; 
+}linedef //linedef 1070 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 20; 
+}linedef //linedef 1071 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 21; 
+}linedef //linedef 1072 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 22; 
+}linedef //linedef 1073 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 23; 
+}linedef //linedef 1074 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 24; 
+}linedef //linedef 1075 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 25; 
+}linedef //linedef 1076 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 26; 
+}linedef //linedef 1077 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 27; 
+}linedef //linedef 1078 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 28; 
+}linedef //linedef 1079 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 35; 
+ v2 = 29; 
+}linedef //linedef 1080 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 0; 
+}linedef //linedef 1081 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 1; 
+}linedef //linedef 1082 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 2; 
+}linedef //linedef 1083 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 3; 
+}linedef //linedef 1084 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 4; 
+}linedef //linedef 1085 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 5; 
+}linedef //linedef 1086 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 6; 
+}linedef //linedef 1087 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 7; 
+}linedef //linedef 1088 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 8; 
+}linedef //linedef 1089 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 9; 
+}linedef //linedef 1090 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 10; 
+}linedef //linedef 1091 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 11; 
+}linedef //linedef 1092 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 12; 
+}linedef //linedef 1093 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 13; 
+}linedef //linedef 1094 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 14; 
+}linedef //linedef 1095 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 15; 
+}linedef //linedef 1096 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 16; 
+}linedef //linedef 1097 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 17; 
+}linedef //linedef 1098 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 18; 
+}linedef //linedef 1099 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 19; 
+}linedef //linedef 1100 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 20; 
+}linedef //linedef 1101 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 21; 
+}linedef //linedef 1102 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 22; 
+}linedef //linedef 1103 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 23; 
+}linedef //linedef 1104 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 24; 
+}linedef //linedef 1105 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 25; 
+}linedef //linedef 1106 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 26; 
+}linedef //linedef 1107 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 27; 
+}linedef //linedef 1108 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 28; 
+}linedef //linedef 1109 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 36; 
+ v2 = 29; 
+}linedef //linedef 1110 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 0; 
+}linedef //linedef 1111 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 1; 
+}linedef //linedef 1112 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 2; 
+}linedef //linedef 1113 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 3; 
+}linedef //linedef 1114 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 4; 
+}linedef //linedef 1115 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 5; 
+}linedef //linedef 1116 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 6; 
+}linedef //linedef 1117 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 7; 
+}linedef //linedef 1118 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 8; 
+}linedef //linedef 1119 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 9; 
+}linedef //linedef 1120 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 10; 
+}linedef //linedef 1121 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 11; 
+}linedef //linedef 1122 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 12; 
+}linedef //linedef 1123 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 13; 
+}linedef //linedef 1124 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 14; 
+}linedef //linedef 1125 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 15; 
+}linedef //linedef 1126 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 16; 
+}linedef //linedef 1127 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 17; 
+}linedef //linedef 1128 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 18; 
+}linedef //linedef 1129 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 19; 
+}linedef //linedef 1130 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 20; 
+}linedef //linedef 1131 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 21; 
+}linedef //linedef 1132 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 22; 
+}linedef //linedef 1133 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 23; 
+}linedef //linedef 1134 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 24; 
+}linedef //linedef 1135 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 25; 
+}linedef //linedef 1136 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 26; 
+}linedef //linedef 1137 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 27; 
+}linedef //linedef 1138 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 28; 
+}linedef //linedef 1139 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 37; 
+ v2 = 29; 
+}linedef //linedef 1140 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 0; 
+}linedef //linedef 1141 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 1; 
+}linedef //linedef 1142 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 2; 
+}linedef //linedef 1143 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 3; 
+}linedef //linedef 1144 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 4; 
+}linedef //linedef 1145 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 5; 
+}linedef //linedef 1146 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 6; 
+}linedef //linedef 1147 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 7; 
+}linedef //linedef 1148 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 8; 
+}linedef //linedef 1149 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 9; 
+}linedef //linedef 1150 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 10; 
+}linedef //linedef 1151 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 11; 
+}linedef //linedef 1152 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 12; 
+}linedef //linedef 1153 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 13; 
+}linedef //linedef 1154 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 14; 
+}linedef //linedef 1155 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 15; 
+}linedef //linedef 1156 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 16; 
+}linedef //linedef 1157 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 17; 
+}linedef //linedef 1158 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 18; 
+}linedef //linedef 1159 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 19; 
+}linedef //linedef 1160 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 20; 
+}linedef //linedef 1161 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 21; 
+}linedef //linedef 1162 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 22; 
+}linedef //linedef 1163 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 23; 
+}linedef //linedef 1164 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 24; 
+}linedef //linedef 1165 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 25; 
+}linedef //linedef 1166 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 26; 
+}linedef //linedef 1167 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 27; 
+}linedef //linedef 1168 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 28; 
+}linedef //linedef 1169 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 38; 
+ v2 = 29; 
+}linedef //linedef 1170 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 0; 
+}linedef //linedef 1171 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 1; 
+}linedef //linedef 1172 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 2; 
+}linedef //linedef 1173 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 3; 
+}linedef //linedef 1174 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 4; 
+}linedef //linedef 1175 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 5; 
+}linedef //linedef 1176 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 6; 
+}linedef //linedef 1177 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 7; 
+}linedef //linedef 1178 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 8; 
+}linedef //linedef 1179 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 9; 
+}linedef //linedef 1180 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 10; 
+}linedef //linedef 1181 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 11; 
+}linedef //linedef 1182 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 12; 
+}linedef //linedef 1183 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 13; 
+}linedef //linedef 1184 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 14; 
+}linedef //linedef 1185 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 15; 
+}linedef //linedef 1186 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 16; 
+}linedef //linedef 1187 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 17; 
+}linedef //linedef 1188 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 18; 
+}linedef //linedef 1189 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 19; 
+}linedef //linedef 1190 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 20; 
+}linedef //linedef 1191 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 21; 
+}linedef //linedef 1192 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 22; 
+}linedef //linedef 1193 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 23; 
+}linedef //linedef 1194 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 24; 
+}linedef //linedef 1195 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 25; 
+}linedef //linedef 1196 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 26; 
+}linedef //linedef 1197 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 27; 
+}linedef //linedef 1198 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 28; 
+}linedef //linedef 1199 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 39; 
+ v2 = 29; 
+}linedef //linedef 1200 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 0; 
+}linedef //linedef 1201 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 1; 
+}linedef //linedef 1202 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 2; 
+}linedef //linedef 1203 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 3; 
+}linedef //linedef 1204 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 4; 
+}linedef //linedef 1205 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 5; 
+}linedef //linedef 1206 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 6; 
+}linedef //linedef 1207 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 7; 
+}linedef //linedef 1208 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 8; 
+}linedef //linedef 1209 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 9; 
+}linedef //linedef 1210 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 10; 
+}linedef //linedef 1211 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 11; 
+}linedef //linedef 1212 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 12; 
+}linedef //linedef 1213 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 13; 
+}linedef //linedef 1214 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 14; 
+}linedef //linedef 1215 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 15; 
+}linedef //linedef 1216 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 16; 
+}linedef //linedef 1217 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 17; 
+}linedef //linedef 1218 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 18; 
+}linedef //linedef 1219 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 19; 
+}linedef //linedef 1220 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 20; 
+}linedef //linedef 1221 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 21; 
+}linedef //linedef 1222 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 22; 
+}linedef //linedef 1223 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 23; 
+}linedef //linedef 1224 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 24; 
+}linedef //linedef 1225 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 25; 
+}linedef //linedef 1226 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 26; 
+}linedef //linedef 1227 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 27; 
+}linedef //linedef 1228 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 28; 
+}linedef //linedef 1229 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 40; 
+ v2 = 29; 
+}linedef //linedef 1230 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 0; 
+}linedef //linedef 1231 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 1; 
+}linedef //linedef 1232 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 2; 
+}linedef //linedef 1233 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 3; 
+}linedef //linedef 1234 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 4; 
+}linedef //linedef 1235 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 5; 
+}linedef //linedef 1236 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 6; 
+}linedef //linedef 1237 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 7; 
+}linedef //linedef 1238 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 8; 
+}linedef //linedef 1239 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 9; 
+}linedef //linedef 1240 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 10; 
+}linedef //linedef 1241 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 11; 
+}linedef //linedef 1242 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 12; 
+}linedef //linedef 1243 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 13; 
+}linedef //linedef 1244 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 14; 
+}linedef //linedef 1245 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 15; 
+}linedef //linedef 1246 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 16; 
+}linedef //linedef 1247 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 17; 
+}linedef //linedef 1248 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 18; 
+}linedef //linedef 1249 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 19; 
+}linedef //linedef 1250 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 20; 
+}linedef //linedef 1251 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 21; 
+}linedef //linedef 1252 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 22; 
+}linedef //linedef 1253 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 23; 
+}linedef //linedef 1254 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 24; 
+}linedef //linedef 1255 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 25; 
+}linedef //linedef 1256 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 26; 
+}linedef //linedef 1257 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 27; 
+}linedef //linedef 1258 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 28; 
+}linedef //linedef 1259 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 41; 
+ v2 = 29; 
+}linedef //linedef 1260 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 0; 
+}linedef //linedef 1261 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 1; 
+}linedef //linedef 1262 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 2; 
+}linedef //linedef 1263 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 3; 
+}linedef //linedef 1264 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 4; 
+}linedef //linedef 1265 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 5; 
+}linedef //linedef 1266 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 6; 
+}linedef //linedef 1267 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 7; 
+}linedef //linedef 1268 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 8; 
+}linedef //linedef 1269 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 9; 
+}linedef //linedef 1270 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 10; 
+}linedef //linedef 1271 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 11; 
+}linedef //linedef 1272 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 12; 
+}linedef //linedef 1273 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 13; 
+}linedef //linedef 1274 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 14; 
+}linedef //linedef 1275 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 15; 
+}linedef //linedef 1276 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 16; 
+}linedef //linedef 1277 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 17; 
+}linedef //linedef 1278 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 18; 
+}linedef //linedef 1279 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 19; 
+}linedef //linedef 1280 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 20; 
+}linedef //linedef 1281 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 21; 
+}linedef //linedef 1282 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 22; 
+}linedef //linedef 1283 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 23; 
+}linedef //linedef 1284 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 24; 
+}linedef //linedef 1285 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 25; 
+}linedef //linedef 1286 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 26; 
+}linedef //linedef 1287 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 27; 
+}linedef //linedef 1288 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 28; 
+}linedef //linedef 1289 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 42; 
+ v2 = 29; 
+}linedef //linedef 1290 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 0; 
+}linedef //linedef 1291 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 1; 
+}linedef //linedef 1292 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 2; 
+}linedef //linedef 1293 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 3; 
+}linedef //linedef 1294 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 4; 
+}linedef //linedef 1295 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 5; 
+}linedef //linedef 1296 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 6; 
+}linedef //linedef 1297 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 7; 
+}linedef //linedef 1298 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 8; 
+}linedef //linedef 1299 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 9; 
+}linedef //linedef 1300 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 10; 
+}linedef //linedef 1301 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 11; 
+}linedef //linedef 1302 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 12; 
+}linedef //linedef 1303 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 13; 
+}linedef //linedef 1304 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 14; 
+}linedef //linedef 1305 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 15; 
+}linedef //linedef 1306 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 16; 
+}linedef //linedef 1307 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 17; 
+}linedef //linedef 1308 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 18; 
+}linedef //linedef 1309 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 19; 
+}linedef //linedef 1310 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 20; 
+}linedef //linedef 1311 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 21; 
+}linedef //linedef 1312 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 22; 
+}linedef //linedef 1313 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 23; 
+}linedef //linedef 1314 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 24; 
+}linedef //linedef 1315 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 25; 
+}linedef //linedef 1316 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 26; 
+}linedef //linedef 1317 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 27; 
+}linedef //linedef 1318 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 28; 
+}linedef //linedef 1319 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 43; 
+ v2 = 29; 
+}linedef //linedef 1320 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 0; 
+}linedef //linedef 1321 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 1; 
+}linedef //linedef 1322 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 2; 
+}linedef //linedef 1323 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 3; 
+}linedef //linedef 1324 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 4; 
+}linedef //linedef 1325 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 5; 
+}linedef //linedef 1326 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 6; 
+}linedef //linedef 1327 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 7; 
+}linedef //linedef 1328 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 8; 
+}linedef //linedef 1329 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 9; 
+}linedef //linedef 1330 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 10; 
+}linedef //linedef 1331 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 11; 
+}linedef //linedef 1332 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 12; 
+}linedef //linedef 1333 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 13; 
+}linedef //linedef 1334 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 14; 
+}linedef //linedef 1335 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 15; 
+}linedef //linedef 1336 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 16; 
+}linedef //linedef 1337 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 17; 
+}linedef //linedef 1338 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 18; 
+}linedef //linedef 1339 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 19; 
+}linedef //linedef 1340 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 20; 
+}linedef //linedef 1341 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 21; 
+}linedef //linedef 1342 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 22; 
+}linedef //linedef 1343 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 23; 
+}linedef //linedef 1344 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 24; 
+}linedef //linedef 1345 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 25; 
+}linedef //linedef 1346 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 26; 
+}linedef //linedef 1347 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 27; 
+}linedef //linedef 1348 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 28; 
+}linedef //linedef 1349 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 44; 
+ v2 = 29; 
+}

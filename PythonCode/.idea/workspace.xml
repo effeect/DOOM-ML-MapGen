@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71ee109e-42eb-45ad-8575-5df644bed04e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PythonScripts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonScripts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UDMFMaps/MapMarkerImages/FISTULA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/MLDatasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/../App/MLDatasets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../App/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App/imageProcessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/../App/imageProcessing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOOM2WadMaster/BLACKTWR.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOOM2WadMaster/BLACKTWR.WAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOOM2WadMaster/BLOODSEA.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOOM2WadMaster/BLOODSEA.WAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOOM2WadMaster/MANOR.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOOM2WadMaster/MANOR.WAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOOM2WadMaster/TTRAP.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DOOM2WadMaster/TTRAP.WAD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScriptTools/ML5Application/COMBINEDDATAFINAL2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaScriptTools/ML5Application/COMBINEDDATAFINAL2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScriptTools/ML5Application/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaScriptTools/ML5Application/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaScriptTools/ML5Application/vertexCreator.js" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaScriptTools/ML5Application/vertexCreator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextmapGenerator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TextmapGenerator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextmapGenerator/jsonStuff.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextmapGenerator/jsonStuff.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextmapGenerator/linedef.json" beforeDir="false" afterPath="$PROJECT_DIR$/TextmapGenerator/linedef.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextmapGenerator/textmapGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/TextmapGenerator/textmapGenerator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +30,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1XU4Tad9BdbZj4MsOp72UnxYTpN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -73,6 +90,7 @@
       <updated>1581087347275</updated>
       <workItem from="1581087348426" duration="45000" />
       <workItem from="1583005738190" duration="8000" />
+      <workItem from="1590426346992" duration="14000" />
     </task>
     <servers />
   </component>

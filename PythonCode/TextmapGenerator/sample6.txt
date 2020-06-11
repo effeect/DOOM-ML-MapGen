@@ -1,0 +1,595 @@
+namespace = "ZDoomTranslated";
+//Converted to UDMF with wad2udmf by Christopher M Freund
+thing {
+ x = 20;
+ y = 3921;
+angle = 90;
+type = 1;
+}
+ vertex //vertex 0
+{ 
+ x = 2878.0; 
+ y = 1617.0; 
+}vertex //vertex 1 
+{ 
+ x = 3517.0; 
+ y = 643.0; 
+}vertex //vertex 2 
+{ 
+ x = 1067.0; 
+ y = 646.0; 
+}vertex //vertex 3 
+{ 
+ x = 1102.0; 
+ y = 672.0; 
+}vertex //vertex 4 
+{ 
+ x = 3207.0; 
+ y = 648.0; 
+}vertex //vertex 5 
+{ 
+ x = 3213.0; 
+ y = 648.0; 
+}vertex //vertex 6 
+{ 
+ x = 3488.0; 
+ y = 672.0; 
+}vertex //vertex 7 
+{ 
+ x = 1078.0; 
+ y = 1222.0; 
+}vertex //vertex 8 
+{ 
+ x = 3215.0; 
+ y = 1211.0; 
+}vertex //vertex 9 
+{ 
+ x = 1078.0; 
+ y = 1228.0; 
+}vertex //vertex 10 
+{ 
+ x = 1696.0; 
+ y = 1220.0; 
+}vertex //vertex 11 
+{ 
+ x = 1739.0; 
+ y = 1220.0; 
+}vertex //vertex 12 
+{ 
+ x = 2373.0; 
+ y = 1242.0; 
+}vertex //vertex 13 
+{ 
+ x = 2414.0; 
+ y = 1227.0; 
+}vertex //vertex 14 
+{ 
+ x = 3188.0; 
+ y = 1247.0; 
+}vertex //vertex 15 
+{ 
+ x = 2414.0; 
+ y = 1903.0; 
+}vertex //vertex 16 
+{ 
+ x = 3188.0; 
+ y = 1883.0; 
+}vertex //vertex 17 
+{ 
+ x = 1078.0; 
+ y = 1907.0; 
+}vertex //vertex 18 
+{ 
+ x = 1696.0; 
+ y = 1915.0; 
+}vertex //vertex 19 
+{ 
+ x = 1743.0; 
+ y = 1908.0; 
+}vertex //vertex 20 
+{ 
+ x = 2373.0; 
+ y = 1888.0; 
+}vertex //vertex 21 
+{ 
+ x = 3215.0; 
+ y = 1919.0; 
+}vertex //vertex 22 
+{ 
+ x = 1078.0; 
+ y = 1913.0; 
+}vertex //vertex 23 
+{ 
+ x = 1102.0; 
+ y = 2678.0; 
+}vertex //vertex 24 
+{ 
+ x = 3207.0; 
+ y = 2702.0; 
+}vertex //vertex 25 
+{ 
+ x = 3213.0; 
+ y = 2702.0; 
+}vertex //vertex 26 
+{ 
+ x = 3488.0; 
+ y = 2678.0; 
+}vertex //vertex 27 
+{ 
+ x = 1073.0; 
+ y = 2695.0; 
+}vertex //vertex 28 
+{ 
+ x = 3517.0; 
+ y = 2707.0; 
+}vertex //vertex 29 
+{ 
+ x = 1102.0; 
+ y = 2712.0; 
+}vertex //vertex 30 
+{ 
+ x = 1085.0; 
+ y = 2761.0; 
+}linedef //linedef 0 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 0; 
+}linedef //linedef 1 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 8; 
+}linedef //linedef 2 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 14; 
+}linedef //linedef 3 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 16; 
+}linedef //linedef 4 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 1; 
+ v2 = 21; 
+}linedef //linedef 5 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 0; 
+}linedef //linedef 6 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 1; 
+}linedef //linedef 7 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 4; 
+}linedef //linedef 8 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 5; 
+}linedef //linedef 9 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 6; 
+}linedef //linedef 10 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 8; 
+}linedef //linedef 11 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 12; 
+}linedef //linedef 12 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 13; 
+}linedef //linedef 13 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 14; 
+}linedef //linedef 14 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 16; 
+}linedef //linedef 15 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 21; 
+}linedef //linedef 16 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 24; 
+}linedef //linedef 17 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 25; 
+}linedef //linedef 18 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 26; 
+}linedef //linedef 19 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 2; 
+ v2 = 28; 
+}linedef //linedef 20 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 0; 
+}linedef //linedef 21 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 1; 
+}linedef //linedef 22 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 4; 
+}linedef //linedef 23 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 5; 
+}linedef //linedef 24 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 6; 
+}linedef //linedef 25 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 8; 
+}linedef //linedef 26 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 14; 
+}linedef //linedef 27 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 16; 
+}linedef //linedef 28 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 21; 
+}linedef //linedef 29 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 24; 
+}linedef //linedef 30 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 25; 
+}linedef //linedef 31 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 26; 
+}linedef //linedef 32 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 3; 
+ v2 = 28; 
+}linedef //linedef 33 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 0; 
+}linedef //linedef 34 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 4; 
+}linedef //linedef 35 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 5; 
+}linedef //linedef 36 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 8; 
+}linedef //linedef 37 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 4; 
+ v2 = 14; 
+}linedef //linedef 38 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 0; 
+}linedef //linedef 39 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 4; 
+}linedef //linedef 40 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 5; 
+}linedef //linedef 41 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 8; 
+}linedef //linedef 42 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 5; 
+ v2 = 14; 
+}linedef //linedef 43 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 0; 
+}linedef //linedef 44 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 4; 
+}linedef //linedef 45 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 5; 
+}linedef //linedef 46 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 8; 
+}linedef //linedef 47 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 14; 
+}linedef //linedef 48 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 16; 
+}linedef //linedef 49 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 6; 
+ v2 = 21; 
+}linedef //linedef 50 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 4; 
+}linedef //linedef 51 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 5; 
+}linedef //linedef 52 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 7; 
+ v2 = 6; 
+}linedef //linedef 53 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 1; 
+}linedef //linedef 54 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 5; 
+}linedef //linedef 55 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 8; 
+ v2 = 6; 
+}linedef //linedef 56 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 4; 
+}linedef //linedef 57 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 5; 
+}linedef //linedef 58 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 9; 
+ v2 = 6; 
+}linedef //linedef 59 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 1; 
+}linedef //linedef 60 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 4; 
+}linedef //linedef 61 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 5; 
+}linedef //linedef 62 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 10; 
+ v2 = 6; 
+}linedef //linedef 63 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 1; 
+}linedef //linedef 64 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 4; 
+}linedef //linedef 65 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 5; 
+}linedef //linedef 66 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 11; 
+ v2 = 6; 
+}linedef //linedef 67 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 1; 
+}linedef //linedef 68 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 4; 
+}linedef //linedef 69 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 5; 
+}linedef //linedef 70 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 12; 
+ v2 = 6; 
+}linedef //linedef 71 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 1; 
+}linedef //linedef 72 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 4; 
+}linedef //linedef 73 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 5; 
+}linedef //linedef 74 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 13; 
+ v2 = 6; 
+}linedef //linedef 75 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 1; 
+}linedef //linedef 76 
+{ 
+ id = 0; 
+ twosided = true;
+ v1 = 14; 
+ v2 = 6; 
+}
