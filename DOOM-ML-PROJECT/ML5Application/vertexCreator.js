@@ -120,7 +120,6 @@ function draw(){
 
 
 function mousePressed() {
-    nnTrain()
 }
 
 

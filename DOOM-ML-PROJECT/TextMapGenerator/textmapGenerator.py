@@ -13,7 +13,22 @@ angle = 90;
 type = 1;
 } """
 
-text_file.write(start)
+end = """sidedef
+{
+	sector = 0;
+}
+
+sector
+{
+heightfloor = 52;
+heightceiling = 179;
+texturefloor = "RROCK10";
+textureceiling = "FLOOR7_1";
+type = 0;
+id = 0;
+lightlevel = 170;
+}"""
+
 
 # Vertices Generation
 def vertexGen( filename ):
@@ -63,6 +78,8 @@ def linedefGen(stringOriginal):
         print(string)
         text_file.write(string)
 
+
+
 def sectorGen(jsonFile):
     e = "placeholder"
 
@@ -72,6 +89,7 @@ def sidedefGen(jsonFile):
 def thingsGen(jsonFile):
     e = "placeholder"
 
+text_file.write(start)
 vertexGen('points.json')
 linedefGen("linedef.json")
-
+text_file.write(end)

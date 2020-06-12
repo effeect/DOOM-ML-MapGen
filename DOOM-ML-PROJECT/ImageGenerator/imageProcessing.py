@@ -47,7 +47,7 @@ def Harris_Corner_Detection(image):
     return corners
 
 # Test code for Harris Corner Detection
-Harris_Corner_Detection("circles.png")
+Harris_Corner_Detection("squares.png")
 
 
 #Grabs all of the pixels values, NOT IN USE
