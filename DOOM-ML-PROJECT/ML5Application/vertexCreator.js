@@ -1,7 +1,10 @@
 /*
-    DOOM-ML Vertex Training :
+    DOOM-ML LINEDEF Training :
     
-    This file contains all of the processes necessairly to create vertex data for a UDMF DOOM MAP
+    This file contains all of the processes necessairly to create LINEDEF Data for DOOM
+    
+    Please use the following commands to run the program properly :
+    
     
     
 */
@@ -29,7 +32,7 @@ function shuffle(array) {
 
 //Options for Neural Network : https://learn.ml5js.org/docs/#/reference/neural-network
 const options = {
-    dataUrl:'COMBINEDDATAFINAL2.csv',
+    dataUrl:'DATASET.csv',
     inputs: ["v1x","v1y","v2x","v2y"],
     outputs: ["isCorrect"],
     task: 'regression'
@@ -42,16 +45,16 @@ const neuralNetwork = ml5.neuralNetwork(options)
 //Storing Data here
 let resultData = [];
 
-let pointXArr = []
-let pointYArr = []
-let colorArr = []
-
+//We can load data from this function if needed but since we are loading it within options, it should be okay.
 function loadData(){
     
 }
 
+
 const xs = points["points"]
 
+//If you are having WEBGL errors with the image, please consider changing it
+let limit = xs.length
 
 function nnTrain(){
     //Normalises the data from a scale from 0 to 1
@@ -68,33 +71,34 @@ function handleData(){
 
 //Callback when training is complete
 function createVertexData(){
-        for(let i = 0; i < xs.length; i++)
+        for(let i = 0; i < limit; i++)
         { 
             let highestValue = 0;
 
             shuffle(xs)
-for(let j = 0; j < 30; j++)
-{
-//Calls back handle results
-let results = neuralNetwork.predict([xs[i].x ,
-                                    xs[i].y ,
-                                    xs[j].x  , 
-                                    xs[j].y],
-                                    handleResults)
-function handleResults(error,result)
-{
-    if(error){ console.error(error); return; }
-    if(result[0].value > 0.3) {
-        resultData.push({"id": 10 ,
-                        "v1": i,
-                        "v2":j,
-                        "con" : result[0].value})
-    }
-}
-
+            for(let j = 0; j < 40; j++)
+            {
+            //Calls back handle results
+            let results = neuralNetwork.predict([xs[i].x ,
+                                                xs[i].y ,
+                                                xs[j].x  , 
+                                                xs[j].y],
+                                                handleResults)
+            function handleResults(error,result)
+            {
+                if(error){ console.error(error); return; }
+                //If the result is above a certain threshold of "confidence", it will be pushed to this array which is can then be transferred to the user
+                if(result[0].value > 0.6) {
+                    resultData.push({"id": 10 ,
+                                    "v1": i,
+                                    "v2":j,
+                                    "con" : result[0].value})
                 }
+            }
+
+            }
             
-            //Checking progress of Classifying
+            //Progress bar
             console.log(i,xs.length)
 
             console.log(highestValue)
@@ -105,14 +109,18 @@ function handleResults(error,result)
 
 // KEEP EMPTY DO NOT TOUCH
 // They need to be declared but nothing needs to be in them for now
+function preload(){
+   
+}
 function setup(){
+    
 }
 function draw(){ 
 }
 
 
 function mousePressed() {
-    
+    nnTrain()
 }
 
 

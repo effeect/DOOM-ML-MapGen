@@ -9,31 +9,7 @@ import numpy as np
 #This number refers
 imageScalarFactor = 5
 
-#Grabs all of the pixels values, not recommended
-def imageProcess(filename) :
-    #Declaring data object
-    data = []
-    linedefData = []
-    #Loading image for modification
-    with Image.open(filename) as im:
-        px = im.load()
-        #Grabbing values
-        width,height = im.size
-        print(width , height)
 
-        #For loop
-        for x in range(width) :
-            for y in range(height) :
-                #Removes white space from the image
-                if px[x,y] != (255,255,255,0) :
-                    data.append({"x" : x * imageScalarFactor, "y" : y * imageScalarFactor,"color" :  px [ x , y ]})
-                    linedefData.append({"x" : x, "y" : y})
-
-    #Returns Data
-    return data
-
-# Test Code (Call it from here if you only want image processing
-# imageProcess('CATWALK.png')
 
 # https://www.youtube.com/watch?v=KH8Mq9FPVPw
 def Harris_Corner_Detection(image):
@@ -73,11 +49,29 @@ def Harris_Corner_Detection(image):
 # Test code for Harris Corner Detection
 Harris_Corner_Detection("circles.png")
 
-# Function to read through all of the data Points (Not Needed)
-# def printPlotData( filename ):
-#     data = filename
+
+#Grabs all of the pixels values, NOT IN USE
+# def imageProcess(filename) :
+#     #Declaring data object
+#     data = []
+#     linedefData = []
+#     #Loading image for modification
+#     with Image.open(filename) as im:
+#         px = im.load()
+#         #Grabbing values
+#         width,height = im.size
+#         print(width , height)
 #
-#     for i in data:
-#         plt.plot(i[0], i[1], 'ro')
+#         #For loop
+#         for x in range(width) :
+#             for y in range(height) :
+#                 #Removes white space from the image
+#                 if px[x,y] != (255,255,255,0) :
+#                     data.append({"x" : x * imageScalarFactor, "y" : y * imageScalarFactor,"color" :  px [ x , y ]})
+#                     linedefData.append({"x" : x, "y" : y})
 #
-#     plt.show()
+#     #Returns Data
+#     return data
+
+# Test Code (Call it from here if you only want image processing
+# imageProcess('CATWALK.png')
